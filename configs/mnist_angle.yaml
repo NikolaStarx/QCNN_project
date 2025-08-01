@@ -1,0 +1,21 @@
+# file: configs/mnist_angle.yaml
+experiment_name: "mnist_angle_patch_run"
+
+data:
+  dataset: "MNIST"
+  encoding: "angle"
+  # 对于角度编码，qubit 数等于输入特征数
+  # 我们先用一个 2x2 的 patch (4个像素) 做实验
+  num_qubits: 4
+  num_classes: 2       # 二分类 (0 vs 1)
+  batch_size: 32
+  num_train_samples: 256
+  num_test_samples: 128
+
+training:
+  epochs: 5
+  lr: 0.1
+  optimizer: "Adam"
+
+environment:
+  backend: "CPU"

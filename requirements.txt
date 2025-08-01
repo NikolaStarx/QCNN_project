@@ -1,0 +1,22 @@
+# --- Core QCNN / Qiskit stack ---
+qiskit==1.4.3                  # Qiskit SDK
+qiskit-aer==0.17.1             # CPU 仿真 (Windows兼容)
+qiskit-machine-learning==0.8.3 # 机器学习组件 (必需)
+qiskit-ibm-runtime==0.40.1     # 真机/Runtime(optional)
+
+# --- ML / 数据集工具 ---
+torch==2.7.1                   # 用于训练循环 / Autograd
+torchvision==0.22.1            # MNIST / Fashion-MNIST 加载
+scikit-learn==1.7.1            # 指标、split、PCA (用于amplitude编码降维)
+numpy==2.2.6
+scipy==1.15.3
+pandas==2.3.1
+matplotlib==3.10.5
+tqdm>=4.66
+
+# --- 配置和工具 ---
+PyYAML==6.0.2                  # YAML配置文件加载 (必需)
+
+# --- 记录 / 可视化（可选） ---
+tensorboard==2.20.0
+wandb==0.21.0

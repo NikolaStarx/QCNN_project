@@ -1,0 +1,18 @@
+experiment_name: "mnist_amplitude_quick_test"
+
+data:
+  dataset: "MNIST"
+  encoding: "amplitude"
+  num_qubits: 10         # 保持10个qubit (1024维)
+  num_classes: 2
+  batch_size: 2          # 超小batch size
+  num_train_samples: 8   # 只用8个样本快速测试
+  num_test_samples: 4
+
+training:
+  epochs: 1              # 只训练1个epoch
+  lr: 0.1                # 更大的学习率
+  optimizer: "Adam"
+
+environment:
+  backend: "CPU"

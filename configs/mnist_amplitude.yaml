@@ -1,0 +1,25 @@
+# file: configs/mnist_amplitude.yaml
+
+experiment_name: "mnist_amplitude_local_cpu_run"
+
+data:
+  dataset: "MNIST"
+  encoding: "amplitude"
+  num_qubits: 10
+  num_classes: 2
+  batch_size: 8
+  num_train_samples: 128
+  num_test_samples: 64
+
+training:
+  epochs: 3
+  lr: 0.05
+  optimizer: "Adam"
+
+
+environment:
+  backend: "CPU"
+  add_noise: true       # <<< Set to true to enable noise
+  noise:
+    depolarizing_p1: 0.001  # 0.1% error on single-qubit gates
+    depolarizing_p2: 0.01   # 1% error on two-qubit gates
