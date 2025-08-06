@@ -1,21 +1,27 @@
 # file: configs/mnist_angle.yaml
-experiment_name: "mnist_angle_patch_run"
 
+experiment_name: "mnist_angle_patch_run_with_noise" # (Optional) 给实验起个新名字
+
+# --- 数据相关配置 ---
 data:
   dataset: "MNIST"
   encoding: "angle"
-  # 对于角度编码，qubit 数等于输入特征数
-  # 我们先用一个 2x2 的 patch (4个像素) 做实验
   num_qubits: 4
-  num_classes: 2       # 二分类 (0 vs 1)
+  num_classes: 2
   batch_size: 32
   num_train_samples: 256
   num_test_samples: 128
 
+# --- 训练过程相关配置 ---
 training:
   epochs: 5
   lr: 0.1
   optimizer: "Adam"
 
+# --- 环境相关配置 ---
 environment:
   backend: "CPU"
+  add_noise: true       # <<< THE ONLY CHANGE IS HERE
+  noise:
+    depolarizing_p1: 0.001  # 0.1% error on single-qubit gates (ry)
+    depolarizing_p2: 0.01   # 1% error on two-qubit gates (cx)

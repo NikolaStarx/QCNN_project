@@ -1,0 +1,28 @@
+# file: configs/mnist_hybrid.yaml
+
+experiment_name: "mnist_hybrid_4x4_patch_run_with_noise" # (Optional) 实验名加个后缀
+
+# --- 数据相关配置 ---
+data:
+  dataset: "MNIST"
+  encoding: "hybrid"
+  num_qubits: 4
+  num_features: 16
+  num_classes: 2
+  batch_size: 32
+  num_train_samples: 256
+  num_test_samples: 128
+
+# --- 训练过程相关配置 ---
+training:
+  epochs: 5
+  lr: 0.05
+  optimizer: "Adam"
+
+# --- 环境相关配置 ---
+environment:
+  backend: "CPU"
+  add_noise: true       # <<< 唯一的改动在这里
+  noise:
+    depolarizing_p1: 0.001  # 0.1% error on Rz, Ry gates
+    depolarizing_p2: 0.01   # 1% error on cx gates

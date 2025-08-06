@@ -10,18 +10,18 @@ def build_angle_encoder_circuit(qc: QuantumCircuit, params: ParameterVector):
 
     Args:
         qc (QuantumCircuit): The QuantumCircuit object to add gates to.
-        params (ParameterVector): A vector of parameters representing input data.
-                                  Assumes len(params) == qc.num_qubits.
+        params (ParameterVector): A vector of parameters representing input data pixels.
+                                  Assumes values are in [0, 1].
     """
     num_qubits = qc.num_qubits
     if len(params) != num_qubits:
         raise ValueError(
-            f"Angle encoding requires len(params) to be equal to num_qubits, "
-            f"but got {len(params)} and {num_qubits}."
+            f"Angle encoding requires len(params) == num_qubits, "
+            f"but got len={len(params)} and num_qubits={num_qubits}."
         )
 
     for i in range(num_qubits):
-        # 将输入参数（假定在 [0, 1] 区间）乘以 pi，作为 RY 门的旋转角度
+        # Maps input feature `params[i]` (assumed in [0, 1]) to a rotation angle in [0, pi].
         qc.ry(params[i] * np.pi, i)
     
     qc.barrier()
