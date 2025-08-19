@@ -1,0 +1,16 @@
+experiment_name: "fashion_angle_patch_run"
+data:
+  dataset: "FashionMNIST"
+  encoding: "angle"
+  num_qubits: 4
+  num_classes: 2
+  batch_size: 32
+  num_train_samples: 256
+  num_test_samples: 128
+training:
+  epochs: 5
+  lr: 0.1
+  optimizer: "Adam"
+environment:
+  backend: "CPU"
+  add_noise: false

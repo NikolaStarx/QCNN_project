@@ -1,0 +1,16 @@
+experiment_name: "fashion_amplitude_run"
+data:
+  dataset: "FashionMNIST"
+  encoding: "amplitude"
+  num_qubits: 10
+  num_classes: 2
+  batch_size: 8
+  num_train_samples: 256
+  num_test_samples: 128
+training:
+  epochs: 5
+  lr: 0.05
+  optimizer: "Adam"
+environment:
+  backend: "CPU"
+  add_noise: false
