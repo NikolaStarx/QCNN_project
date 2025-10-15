@@ -105,6 +105,15 @@ def main(config_path: str):
         raise ValueError(f"Unknown encoding: {encoding}")
     model.to(device)
     optimizer = torch.optim.Adam(model.parameters(), lr=config['training']['lr']); loss_fn = nn.CrossEntropyLoss(); print("✅ Model, optimizer, and loss function initialized.")
+    # --- Checkpoint configuration ---
+    training_cfg = config.get('training', {})
+    save_start_epoch = int(training_cfg.get('save_start_epoch', 1))  # 从第几个 epoch 开始保存（1-based）
+    save_interval = int(training_cfg.get('save_interval', 0))       # 间隔几个 epoch 保存（<=0 表示不按间隔保存）
+    ckpt_dir = Path(training_cfg.get('checkpoint_dir', 'checkpoints'))
+    ckpt_prefix = training_cfg.get('checkpoint_prefix', 'qcnn')
+    ckpt_dir.mkdir(parents=True, exist_ok=True)
+    best_acc = float('-inf')
+
     print("\n--- [ Training Started ] ---")
     for epoch in range(config['training']['epochs']):
         model.train()
@@ -115,6 +124,29 @@ def main(config_path: str):
             total_loss += loss.item(); pred = output.argmax(dim=1, keepdim=True); correct_predictions += pred.eq(target.view_as(pred)).sum().item(); total_samples += len(data)
         avg_loss = total_loss / len(train_loader); accuracy = 100. * correct_predictions / total_samples
         print(f"Epoch [{epoch+1}/{config['training']['epochs']}] - Loss: {avg_loss:.4f}, Accuracy: {accuracy:.2f}%")
+
+        # --- Save checkpoints ---
+        state = {
+            'epoch': epoch + 1,
+            'model_state': model.state_dict(),
+            'optimizer_state': optimizer.state_dict(),
+            'accuracy': accuracy,
+            'loss': avg_loss,
+            'config': config,
+        }
+
+        # Always keep the latest
+        torch.save(state, ckpt_dir / 'last.pt')
+
+        # Save best
+        if accuracy > best_acc:
+            best_acc = accuracy
+            torch.save(state, ckpt_dir / 'best.pt')
+
+        # Periodic save starting from `save_start_epoch`
+        if save_interval > 0 and (epoch + 1) >= save_start_epoch:
+            if ((epoch + 1 - save_start_epoch) % save_interval) == 0:
+                torch.save(state, ckpt_dir / f"{ckpt_prefix}_epoch_{epoch + 1}.pt")
     print("--- [ Training Finished ] ---")
 
 if __name__ == "__main__":

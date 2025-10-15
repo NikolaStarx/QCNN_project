@@ -22,7 +22,7 @@ training:
 # --- 环境相关配置 ---
 environment:
   backend: "CPU"
-  add_noise: true       # <<< 唯一的改动在这里
+  add_noise: true       
   noise:
     depolarizing_p1: 0.001  # 0.1% error on Rz, Ry gates
     depolarizing_p2: 0.01   # 1% error on cx gates

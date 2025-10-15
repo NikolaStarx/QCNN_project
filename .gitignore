@@ -79,3 +79,6 @@ data/kaggle.json
 
 # Windows batch files for local development
 *.bat
+
+# Local installers / archives (avoid >100MB files in repo)
+Miniconda*.sh
