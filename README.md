@@ -145,3 +145,41 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 - [Qiskit Documentation](https://qiskit.org/documentation/)
 - [PyTorch Documentation](https://pytorch.org/docs/)
 - Quantum Convolutional Neural Networks (Cong et al., 2019)
+
+## Colab Usage
+
+For a Colab-friendly workflow, open and run the notebook:
+
+- `notebooks/qcnn.ipynb` — includes:
+  - Drive mount and project path detection
+  - Dependency installation with `qiskit-aer-gpu` preference (fallback to CPU)
+  - Training via a selected YAML config
+  - An evaluation cell to load a checkpoint and report test accuracy
+
+Tips:
+- Set `CONFIG_PATH` in the notebook to one of the Colab configs, e.g. `configs/mnist_angle_colab.yaml`.
+- Ensure `environment.backend: GPU` in the config when Aer GPU is available.
+
+## Evaluate a Checkpoint (Script)
+
+Use the evaluation script to run batch inference on the test set and print accuracy:
+
+```
+python scripts/evaluate.py \
+  --config configs/mnist_angle_colab.yaml \
+  --checkpoint checkpoints/mnist_angle/best.pt
+```
+
+Notes:
+- The script mirrors `train.py` environment setup (GPU/CPU and optional noise) to match training conditions.
+- Checkpoints are saved under the directory in `training.checkpoint_dir` (defaults to `checkpoints/`).
+- With the Colab configs, each experiment uses its own subdirectory, e.g. `checkpoints/mnist_angle/`.
+
+## Checkpoints
+
+The training loop saves:
+- `last.pt` — last epoch state
+- `best.pt` — best training accuracy in this example
+- Periodic files — controlled by:
+  - `training.save_start_epoch` (1-based start)
+  - `training.save_interval` (epochs between saves; <=0 disables)
