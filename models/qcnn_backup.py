@@ -1,4 +1,4 @@
-# file: models/qcnn.py (FINAL, CPU/GPU UNIFIED VERSION)
+# file: models/qcnn.py (FINAL, CORRECTED TRI-ENCODING VERSION)
 
 import torch
 import torch.nn as nn
@@ -43,21 +43,15 @@ def create_qcnn_ansatz(num_qubits: int):
     return ansatz, weights_params, active_qubits[0]
 
 # =================================================================================
-# SECTION 1: FOR AMPLITUDE ENCODING (Now CPU/GPU Compatible)
+# SECTION 1: FOR AMPLITUDE ENCODING (Unchanged)
 # =================================================================================
 class QuantumFunctionAmplitude(Function):
     @staticmethod
     def forward(ctx, input_data: torch.Tensor, weights: torch.Tensor, qcnn_ansatz, final_qubit_idx, estimator):
         ctx.qcnn_ansatz, ctx.final_qubit_idx, ctx.input_data, ctx.estimator = qcnn_ansatz, final_qubit_idx, input_data, estimator
-        
-        # --- GPU/CPU COMPATIBILITY FIX ---
-        weights_np = weights.detach().cpu().numpy()
-        input_data_np = input_data.detach().cpu().numpy()
-        # ---------------------------------
-        
-        circuits, weight_values = [], [weights_np] * len(input_data_np)
-        for x_np in input_data_np:
-            init_gate = Initialize(x_np, normalize=True)
+        circuits, weight_values = [], [weights.detach().numpy()] * len(input_data)
+        for x in input_data:
+            init_gate = Initialize(x.detach().numpy(), normalize=True)
             qc = QuantumCircuit(qcnn_ansatz.num_qubits); qc.append(init_gate, qc.qubits); qc.compose(qcnn_ansatz, inplace=True)
             circuits.append(qc)
         num_qubits = qcnn_ansatz.num_qubits
@@ -71,20 +65,13 @@ class QuantumFunctionAmplitude(Function):
     def backward(ctx, grad_output):
         weights, = ctx.saved_tensors
         qcnn_ansatz, input_data, estimator = ctx.qcnn_ansatz, ctx.input_data, ctx.estimator
-        
-        # --- GPU/CPU COMPATIBILITY FIX ---
-        weights_np = weights.detach().cpu().numpy()
-        input_data_np = input_data.detach().cpu().numpy()
-        grad_output_np = grad_output.squeeze().cpu().numpy() # Also needed for the chain rule
-        # ---------------------------------
-        
         shift, grad_weights = np.pi / 2, torch.zeros_like(weights)
         for i in range(len(weights)):
-            weights_plus, weights_minus = weights_np.copy(), weights_np.copy()
+            weights_plus, weights_minus = weights.detach().numpy().copy(), weights.detach().numpy().copy()
             weights_plus[i] += shift; weights_minus[i] -= shift
             circuits_plus, circuits_minus = [], []
-            for x_np in input_data_np:
-                init_gate = Initialize(x_np, normalize=True)
+            for x in input_data:
+                init_gate = Initialize(x.detach().numpy(), normalize=True)
                 qc_plus = QuantumCircuit(qcnn_ansatz.num_qubits); qc_plus.append(init_gate, qc_plus.qubits); qc_plus.compose(qcnn_ansatz, inplace=True)
                 circuits_plus.append(qc_plus)
                 qc_minus = QuantumCircuit(qcnn_ansatz.num_qubits); qc_minus.append(init_gate, qc_minus.qubits); qc_minus.compose(qcnn_ansatz, inplace=True)
@@ -95,8 +82,7 @@ class QuantumFunctionAmplitude(Function):
             job_plus = estimator.run(circuits_plus, [observable] * len(input_data), [weights_plus] * len(input_data))
             job_minus = estimator.run(circuits_minus, [observable] * len(input_data), [weights_minus] * len(input_data))
             gradient_per_sample = 0.5 * (job_plus.result().values - job_minus.result().values)
-            # Use np.sum for numpy arrays and convert back to tensor
-            grad_weights[i] = torch.tensor(np.sum(grad_output_np * gradient_per_sample), device=weights.device)
+            grad_weights[i] = torch.sum(grad_output.squeeze() * torch.tensor(gradient_per_sample, dtype=torch.float32))
         return None, grad_weights, None, None, None
 
 class QCNNAmplitude(nn.Module):
@@ -112,20 +98,14 @@ class QCNNAmplitude(nn.Module):
         return self.classical_head(QuantumFunctionAmplitude.apply(x, self.q_weights, self.qcnn_ansatz, self.final_qubit_idx, self.estimator))
 
 # =================================================================================
-# SECTION 2: FOR GENERAL ENCODINGS (Angle, Hybrid, etc.) (Now CPU/GPU Compatible)
+# SECTION 2: FOR GENERAL ENCODINGS (Angle, Hybrid, etc.) (Unchanged)
 # =================================================================================
 class QuantumFunctionGeneral(Function):
     @staticmethod
     def forward(ctx, input_data: torch.Tensor, weights: torch.Tensor, encoder_circuit, qcnn_ansatz, final_qubit_idx, estimator):
         ctx.encoder_circuit, ctx.qcnn_ansatz, ctx.final_qubit_idx, ctx.input_data, ctx.estimator = \
             encoder_circuit, qcnn_ansatz, final_qubit_idx, input_data, estimator
-        
-        # --- GPU/CPU COMPATIBILITY FIX ---
-        input_values = [x.detach().cpu().numpy() for x in input_data]
-        weight_values = [weights.detach().cpu().numpy()] * len(input_data)
-        # ---------------------------------
-        
-        circuits = []
+        circuits, input_values, weight_values = [], [x.detach().numpy() for x in input_data], [weights.detach().numpy()] * len(input_data)
         for x_val in input_values:
             bound_encoder = encoder_circuit.assign_parameters(x_val)
             full_circuit = bound_encoder.compose(qcnn_ansatz)
@@ -142,18 +122,11 @@ class QuantumFunctionGeneral(Function):
         weights, = ctx.saved_tensors
         encoder_circuit, qcnn_ansatz, input_data, estimator = \
             ctx.encoder_circuit, ctx.qcnn_ansatz, ctx.input_data, ctx.estimator
-
-        # --- GPU/CPU COMPATIBILITY FIX ---
-        weights_np = weights.detach().cpu().numpy()
-        input_values = [x.detach().cpu().numpy() for x in input_data]
-        grad_output_np = grad_output.squeeze().cpu().numpy()
-        # ---------------------------------
-
         shift, grad_weights = np.pi / 2, torch.zeros_like(weights)
         for i in range(len(weights)):
-            weights_plus, weights_minus = weights_np.copy(), weights_np.copy()
+            weights_plus, weights_minus = weights.detach().numpy().copy(), weights.detach().numpy().copy()
             weights_plus[i] += shift; weights_minus[i] -= shift
-            circuits = []
+            circuits, input_values = [], [x.detach().numpy() for x in input_data]
             for x_val in input_values:
                 bound_encoder = encoder_circuit.assign_parameters(x_val)
                 full_circuit = bound_encoder.compose(qcnn_ansatz)
@@ -164,7 +137,7 @@ class QuantumFunctionGeneral(Function):
             job_plus = estimator.run(circuits, [observable] * len(input_data), parameter_values=[weights_plus] * len(input_data))
             job_minus = estimator.run(circuits, [observable] * len(input_data), parameter_values=[weights_minus] * len(input_data))
             gradient_per_sample = 0.5 * (job_plus.result().values - job_minus.result().values)
-            grad_weights[i] = torch.tensor(np.sum(grad_output_np * gradient_per_sample), device=weights.device)
+            grad_weights[i] = torch.sum(grad_output.squeeze() * torch.tensor(gradient_per_sample, dtype=torch.float32))
         return None, grad_weights, None, None, None, None
 
 class QCNNGeneral(nn.Module):
@@ -173,9 +146,15 @@ class QCNNGeneral(nn.Module):
         self.num_qubits = num_qubits
         if estimator is None: raise ValueError("An Estimator must be provided.")
         self.estimator = estimator
+
+        # --- THE FIX IS HERE ---
+        # The number of input parameters must match the number of features.
         self.input_params = ParameterVector('x', num_input_features)
+        # -----------------------
+        
         self.encoder_circuit = QuantumCircuit(num_qubits, name='Encoder')
         encoder_fn(self.encoder_circuit, self.input_params)
+        
         self.qcnn_ansatz, self.q_weights_params, self.final_qubit_idx = create_qcnn_ansatz(num_qubits)
         self.q_weights = nn.Parameter(torch.randn(len(self.q_weights_params)))
         self.classical_head = nn.Linear(1, num_classes)
