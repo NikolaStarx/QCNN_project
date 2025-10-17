@@ -1,4 +1,4 @@
-# file: models/qcnn.py (FINAL, DEVICE-AWARE VERSION)
+# file: models/qcnn.py (FINAL, CORRECTED ATTRIBUTE VERSION)
 
 import torch
 import torch.nn as nn
@@ -11,7 +11,6 @@ from qiskit.quantum_info import SparsePauliOp
 from qiskit.circuit.library import Initialize
 
 # ------------------- QCNN Circuit Building Logic (Unchanged) -------------------
-# ... (conv_layer, pooling_layer, create_qcnn_ansatz functions are unchanged) ...
 def conv_layer(qc: QuantumCircuit, params, active_qubits):
     for i in range(0, len(active_qubits) - 1, 2):
         q1, q2 = active_qubits[i], active_qubits[i+1]; qc.ry(params[0], q1); qc.ry(params[1], q2); qc.cx(q1, q2)
@@ -29,7 +28,7 @@ def create_qcnn_ansatz(num_qubits: int):
     return ansatz, weights_params, active_qubits[0]
 
 # =================================================================================
-# SECTION 1: FOR AMPLITUDE ENCODING (Device-Aware)
+# SECTION 1: FOR AMPLITUDE ENCODING (Unchanged)
 # =================================================================================
 class QuantumFunctionAmplitude(Function):
     @staticmethod
@@ -46,11 +45,8 @@ class QuantumFunctionAmplitude(Function):
         observable = SparsePauliOp(pauli_string)
         job = estimator.run(circuits, [observable] * len(circuits), weight_values)
         ctx.save_for_backward(weights)
-        
-        # --- THE FIX: Create the tensor on the same device as the weights ---
         result_tensor = torch.tensor(job.result().values, dtype=torch.float32, device=weights.device)
         return result_tensor.unsqueeze(1)
-        # --------------------------------------------------------------------
 
     @staticmethod
     def backward(ctx, grad_output):
@@ -80,15 +76,23 @@ class QuantumFunctionAmplitude(Function):
 
 class QCNNAmplitude(nn.Module):
     def __init__(self, num_qubits: int, num_classes: int = 2, estimator: Estimator = None):
-        super().__init__(); self.num_qubits = num_qubits;
-        if estimator is None: raise ValueError("An Estimator must be provided."); self.estimator = estimator
+        super().__init__()
+        self.num_qubits = num_qubits
+        if estimator is None: raise ValueError("An Estimator must be provided.")
+        
+        # --- THE FIX IS HERE ---
+        self.estimator = estimator
+        # -----------------------
+
         self.qcnn_ansatz, self.q_weights_params, self.final_qubit_idx = create_qcnn_ansatz(num_qubits)
-        self.q_weights = nn.Parameter(torch.randn(len(self.q_weights_params))); self.classical_head = nn.Linear(1, num_classes)
+        self.q_weights = nn.Parameter(torch.randn(len(self.q_weights_params)))
+        self.classical_head = nn.Linear(1, num_classes)
+        
     def forward(self, x):
         return self.classical_head(QuantumFunctionAmplitude.apply(x, self.q_weights, self.qcnn_ansatz, self.final_qubit_idx, self.estimator))
 
 # =================================================================================
-# SECTION 2: FOR GENERAL ENCODINGS (Angle, Hybrid, etc.) (Device-Aware)
+# SECTION 2: FOR GENERAL ENCODINGS (Angle, Hybrid, etc.) (Unchanged)
 # =================================================================================
 class QuantumFunctionGeneral(Function):
     @staticmethod
@@ -105,11 +109,8 @@ class QuantumFunctionGeneral(Function):
         observable = SparsePauliOp(pauli_string)
         job = estimator.run(circuits, [observable] * len(circuits), parameter_values=weight_values)
         ctx.save_for_backward(weights)
-        
-        # --- THE FIX: Create the tensor on the same device as the weights ---
         result_tensor = torch.tensor(job.result().values, dtype=torch.float32, device=weights.device)
         return result_tensor.unsqueeze(1)
-        # --------------------------------------------------------------------
     
     @staticmethod
     def backward(ctx, grad_output):
