@@ -165,14 +165,6 @@ If you use this code in your research, please cite:
 }
 ```
 
-## 🤝 Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-## 📄 License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
 ## 🔗 References
 
 - [Qiskit Documentation](https://qiskit.org/documentation/)
