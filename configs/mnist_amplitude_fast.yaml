@@ -1,0 +1,24 @@
+experiment_name: "mnist_amplitude_fast"
+
+data:
+  dataset: "MNIST"
+  encoding: "amplitude"
+  num_qubits: 10
+  num_classes: 2           # 只用2类，大幅减少难度
+  batch_size: 4            # 减小batch size，因为梯度计算很慢
+  num_train_samples: 200   # 大幅减少样本数
+  num_test_samples: 100
+
+training:
+  epochs: 5
+  lr: 0.05
+  optimizer: "Adam"
+  use_optimized_model: true  # Use batched gradient computation
+  save_start_epoch: 1
+  save_interval: 2
+  checkpoint_dir: "checkpoints/mnist_amplitude_fast"
+  checkpoint_prefix: "mnist_amp_fast"
+
+environment:
+  backend: "GPU"
+  add_noise: false
