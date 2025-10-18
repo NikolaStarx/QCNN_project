@@ -11,7 +11,6 @@ from qiskit_aer.noise import NoiseModel, depolarizing_error
 from torchvision import datasets, transforms
 import numpy as np
 
-from models.qcnn import QCNNAmplitude, QCNNGeneral
 from models.qcnn_optimized import QCNNOptimized
 from encoders.angle import build_angle_encoder_circuit
 from encoders.hybrid import build_hybrid_encoder_circuit
@@ -99,17 +98,8 @@ def main(config_path: str):
     # Use optimized model with batched gradient computation (can be disabled in config)
     use_optimized = config.get('training', {}).get('use_optimized_model', True)  # Default to True
 
-    if use_optimized and encoding == 'amplitude':
-        print("⚡ Using optimized QCNN model with batched gradient computation")
-        model = QCNNOptimized(num_qubits=data_config['num_qubits'], num_classes=data_config['num_classes'], estimator=estimator)
-    elif encoding == 'amplitude':
-        model = QCNNAmplitude(num_qubits=data_config['num_qubits'], num_classes=data_config['num_classes'], estimator=estimator)
-    elif encoding in ['angle', 'hybrid']:
-        encoder_fn = {'angle': build_angle_encoder_circuit, 'hybrid': build_hybrid_encoder_circuit}[encoding]
-        num_input_features = data_config.get('num_features', data_config['num_qubits'])
-        model = QCNNGeneral(num_qubits=data_config['num_qubits'], encoder_fn=encoder_fn, num_input_features=num_input_features, num_classes=data_config['num_classes'], estimator=estimator)
-    else:
-        raise ValueError(f"Unknown encoding: {encoding}")
+    print("⚡ This script exclusively uses the optimized QCNN model.")
+    model = QCNNOptimized(num_qubits=data_config['num_qubits'], num_classes=data_config['num_classes'], estimator=estimator)
     model.to(device)
     optimizer = torch.optim.Adam(model.parameters(), lr=config['training']['lr']); loss_fn = nn.CrossEntropyLoss(); print("✅ Model, optimizer, and loss function initialized.")
     # --- Checkpoint configuration ---
