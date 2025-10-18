@@ -13,8 +13,8 @@ training:
   optimizer: Adam
   save_start_epoch: 3
   save_interval: 2
-  checkpoint_dir: checkpoints/mnist_amplitude
-  checkpoint_prefix: mnist_amp
+  checkpoint_dir: checkpoints/mnist_amplitude/noise_low
+  checkpoint_prefix: mnist_amp_noise_low
 environment:
   backend: GPU
   add_noise: true

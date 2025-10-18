@@ -14,8 +14,8 @@ training:
   optimizer: Adam
   save_start_epoch: 3
   save_interval: 2
-  checkpoint_dir: checkpoints/fashion_angle
-  checkpoint_prefix: fashion_angle
+  checkpoint_dir: checkpoints/fashion_angle/noise_mid
+  checkpoint_prefix: fashion_angle_noise_mid
 environment:
   backend: GPU
   add_noise: true

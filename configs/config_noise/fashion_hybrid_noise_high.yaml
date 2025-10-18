@@ -14,8 +14,8 @@ training:
   optimizer: Adam
   save_start_epoch: 3
   save_interval: 2
-  checkpoint_dir: checkpoints/fashion_hybrid
-  checkpoint_prefix: fashion_hybrid
+  checkpoint_dir: checkpoints/fashion_hybrid/noise_high
+  checkpoint_prefix: fashion_hybrid_noise_high
 environment:
   backend: GPU
   add_noise: true
