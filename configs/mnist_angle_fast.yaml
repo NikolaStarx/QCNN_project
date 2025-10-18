@@ -1,0 +1,21 @@
+experiment_name: "mnist_angle_fast"
+
+data:
+  dataset: "MNIST"
+  encoding: "angle"
+  num_qubits: 8            # Angle encoding needs num_features to be a perfect square
+  num_features: 64         # 8x8 patch
+  num_classes: 2           # 2-class problem for faster convergence
+  batch_size: 8
+  num_train_samples: 200
+  num_test_samples: 100
+
+training:
+  epochs: 5
+  lr: 0.05
+  optimizer: "Adam"
+  use_optimized_model: true
+
+environment:
+  backend: "CPU"             # CPU is often faster for small circuits
+  add_noise: false

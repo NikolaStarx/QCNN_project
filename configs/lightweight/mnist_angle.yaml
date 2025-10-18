@@ -1,0 +1,24 @@
+experiment_name: "mnist_angle_light"
+
+data:
+  dataset: "MNIST"
+  encoding: "angle"
+  num_qubits: 16
+  num_features: 16
+  num_classes: 2
+  batch_size: 4
+  num_train_samples: 128
+  num_test_samples: 64
+
+training:
+  epochs: 3
+  lr: 0.05
+  optimizer: "Adam"
+  checkpoint_dir: "checkpoints/lightweight/mnist_angle"
+  checkpoint_prefix: "mnist_angle_light"
+  save_start_epoch: 1
+  save_interval: 1
+
+environment:
+  backend: "GPU"
+  add_noise: false

@@ -73,7 +73,27 @@ def get_dataloader(config: dict, train: bool):
     return DataLoader(final_dataset, batch_size=data_config['batch_size'], shuffle=True)
 
 
-def main(config_path: str):
+def load_checkpoint_if_available(model, optimizer, ckpt_dir: Path, device, training_cfg: dict, default_best_acc: float):
+    resume_requested = training_cfg.get('resume_from_last', False)
+    ckpt_path = ckpt_dir / 'last.pt'
+    best_path = ckpt_dir / 'best.pt'
+    start_epoch = 0
+    best_acc = default_best_acc
+
+    if resume_requested and ckpt_path.exists():
+        checkpoint = torch.load(ckpt_path, map_location=device)
+        model.load_state_dict(checkpoint['model_state'])
+        optimizer.load_state_dict(checkpoint['optimizer_state'])
+        start_epoch = int(checkpoint.get('epoch', 0))
+        best_acc = max(best_acc, float(checkpoint.get('accuracy', default_best_acc)))
+        print(f"🔄 Resuming from checkpoint at epoch {start_epoch}.")
+    if resume_requested and best_path.exists():
+        best_state = torch.load(best_path, map_location=device)
+        best_acc = max(best_acc, float(best_state.get('accuracy', default_best_acc)))
+    return start_epoch, best_acc
+
+
+def main(config_path: str, resume: bool = False):
     # (The main function is unchanged and correct)
     with open(config_path, 'r', encoding='utf-8') as f:
         config = yaml.safe_load(f)
@@ -95,11 +115,24 @@ def main(config_path: str):
     estimator = AerEstimator(backend_options=backend_options)
     print("\nLoading data..."); train_loader = get_dataloader(config, train=True); print(f"✅ Training data loaded with {len(train_loader.dataset)} samples.")
     print("\nInitializing model...")
-    # Use optimized model with batched gradient computation (can be disabled in config)
-    use_optimized = config.get('training', {}).get('use_optimized_model', True)  # Default to True
-
     print("⚡ This script exclusively uses the optimized QCNN model.")
-    model = QCNNOptimized(num_qubits=data_config['num_qubits'], num_classes=data_config['num_classes'], estimator=estimator)
+    encoder_fn_map = {
+        'angle': build_angle_encoder_circuit,
+        'hybrid': build_hybrid_encoder_circuit,
+    }
+    encoder_fn = encoder_fn_map.get(encoding)
+    num_features = None
+    if encoding != 'amplitude':
+        num_features = data_config.get('num_features', data_config['num_qubits'])
+
+    model = QCNNOptimized(
+        num_qubits=data_config['num_qubits'],
+        num_classes=data_config['num_classes'],
+        estimator=estimator,
+        encoding=encoding,
+        num_features=num_features,
+        encoder_fn=encoder_fn
+    )
     model.to(device)
     optimizer = torch.optim.Adam(model.parameters(), lr=config['training']['lr']); loss_fn = nn.CrossEntropyLoss(); print("✅ Model, optimizer, and loss function initialized.")
     # --- Checkpoint configuration ---
@@ -109,10 +142,15 @@ def main(config_path: str):
     ckpt_dir = Path(training_cfg.get('checkpoint_dir', 'checkpoints'))
     ckpt_prefix = training_cfg.get('checkpoint_prefix', 'qcnn')
     ckpt_dir.mkdir(parents=True, exist_ok=True)
+    training_cfg = dict(training_cfg)  # shallow copy to avoid mutating config
+    if resume:
+        training_cfg['resume_from_last'] = True
     best_acc = float('-inf')
+    start_epoch, best_acc = load_checkpoint_if_available(model, optimizer, ckpt_dir, device, training_cfg, best_acc)
+    total_epochs = config['training']['epochs']
 
     print("\n--- [ Training Started ] ---")
-    for epoch in range(config['training']['epochs']):
+    for epoch in range(start_epoch, total_epochs):
         model.train()
         total_loss, correct_predictions, total_samples = 0, 0, 0
         for data, target in train_loader:
@@ -120,7 +158,7 @@ def main(config_path: str):
             optimizer.zero_grad(); output = model(data); loss = loss_fn(output, target); loss.backward(); optimizer.step()
             total_loss += loss.item(); pred = output.argmax(dim=1, keepdim=True); correct_predictions += pred.eq(target.view_as(pred)).sum().item(); total_samples += len(data)
         avg_loss = total_loss / len(train_loader); accuracy = 100. * correct_predictions / total_samples
-        print(f"Epoch [{epoch+1}/{config['training']['epochs']}] - Loss: {avg_loss:.4f}, Accuracy: {accuracy:.2f}%")
+        print(f"Epoch [{epoch+1}/{total_epochs}] - Loss: {avg_loss:.4f}, Accuracy: {accuracy:.2f}%")
 
         # --- Save checkpoints ---
         state = {
@@ -147,5 +185,5 @@ def main(config_path: str):
     print("--- [ Training Finished ] ---")
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description="QCNN Training Script"); parser.add_argument('--config', type=str, required=True, help="Path to YAML config."); args = parser.parse_args()
-    main(args.config)
+    parser = argparse.ArgumentParser(description="QCNN Training Script"); parser.add_argument('--config', type=str, required=True, help="Path to YAML config."); parser.add_argument('--resume', action='store_true', help="Resume from the latest checkpoint if available."); args = parser.parse_args()
+    main(args.config, resume=args.resume)
