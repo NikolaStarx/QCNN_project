@@ -1,0 +1,23 @@
+experiment_name: mnist_amplitude_noise_mid
+data:
+  dataset: MNIST
+  encoding: amplitude
+  num_qubits: 10
+  num_classes: 10
+  batch_size: 32
+  num_train_samples: 30000
+  num_test_samples: 5000
+training:
+  epochs: 10
+  lr: 0.01
+  optimizer: Adam
+  save_start_epoch: 3
+  save_interval: 2
+  checkpoint_dir: checkpoints/mnist_amplitude
+  checkpoint_prefix: mnist_amp
+environment:
+  backend: GPU
+  add_noise: true
+  noise:
+    depolarizing_p1: 0.001
+    depolarizing_p2: 0.01

@@ -1,0 +1,24 @@
+experiment_name: fashion_hybrid_noise_high
+data:
+  dataset: FashionMNIST
+  encoding: hybrid
+  num_qubits: 12
+  num_features: 144
+  num_classes: 10
+  batch_size: 16
+  num_train_samples: 15000
+  num_test_samples: 3000
+training:
+  epochs: 10
+  lr: 0.01
+  optimizer: Adam
+  save_start_epoch: 3
+  save_interval: 2
+  checkpoint_dir: checkpoints/fashion_hybrid
+  checkpoint_prefix: fashion_hybrid
+environment:
+  backend: GPU
+  add_noise: true
+  noise:
+    depolarizing_p1: 0.005
+    depolarizing_p2: 0.05

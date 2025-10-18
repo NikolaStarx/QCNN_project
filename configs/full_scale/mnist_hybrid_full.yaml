@@ -1,0 +1,24 @@
+experiment_name: "mnist_hybrid_full_v1"
+
+data:
+  dataset: "MNIST"
+  encoding: "hybrid"
+  num_qubits: 12           # hybrid 中等 qubits（必须为偶数）
+  num_features: 144        # 12x12 的平方数，且是 2*num_qubits(=24) 的整数倍
+  num_classes: 10
+  batch_size: 16
+  num_train_samples: 15000
+  num_test_samples: 3000
+
+training:
+  epochs: 10
+  lr: 0.01
+  optimizer: "Adam"
+  save_start_epoch: 3
+  save_interval: 2
+  checkpoint_dir: "checkpoints/mnist_hybrid"
+  checkpoint_prefix: "mnist_hybrid"
+
+environment:
+  backend: "GPU"
+  add_noise: false
