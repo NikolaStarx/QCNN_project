@@ -9,3 +9,4 @@ pyyaml
 kagglehub
 torchvision
 torch
+qiskit-aer-gpu
