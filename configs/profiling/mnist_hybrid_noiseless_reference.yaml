@@ -1,0 +1,21 @@
+experiment_name: mnist_hybrid_noiseless_reference
+data:
+  dataset: MNIST
+  encoding: hybrid
+  num_qubits: 12
+  num_features: 144
+  num_classes: 10
+  batch_size: 16
+  num_train_samples: 15000
+  num_test_samples: 3000
+training:
+  epochs: 10
+  lr: 0.01
+  optimizer: Adam
+  save_start_epoch: 3
+  save_interval: 2
+  checkpoint_dir: checkpoints/profiling/mnist_hybrid_noiseless_reference
+  checkpoint_prefix: mnist_hybrid_noiseless_reference
+environment:
+  backend: GPU
+  add_noise: false
