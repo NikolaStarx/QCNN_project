@@ -1,0 +1,26 @@
+experiment_name: fashion_amplitude_noise2_high
+data:
+  dataset: FashionMNIST
+  encoding: amplitude
+  num_qubits: 10
+  num_classes: 2
+  batch_size: 12
+  num_train_samples: 4000
+  num_test_samples: 800
+  label_subset:
+  - 0
+  - 1
+training:
+  epochs: 10
+  lr: 0.01
+  optimizer: Adam
+  save_start_epoch: 3
+  save_interval: 2
+  checkpoint_dir: checkpoints_noise2/fashion_amplitude/noise_high
+  checkpoint_prefix: fashion_amplitude_noise2_high
+environment:
+  backend: GPU
+  add_noise: true
+  noise:
+    depolarizing_p1: 0.0015
+    depolarizing_p2: 0.015

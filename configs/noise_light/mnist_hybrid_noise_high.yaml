@@ -1,0 +1,24 @@
+experiment_name: mnist_hybrid_noise_high
+data:
+  dataset: MNIST
+  encoding: hybrid
+  num_qubits: 12
+  num_classes: 10
+  batch_size: 12
+  num_train_samples: 6000
+  num_test_samples: 1200
+  num_features: 144
+training:
+  epochs: 6
+  lr: 0.01
+  optimizer: Adam
+  save_start_epoch: 2
+  save_interval: 2
+  checkpoint_dir: checkpoints_light/mnist_hybrid/noise_high
+  checkpoint_prefix: mnist_hybrid_noise_light_high
+environment:
+  backend: GPU
+  add_noise: true
+  noise:
+    depolarizing_p1: 0.0025
+    depolarizing_p2: 0.025
