@@ -2,7 +2,7 @@ experiment_name: fashion_angle_noise25_2_low
 data:
   dataset: FashionMNIST
   encoding: angle
-  num_qubits: 16
+  num_qubits: 64
   num_classes: 2
   batch_size: 8
   num_train_samples: 256
