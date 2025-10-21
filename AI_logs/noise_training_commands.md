@@ -167,3 +167,95 @@ python train_noise.py --config configs/noise_2.3.3/mnist_hybrid_noise_low.yaml -
 python train_noise.py --config configs/noise_2.3.3/mnist_hybrid_noise_mid.yaml --log-interval 1
 ```
 
+## Noise 2.4 Suite
+
+```bash
+python train_noise.py --config configs/noise_2.4/fashion_amplitude_noise_high.yaml --log-interval 1
+python train_noise.py --config configs/noise_2.4/fashion_amplitude_noise_low.yaml --log-interval 1
+python train_noise.py --config configs/noise_2.4/fashion_amplitude_noise_mid.yaml --log-interval 1
+python train_noise.py --config configs/noise_2.4/fashion_angle_noise_high.yaml --log-interval 1
+python train_noise.py --config configs/noise_2.4/fashion_angle_noise_low.yaml --log-interval 1
+python train_noise.py --config configs/noise_2.4/fashion_angle_noise_mid.yaml --log-interval 1
+python train_noise.py --config configs/noise_2.4/fashion_hybrid_noise_high.yaml --log-interval 1
+python train_noise.py --config configs/noise_2.4/fashion_hybrid_noise_low.yaml --log-interval 1
+python train_noise.py --config configs/noise_2.4/fashion_hybrid_noise_mid.yaml --log-interval 1
+python train_noise.py --config configs/noise_2.4/mnist_amplitude_noise_high.yaml --log-interval 1
+python train_noise.py --config configs/noise_2.4/mnist_amplitude_noise_low.yaml --log-interval 1
+python train_noise.py --config configs/noise_2.4/mnist_amplitude_noise_mid.yaml --log-interval 1
+python train_noise.py --config configs/noise_2.4/mnist_angle_noise_high.yaml --log-interval 1
+python train_noise.py --config configs/noise_2.4/mnist_angle_noise_low.yaml --log-interval 1
+python train_noise.py --config configs/noise_2.4/mnist_angle_noise_mid.yaml --log-interval 1
+python train_noise.py --config configs/noise_2.4/mnist_hybrid_noise_high.yaml --log-interval 1
+python train_noise.py --config configs/noise_2.4/mnist_hybrid_noise_low.yaml --log-interval 1
+python train_noise.py --config configs/noise_2.4/mnist_hybrid_noise_mid.yaml --log-interval 1
+```
+
+## Noise 2.4.1 Suite
+
+```bash
+python train_noise.py --config configs/noise_2.4.1/fashion_amplitude_noise_high.yaml --log-interval 1
+python train_noise.py --config configs/noise_2.4.1/fashion_amplitude_noise_low.yaml --log-interval 1
+python train_noise.py --config configs/noise_2.4.1/fashion_amplitude_noise_mid.yaml --log-interval 1
+python train_noise.py --config configs/noise_2.4.1/fashion_angle_noise_high.yaml --log-interval 1
+python train_noise.py --config configs/noise_2.4.1/fashion_angle_noise_low.yaml --log-interval 1
+python train_noise.py --config configs/noise_2.4.1/fashion_angle_noise_mid.yaml --log-interval 1
+python train_noise.py --config configs/noise_2.4.1/fashion_hybrid_noise_high.yaml --log-interval 1
+python train_noise.py --config configs/noise_2.4.1/fashion_hybrid_noise_low.yaml --log-interval 1
+python train_noise.py --config configs/noise_2.4.1/fashion_hybrid_noise_mid.yaml --log-interval 1
+python train_noise.py --config configs/noise_2.4.1/mnist_amplitude_noise_high.yaml --log-interval 1
+python train_noise.py --config configs/noise_2.4.1/mnist_amplitude_noise_low.yaml --log-interval 1
+python train_noise.py --config configs/noise_2.4.1/mnist_amplitude_noise_mid.yaml --log-interval 1
+python train_noise.py --config configs/noise_2.4.1/mnist_angle_noise_high.yaml --log-interval 1
+python train_noise.py --config configs/noise_2.4.1/mnist_angle_noise_low.yaml --log-interval 1
+python train_noise.py --config configs/noise_2.4.1/mnist_angle_noise_mid.yaml --log-interval 1
+python train_noise.py --config configs/noise_2.4.1/mnist_hybrid_noise_high.yaml --log-interval 1
+python train_noise.py --config configs/noise_2.4.1/mnist_hybrid_noise_low.yaml --log-interval 1
+python train_noise.py --config configs/noise_2.4.1/mnist_hybrid_noise_mid.yaml --log-interval 1
+```
+
+## Noise 2.4.2 Suite
+
+```bash
+python train_noise.py --config configs/noise_2.4.2/fashion_amplitude_noise_high.yaml --log-interval 1
+python train_noise.py --config configs/noise_2.4.2/fashion_amplitude_noise_low.yaml --log-interval 1
+python train_noise.py --config configs/noise_2.4.2/fashion_amplitude_noise_mid.yaml --log-interval 1
+python train_noise.py --config configs/noise_2.4.2/fashion_angle_noise_high.yaml --log-interval 1
+python train_noise.py --config configs/noise_2.4.2/fashion_angle_noise_low.yaml --log-interval 1
+python train_noise.py --config configs/noise_2.4.2/fashion_angle_noise_mid.yaml --log-interval 1
+python train_noise.py --config configs/noise_2.4.2/fashion_hybrid_noise_high.yaml --log-interval 1
+python train_noise.py --config configs/noise_2.4.2/fashion_hybrid_noise_low.yaml --log-interval 1
+python train_noise.py --config configs/noise_2.4.2/fashion_hybrid_noise_mid.yaml --log-interval 1
+python train_noise.py --config configs/noise_2.4.2/mnist_amplitude_noise_high.yaml --log-interval 1
+python train_noise.py --config configs/noise_2.4.2/mnist_amplitude_noise_low.yaml --log-interval 1
+python train_noise.py --config configs/noise_2.4.2/mnist_amplitude_noise_mid.yaml --log-interval 1
+python train_noise.py --config configs/noise_2.4.2/mnist_angle_noise_high.yaml --log-interval 1
+python train_noise.py --config configs/noise_2.4.2/mnist_angle_noise_low.yaml --log-interval 1
+python train_noise.py --config configs/noise_2.4.2/mnist_angle_noise_mid.yaml --log-interval 1
+python train_noise.py --config configs/noise_2.4.2/mnist_hybrid_noise_high.yaml --log-interval 1
+python train_noise.py --config configs/noise_2.4.2/mnist_hybrid_noise_low.yaml --log-interval 1
+python train_noise.py --config configs/noise_2.4.2/mnist_hybrid_noise_mid.yaml --log-interval 1
+```
+
+## Noise 2.4.3 Suite
+
+```bash
+python train_noise.py --config configs/noise_2.4.3/fashion_amplitude_noise_high.yaml --log-interval 1
+python train_noise.py --config configs/noise_2.4.3/fashion_amplitude_noise_low.yaml --log-interval 1
+python train_noise.py --config configs/noise_2.4.3/fashion_amplitude_noise_mid.yaml --log-interval 1
+python train_noise.py --config configs/noise_2.4.3/fashion_angle_noise_high.yaml --log-interval 1
+python train_noise.py --config configs/noise_2.4.3/fashion_angle_noise_low.yaml --log-interval 1
+python train_noise.py --config configs/noise_2.4.3/fashion_angle_noise_mid.yaml --log-interval 1
+python train_noise.py --config configs/noise_2.4.3/fashion_hybrid_noise_high.yaml --log-interval 1
+python train_noise.py --config configs/noise_2.4.3/fashion_hybrid_noise_low.yaml --log-interval 1
+python train_noise.py --config configs/noise_2.4.3/fashion_hybrid_noise_mid.yaml --log-interval 1
+python train_noise.py --config configs/noise_2.4.3/mnist_amplitude_noise_high.yaml --log-interval 1
+python train_noise.py --config configs/noise_2.4.3/mnist_amplitude_noise_low.yaml --log-interval 1
+python train_noise.py --config configs/noise_2.4.3/mnist_amplitude_noise_mid.yaml --log-interval 1
+python train_noise.py --config configs/noise_2.4.3/mnist_angle_noise_high.yaml --log-interval 1
+python train_noise.py --config configs/noise_2.4.3/mnist_angle_noise_low.yaml --log-interval 1
+python train_noise.py --config configs/noise_2.4.3/mnist_angle_noise_mid.yaml --log-interval 1
+python train_noise.py --config configs/noise_2.4.3/mnist_hybrid_noise_high.yaml --log-interval 1
+python train_noise.py --config configs/noise_2.4.3/mnist_hybrid_noise_low.yaml --log-interval 1
+python train_noise.py --config configs/noise_2.4.3/mnist_hybrid_noise_mid.yaml --log-interval 1
+```
+

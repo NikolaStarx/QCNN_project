@@ -14,15 +14,16 @@ def build_angle_encoder_circuit(qc: QuantumCircuit, params: ParameterVector, *, 
                                   Assumes values are in [0, 1].
     """
     num_qubits = qc.num_qubits
-    if len(params) != num_qubits:
+    num_params = len(params)
+
+    if num_params % num_qubits != 0:
         raise ValueError(
-            f"Angle encoding requires len(params) == num_qubits, "
-            f"but got len={len(params)} and num_qubits={num_qubits}."
+            f"Angle encoding requires len(params) to be a multiple of num_qubits, "
+            f"but got len={num_params} and num_qubits={num_qubits}."
         )
     scale = float(scale)
 
-    for i in range(num_qubits):
-        # Maps input feature `params[i]` (assumed in [0, 1]) to a rotation angle in [0, pi].
-        qc.ry(params[i] * np.pi * scale, i)
-    
-    qc.barrier()
+    for offset in range(0, num_params, num_qubits):
+        for i in range(num_qubits):
+            qc.ry(params[offset + i] * np.pi * scale, i)
+        qc.barrier()

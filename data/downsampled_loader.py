@@ -1,17 +1,17 @@
 from __future__ import annotations
 
 from pathlib import Path
-from typing import Iterable, Optional
 
 import torch
-from torch.utils.data import DataLoader, TensorDataset, Subset
 import torch.nn.functional as F
+from torch.utils.data import DataLoader, Subset, TensorDataset
 
 
-DATA_ROOT = Path("data/processed_4x4")
+def _resolve_root(size: int) -> Path:
+    return Path(f"data/processed_{size}x{size}")
 
 
-def _load_features(dataset_name: str, train: bool) -> tuple[torch.Tensor, torch.Tensor]:
+def _load_features(dataset_name: str, train: bool, size: int) -> tuple[torch.Tensor, torch.Tensor]:
     dataset_key = dataset_name.lower()
     if "fashion" in dataset_key:
         folder = "fashion_mnist"
@@ -21,11 +21,12 @@ def _load_features(dataset_name: str, train: bool) -> tuple[torch.Tensor, torch.
         raise ValueError(f"Unsupported dataset '{dataset_name}'.")
 
     split = "train" if train else "test"
-    feature_path = DATA_ROOT / folder / f"{split}_features.pt"
-    label_path = DATA_ROOT / folder / f"{split}_labels.pt"
+    data_root = _resolve_root(size)
+    feature_path = data_root / folder / f"{split}_features.pt"
+    label_path = data_root / folder / f"{split}_labels.pt"
     if not feature_path.exists() or not label_path.exists():
         raise FileNotFoundError(
-            f"Downsampled tensors not found for {dataset_name} split={split}. "
+            f"Downsampled tensors (size {size}x{size}) not found for {dataset_name} split={split}. "
             "Run scripts/preprocess_downsampled.py first."
         )
 
@@ -44,7 +45,9 @@ def get_downsampled_dataloader(config: dict, *, train: bool) -> DataLoader:
     data_cfg = config["data"]
     encoding = data_cfg["encoding"]
 
-    features, labels = _load_features(data_cfg["dataset"], train)
+    size = int(data_cfg.get("downsample_size", 4))
+
+    features, labels = _load_features(data_cfg["dataset"], train, size=size)
 
     if "label_subset" in data_cfg:
         mask = torch.zeros_like(labels, dtype=torch.bool)
