@@ -1,0 +1,27 @@
+experiment_name: mnist_angle_noise21_mid
+data:
+  dataset: MNIST
+  encoding: angle
+  num_qubits: 16
+  num_classes: 2
+  batch_size: 8
+  num_train_samples: 192
+  num_test_samples: 48
+  label_subset:
+  - 0
+  - 1
+  num_features: 16
+training:
+  epochs: 4
+  lr: 0.008
+  optimizer: Adam
+  save_start_epoch: 2
+  save_interval: 2
+  checkpoint_dir: checkpoints_noise21/mnist_angle/noise_mid
+  checkpoint_prefix: mnist_angle_noise21_mid
+environment:
+  backend: GPU
+  add_noise: true
+  noise:
+    depolarizing_p1: 0.0002
+    depolarizing_p2: 0.002

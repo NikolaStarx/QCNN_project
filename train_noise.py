@@ -38,7 +38,15 @@ from qiskit_aer.primitives import Estimator as AerEstimator
 from encoders.angle import build_angle_encoder_circuit
 from encoders.hybrid import build_hybrid_encoder_circuit
 from models.qcnn_optimized import QCNNOptimized
+from data.downsampled_loader import get_downsampled_dataloader
 from train_optimized import get_dataloader, load_checkpoint_if_available
+
+
+def fetch_dataloader(config: dict, *, train: bool):
+    data_cfg = config.get("data", {})
+    if data_cfg.get("downsampled", False):
+        return get_downsampled_dataloader(config, train=train)
+    return get_dataloader(config, train=train)
 
 
 def build_noise_model(env_config: dict) -> Optional[NoiseModel]:
@@ -187,7 +195,7 @@ def train(config_path: str, args):
     if noise_model is not None:
         print("🧪 Depolarizing noise parameters respected for physical fidelity.")
 
-    train_loader = get_dataloader(config, train=True)
+    train_loader = fetch_dataloader(config, train=True)
     print(f"✅ Training data loaded with {len(train_loader.dataset)} samples.")
 
     encoder_fn = resolve_encoder_fn(data_config["encoding"])
@@ -283,9 +291,10 @@ def train(config_path: str, args):
         if args.eval_max_shots and args.max_shots > current_shots:
             eval_batches = args.eval_max_batches if args.eval_max_batches > 0 else None
             print(f"🔍 Evaluating with {args.max_shots} shots on {eval_batches or 'all'} batches.")
+            eval_loader = fetch_dataloader(config, train=False)
             eval_loss, eval_acc = evaluate_model(
                 model,
-                train_loader,
+                eval_loader,
                 device,
                 env_config,
                 noise_model,

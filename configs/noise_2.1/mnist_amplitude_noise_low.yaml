@@ -1,0 +1,26 @@
+experiment_name: mnist_amplitude_noise21_low
+data:
+  dataset: MNIST
+  encoding: amplitude
+  num_qubits: 10
+  num_classes: 2
+  batch_size: 16
+  num_train_samples: 256
+  num_test_samples: 64
+  label_subset:
+  - 0
+  - 1
+training:
+  epochs: 4
+  lr: 0.008
+  optimizer: Adam
+  save_start_epoch: 2
+  save_interval: 2
+  checkpoint_dir: checkpoints_noise21/mnist_amplitude/noise_low
+  checkpoint_prefix: mnist_amplitude_noise21_low
+environment:
+  backend: GPU
+  add_noise: true
+  noise:
+    depolarizing_p1: 5.0e-05
+    depolarizing_p2: 0.0005
