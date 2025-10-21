@@ -5,6 +5,7 @@ from typing import Iterable, Optional
 
 import torch
 from torch.utils.data import DataLoader, TensorDataset, Subset
+import torch.nn.functional as F
 
 
 DATA_ROOT = Path("data/processed_4x4")
@@ -57,6 +58,11 @@ def get_downsampled_dataloader(config: dict, *, train: bool) -> DataLoader:
         unique_vals = subset_vals.tolist()
         mapping = {val: idx for idx, val in enumerate(unique_vals)}
         labels = torch.tensor([mapping[int(l)] for l in labels], dtype=torch.long)
+
+    normalise = bool(data_cfg.get("normalise_features", False))
+
+    if encoding in {"angle", "hybrid"} and normalise:
+        features = F.normalize(features, p=2, dim=1)
 
     if encoding == "amplitude":
         features = _normalise_amplitude(features)

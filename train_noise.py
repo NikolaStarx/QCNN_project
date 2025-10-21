@@ -25,6 +25,7 @@ from __future__ import annotations
 
 import argparse
 import contextlib
+import functools
 import time
 from pathlib import Path
 from typing import Iterable, Optional
@@ -198,10 +199,17 @@ def train(config_path: str, args):
     train_loader = fetch_dataloader(config, train=True)
     print(f"✅ Training data loaded with {len(train_loader.dataset)} samples.")
 
-    encoder_fn = resolve_encoder_fn(data_config["encoding"])
+    encoding_name = data_config["encoding"]
+    encoder_fn = resolve_encoder_fn(encoding_name)
     num_features = None
-    if data_config["encoding"] != "amplitude":
+    if encoding_name != "amplitude":
         num_features = data_config.get("num_features", data_config["num_qubits"])
+        if encoding_name == "angle":
+            angle_scale = float(data_config.get("angle_scale", 1.0))
+            encoder_fn = functools.partial(encoder_fn, scale=angle_scale)
+        elif encoding_name == "hybrid":
+            hybrid_scale = float(data_config.get("hybrid_scale", 1.0))
+            encoder_fn = functools.partial(encoder_fn, scale=hybrid_scale)
 
     # Initial estimator uses min shots.
     current_shots = args.min_shots

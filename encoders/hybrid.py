@@ -3,7 +3,7 @@
 import numpy as np
 from qiskit.circuit import QuantumCircuit, ParameterVector
 
-def build_hybrid_encoder_circuit(qc: QuantumCircuit, params: ParameterVector):
+def build_hybrid_encoder_circuit(qc: QuantumCircuit, params: ParameterVector, *, scale: float = 1.0):
     """
     Applies a layered hybrid encoding scheme.
     For N features and M qubits, it applies N/M features per layer across all qubits.
@@ -26,7 +26,7 @@ def build_hybrid_encoder_circuit(qc: QuantumCircuit, params: ParameterVector):
     if num_params % features_per_layer != 0:
         raise ValueError(f"Number of features ({num_params}) must be a multiple of "
                          f"features per layer ({features_per_layer}).")
-    
+
     num_layers = num_params // features_per_layer
     
     param_idx = 0
@@ -37,12 +37,12 @@ def build_hybrid_encoder_circuit(qc: QuantumCircuit, params: ParameterVector):
             q_idx2 = tile_idx * 2 + 1
             
             # Phase encoding
-            qc.rz(params[param_idx + 0] * 2 * np.pi, q_idx1)
-            qc.rz(params[param_idx + 1] * 2 * np.pi, q_idx2)
+            qc.rz(params[param_idx + 0] * 2 * np.pi * scale, q_idx1)
+            qc.rz(params[param_idx + 1] * 2 * np.pi * scale, q_idx2)
             
             # Angle encoding
-            qc.ry(params[param_idx + 2] * np.pi, q_idx1)
-            qc.ry(params[param_idx + 3] * np.pi, q_idx2)
+            qc.ry(params[param_idx + 2] * np.pi * scale, q_idx1)
+            qc.ry(params[param_idx + 3] * np.pi * scale, q_idx2)
             
             param_idx += features_per_tile
 
