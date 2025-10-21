@@ -6,6 +6,23 @@
 python scripts/preprocess_downsampled.py
 ```
 
+## CNN Baselines
+
+```bash
+python train_cnn.py --config configs/cnn_baselines/mnist_angle_4x4.yaml --log-interval 4 --eval
+python train_cnn.py --config configs/cnn_baselines/mnist_angle_8x8.yaml --log-interval 4 --eval
+```
+
+## CNN Noise Simulation
+
+Gaussian perturbations are injected according to the `environment.classical_noise` section and saved under
+dedicated directories so prior experiments remain untouched.
+
+```bash
+python train_cnn.py --config configs/cnn_noise/mnist_angle_4x4_noise.yaml --log-interval 4 --eval
+python train_cnn.py --config configs/cnn_noise/mnist_angle_8x8_noise.yaml --log-interval 4 --eval
+```
+
 ## Noise Light Suite
 
 ```bash
@@ -359,4 +376,10 @@ python train_cnn.py --config configs/cnn_baselines/mnist_angle_4x4.yaml --log-in
 
 # 8x8 downsampled MNIST angle baseline
 python train_cnn.py --config configs/cnn_baselines/mnist_angle_8x8.yaml --log-interval 2 --eval
+
+# 4x4 downsampled MNIST angle with higher noise
+python train_cnn.py --config configs/cnn_baselines/mnist_angle_4x4_noise.yaml --log-interval 2 --eval
+
+# 8x8 downsampled MNIST angle with higher noise
+python train_cnn.py --config configs/cnn_baselines/mnist_angle_8x8_noise.yaml --log-interval 2 --eval
 ```
