@@ -23,6 +23,12 @@ python train_noise.py --config configs/noise_light/fashion_hybrid_noise_mid.yaml
 python train_noise.py --config configs/noise_light/fashion_hybrid_noise_high.yaml --log-interval 1
 ```
 
+## Preprocessing
+
+```bash
+python scripts/preprocess_downsampled.py
+```
+
 ## Noise 2 Suite
 
 ```bash
