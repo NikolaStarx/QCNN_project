@@ -23,7 +23,6 @@ def build_angle_encoder_circuit(qc: QuantumCircuit, params: ParameterVector, *, 
 
     for i in range(num_qubits):
         # Maps input feature `params[i]` (assumed in [0, 1]) to a rotation angle in [0, pi].
-        angle = float(params[i]) * np.pi * scale
-        qc.ry(angle, i)
+        qc.ry(params[i] * np.pi * scale, i)
     
     qc.barrier()
