@@ -351,3 +351,9 @@ python train_noise.py --config configs/noise_2.5.3/mnist_hybrid_noise_low.yaml -
 python train_noise.py --config configs/noise_2.5.3/mnist_hybrid_noise_mid.yaml --log-interval 4
 ```
 
+## Classical CNN Baselines
+
+```bash
+# 4x4 downsampled MNIST angle (noise_2.3) with evaluation logs every 2 batches
+python train_cnn.py --config configs/noise_2.3/mnist_angle_noise_low.yaml --log-interval 2 --eval
+```
