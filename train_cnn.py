@@ -14,7 +14,7 @@ from __future__ import annotations
 import argparse
 import math
 from pathlib import Path
-from typing import Optional
+from typing import Callable, Optional
 
 import torch
 import torch.nn as nn
@@ -52,14 +52,81 @@ def resolve_input_shape(data_cfg: dict, sample: torch.Tensor) -> tuple[int, int]
     raise ValueError(f"Unexpected sample shape: {sample.shape}")
 
 
-def compute_noise_std(env_cfg: dict) -> float:
-    if not env_cfg.get("add_noise", False):
-        return 0.0
+def compute_depolarizing_baseline(env_cfg: dict) -> float:
+    """Extract the maximum depolarizing rate as a proxy noise magnitude."""
     noise_cfg = env_cfg.get("noise", {})
     p1 = float(noise_cfg.get("depolarizing_p1", 0.0))
     p2 = float(noise_cfg.get("depolarizing_p2", 0.0))
-    base = max(p1, p2)
-    return base * 5  # heuristic scaling to produce noticeable Gaussian noise
+    return max(p1, p2)
+
+
+def build_noise_scheduler(env_cfg: dict, total_epochs: int) -> tuple[Callable[[int], float], bool]:
+    """
+    Translate the quantum noise configuration into a classical Gaussian noise profile.
+
+    Returns a scheduler that maps an epoch index -> std as well as a flag indicating
+    whether evaluation batches should also receive noise.
+    """
+    if not env_cfg.get("add_noise", False):
+        return (lambda _: 0.0), False
+
+    classical_cfg = env_cfg.get("classical_noise", {})
+    base = compute_depolarizing_baseline(env_cfg)
+    scale = float(classical_cfg.get("scale", 5.0))
+    default_std = base * scale
+    if "std" in classical_cfg:
+        default_std = float(classical_cfg["std"])
+
+    schedule_cfg = classical_cfg.get("schedule", {})
+    schedule_type = str(schedule_cfg.get("type", "constant")).lower()
+
+    if schedule_type == "linear":
+        start = float(schedule_cfg.get("start", 0.0 if "std" not in classical_cfg else default_std))
+        end = float(schedule_cfg.get("end", default_std))
+
+        def scheduler(epoch_idx: int) -> float:
+            if total_epochs <= 1:
+                return end
+            alpha = epoch_idx / max(1, total_epochs - 1)
+            return start + alpha * (end - start)
+
+    elif schedule_type == "exponential":
+        start = float(schedule_cfg.get("start", default_std))
+        end = float(schedule_cfg.get("end", default_std))
+        gamma = float(schedule_cfg.get("gamma", 3.0))
+        gamma = max(1.0, gamma)
+
+        def scheduler(epoch_idx: int) -> float:
+            if total_epochs <= 1 or abs(end - start) < 1e-12:
+                return end
+            numerator = gamma ** epoch_idx - 1.0
+            denominator = gamma ** (total_epochs - 1) - 1.0
+            alpha = numerator / max(1e-12, denominator)
+            return start + alpha * (end - start)
+
+    elif schedule_type == "step":
+        milestones = schedule_cfg.get("milestones", [])
+        values = schedule_cfg.get("values", [])
+        if not values:
+            values = [default_std]
+        if len(values) != len(milestones) + 1:
+            raise ValueError("Step noise schedule requires len(values) = len(milestones) + 1.")
+
+        def scheduler(epoch_idx: int) -> float:
+            std = values[0]
+            for idx, milestone in enumerate(milestones):
+                if epoch_idx >= int(milestone):
+                    std = values[idx + 1]
+                else:
+                    break
+            return float(std)
+
+    else:
+        def scheduler(_: int) -> float:
+            return default_std
+
+    apply_eval_noise = bool(classical_cfg.get("apply_to_eval", False))
+    return scheduler, apply_eval_noise
 
 
 def maybe_add_noise(tensor: torch.Tensor, std: float) -> torch.Tensor:
@@ -116,9 +183,13 @@ def train(config_path: str, args):
     start_epoch, best_acc = load_checkpoint_if_available(model, optimizer, ckpt_dir, device, training_cfg, best_acc)
     total_epochs = int(training_cfg["epochs"])
 
-    noise_std = compute_noise_std(env_cfg)
-    if noise_std > 0:
-        print(f"🌫️  Injecting Gaussian noise with std={noise_std:.4f} per batch.")
+    noise_scheduler, apply_eval_noise = build_noise_scheduler(env_cfg, total_epochs)
+    preview_std = noise_scheduler(0)
+    if preview_std > 0:
+        schedule_type = env_cfg.get("classical_noise", {}).get("schedule", {}).get("type", "constant")
+        print(f"🌫️  Injecting Gaussian noise; std(epoch0)={preview_std:.4f} (schedule={schedule_type}).")
+    if apply_eval_noise:
+        print("🧪 Evaluation batches will also receive noise.")
 
     def reshape_batch(batch: torch.Tensor) -> torch.Tensor:
         if batch.dim() == 4:
@@ -129,10 +200,11 @@ def train(config_path: str, args):
     for epoch in range(start_epoch, total_epochs):
         model.train()
         total_loss, correct, total = 0.0, 0, 0
+        current_noise_std = noise_scheduler(epoch)
         for batch_idx, (data, target) in enumerate(train_loader, start=1):
             data = reshape_batch(data).to(device)
             target = target.to(device)
-            data = maybe_add_noise(data, noise_std)
+            data = maybe_add_noise(data, current_noise_std)
 
             optimizer.zero_grad()
             logits = model(data)
@@ -158,16 +230,21 @@ def train(config_path: str, args):
         if val_loader is not None:
             model.eval()
             val_correct, val_total = 0, 0
+            val_loss = 0.0
             with torch.no_grad():
                 for data, target in val_loader:
                     data = reshape_batch(data).to(device)
                     target = target.to(device)
+                    if apply_eval_noise:
+                        data = maybe_add_noise(data, noise_scheduler(epoch))
                     logits = model(data)
+                    val_loss += loss_fn(logits, target).item()
                     pred = logits.argmax(dim=1, keepdim=True)
                     val_correct += pred.eq(target.view_as(pred)).sum().item()
                     val_total += data.size(0)
             eval_acc = 100.0 * val_correct / max(1, val_total)
-            print(f"  🔎 Validation Accuracy: {eval_acc:.2f}%")
+            avg_val_loss = val_loss / max(1, len(val_loader))
+            print(f"  🔎 Validation Accuracy: {eval_acc:.2f}% | Loss: {avg_val_loss:.4f}")
 
         state = {
             "epoch": epoch + 1,
@@ -176,6 +253,7 @@ def train(config_path: str, args):
             "accuracy": eval_acc,
             "loss": avg_loss,
             "config": config,
+            "noise_std": current_noise_std,
         }
 
         torch.save(state, ckpt_dir / "last.pt")

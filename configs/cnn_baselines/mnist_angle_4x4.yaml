@@ -25,7 +25,4 @@ training:
 
 environment:
   backend: GPU
-  add_noise: true
-  noise:
-    depolarizing_p1: 5.0e-05
-    depolarizing_p2: 0.0005
+  add_noise: false
