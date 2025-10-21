@@ -368,6 +368,17 @@ python train_noise.py --config configs/noise_2.5.3/mnist_hybrid_noise_low.yaml -
 python train_noise.py --config configs/noise_2.5.3/mnist_hybrid_noise_mid.yaml --log-interval 4
 ```
 
+## Noise 2.5.4 Suite
+
+```bash
+python train_noise.py --config configs/noise_2.5.4/fashion_hybrid_noise_high.yaml --log-interval 4
+python train_noise.py --config configs/noise_2.5.4/fashion_hybrid_noise_low.yaml --log-interval 4
+python train_noise.py --config configs/noise_2.5.4/fashion_hybrid_noise_mid.yaml --log-interval 4
+python train_noise.py --config configs/noise_2.5.4/mnist_hybrid_noise_high.yaml --log-interval 4
+python train_noise.py --config configs/noise_2.5.4/mnist_hybrid_noise_low.yaml --log-interval 4
+python train_noise.py --config configs/noise_2.5.4/mnist_hybrid_noise_mid.yaml --log-interval 4
+```
+
 ## Classical CNN Baselines
 
 ```bash
