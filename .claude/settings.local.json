@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(test:*)",
+      "Bash(python:*)",
+      "Bash(git checkout:*)",
+      "Read(//usr/lib/**)",
+      "Bash(chmod:*)",
+      "Bash(git add:*)",
+      "Bash(git push:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
