@@ -398,3 +398,21 @@ python train_cnn.py --config configs/cnn_baselines/mnist_angle_8x8_noise_low.yam
 python train_cnn.py --config configs/cnn_baselines/mnist_angle_8x8_noise_mid.yaml --log-interval 2 --eval
 python train_cnn.py --config configs/cnn_baselines/mnist_angle_8x8_noise_high.yaml --log-interval 2 --eval
 ```
+
+
+
+## Deep QCNN (noise_2.6)
+
+```bash
+# Angle encoding (none / low / mid / high noise)
+python train_deep.py --config configs/noise_2.6/mnist_angle_noise_none.yaml --log-interval 4
+python train_deep.py --config configs/noise_2.6/mnist_angle_noise_low.yaml --log-interval 4
+python train_deep.py --config configs/noise_2.6/mnist_angle_noise_mid.yaml --log-interval 4
+python train_deep.py --config configs/noise_2.6/mnist_angle_noise_high.yaml --log-interval 4
+
+# Hybrid encoding (none / low / mid / high noise)
+python train_deep.py --config configs/noise_2.6/mnist_hybrid_noise_none.yaml --log-interval 4
+python train_deep.py --config configs/noise_2.6/mnist_hybrid_noise_low.yaml --log-interval 4
+python train_deep.py --config configs/noise_2.6/mnist_hybrid_noise_mid.yaml --log-interval 4
+python train_deep.py --config configs/noise_2.6/mnist_hybrid_noise_high.yaml --log-interval 4
+```
