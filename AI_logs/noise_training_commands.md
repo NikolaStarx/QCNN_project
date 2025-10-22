@@ -388,9 +388,13 @@ python train_cnn.py --config configs/cnn_baselines/mnist_angle_4x4.yaml --log-in
 # 8x8 downsampled MNIST angle baseline
 python train_cnn.py --config configs/cnn_baselines/mnist_angle_8x8.yaml --log-interval 2 --eval
 
-# 4x4 downsampled MNIST angle with higher noise
-python train_cnn.py --config configs/cnn_baselines/mnist_angle_4x4_noise.yaml --log-interval 2 --eval
+# 4x4 downsampled MNIST angle with noise (low / mid / high)
+python train_cnn.py --config configs/cnn_baselines/mnist_angle_4x4_noise_low.yaml --log-interval 2 --eval
+python train_cnn.py --config configs/cnn_baselines/mnist_angle_4x4_noise_mid.yaml --log-interval 2 --eval
+python train_cnn.py --config configs/cnn_baselines/mnist_angle_4x4_noise_high.yaml --log-interval 2 --eval
 
-# 8x8 downsampled MNIST angle with higher noise
-python train_cnn.py --config configs/cnn_baselines/mnist_angle_8x8_noise.yaml --log-interval 2 --eval
+# 8x8 downsampled MNIST angle with noise (low / mid / high)
+python train_cnn.py --config configs/cnn_baselines/mnist_angle_8x8_noise_low.yaml --log-interval 2 --eval
+python train_cnn.py --config configs/cnn_baselines/mnist_angle_8x8_noise_mid.yaml --log-interval 2 --eval
+python train_cnn.py --config configs/cnn_baselines/mnist_angle_8x8_noise_high.yaml --log-interval 2 --eval
 ```
