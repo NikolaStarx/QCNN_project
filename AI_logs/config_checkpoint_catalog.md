@@ -2,6 +2,8 @@
 
 This note consolidates every configuration suite in `configs/` and the corresponding checkpoint trees so we can trace why each batch of training ran and what data it produced. Numbers below are taken from the YAML definitions and the metadata saved inside the `.pt` checkpoints (state dicts include the originating config). All paths are workspace-relative.
 
+> **Training script note:** `train_deep.py` now reads optional `angle_scale` / `hybrid_scale` fields (applied via `functools.partial`). Any config can boost input amplitudes without further code changes.
+
 ## Config Suites
 
 ### `configs/cnn_baselines`
@@ -76,12 +78,12 @@ This note consolidates every configuration suite in `configs/` and the correspon
 
 ### `configs/noise_2.6`
 - 8 configs focusing on MNIST digits 6 vs 7 with deep QCNN (`conv_depth: 3`) on downsampled 4×4 patches.
-- Hybrid (8 qubits) and angle (16 qubits) variants, batch 8, 256/64 samples, epochs 10, lr 0.008.
+- Hybrid (8 qubits) and angle (16 qubits) variants, batch 8, 256/64 samples, epochs 10, lr 0.008. No explicit scaling (serves as the “baseline” depth experiment).
 - Noise: low/mid/high plus noiseless. Hybrid results are in `checkpoints_noise26/mnist_hybrid/...`; angle runs still in progress (only `noise_none` directory stub so far).
 
 ### `configs/noise_2.6.3`
 - Copy of the noise_2.6 suite with intensity amplification (`hybrid_scale` / `angle_scale` = 3.0) to test whether boosting the 4×4 patch helps training.
-- Uses dedicated checkpoint paths under `checkpoints_noise263/...` (`*_noise263_*` prefixes) so scaled runs remain separate from the baseline noise_2.6 results.
+- Uses dedicated checkpoint paths under `checkpoints_noise263/...` (`*_noise263_*` prefixes) so scaled runs remain separate from the baseline noise_2.6 results. Hybrid runs for all four noise levels are already present (accuracy ~47–58 %); angle variants still pending.
 
 ### `configs/profiling`
 - 4 hybrid MNIST configs for performance diagnostics: full 15k/3k dataset (noiseless & noisy) plus mini/micro batches (1024 samples and 16-sample single-epoch run).
