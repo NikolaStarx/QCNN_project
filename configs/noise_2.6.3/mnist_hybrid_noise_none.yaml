@@ -1,0 +1,28 @@
+data:
+  batch_size: 8
+  dataset: MNIST
+  downsampled: true
+  encoding: hybrid
+  hybrid_scale: 3.0
+  label_subset:
+  - 6
+  - 7
+  num_classes: 2
+  num_features: 16
+  num_qubits: 8
+  num_test_samples: 64
+  num_train_samples: 256
+environment:
+  add_noise: false
+  backend: GPU
+experiment_name: mnist_hybrid_noise263_none
+model:
+  conv_depth: 3
+training:
+  checkpoint_dir: checkpoints_noise263/mnist_hybrid/noise_none
+  checkpoint_prefix: mnist_hybrid_noise263_none
+  epochs: 10
+  lr: 0.008
+  optimizer: Adam
+  save_interval: 1
+  save_start_epoch: 1

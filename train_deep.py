@@ -6,6 +6,7 @@ convolutional depth for angle/hybrid encodings on small patches.
 """
 
 import argparse
+import functools
 import yaml
 from pathlib import Path
 
@@ -119,6 +120,12 @@ def main(config_path: str, log_interval: int = 0, resume: bool = False):
         "hybrid": build_hybrid_encoder_circuit,
     }
     encoder_fn = encoder_fn_map.get(encoding)
+    if encoding == "angle" and encoder_fn is not None:
+        angle_scale = float(data_config.get("angle_scale", 1.0))
+        encoder_fn = functools.partial(encoder_fn, scale=angle_scale)
+    elif encoding == "hybrid" and encoder_fn is not None:
+        hybrid_scale = float(data_config.get("hybrid_scale", 1.0))
+        encoder_fn = functools.partial(encoder_fn, scale=hybrid_scale)
     num_features = None
     if encoding != "amplitude":
         num_features = data_config.get("num_features", data_config["num_qubits"])
