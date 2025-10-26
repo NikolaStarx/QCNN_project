@@ -1,4 +1,4 @@
-# Gemini 关于 `train_optimized.py` 内存溢出 (OOM) 问题的诊断报告
+# 关于 `train_optimized.py` 内存溢出 (OOM) 问题的诊断报告
 
 ## 1. 问题现象
 
