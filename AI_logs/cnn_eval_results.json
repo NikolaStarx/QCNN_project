@@ -1,0 +1,962 @@
+[
+  {
+    "config": "configs/cnn_baselines/mnist_angle_4x4.yaml",
+    "checkpoint": "checkpoints_cnn/noise23/mnist_angle_4x4/best.pt",
+    "epoch": 9,
+    "recorded_accuracy": 98.4375,
+    "recorded_loss": 0.03195841337219463,
+    "evaluated_test_accuracy": 93.75
+  },
+  {
+    "config": "configs/cnn_baselines/mnist_angle_4x4.yaml",
+    "checkpoint": "checkpoints_cnn/noise23/mnist_angle_4x4/cnn_mnist_angle_4x4_epoch_1.pt",
+    "epoch": 1,
+    "recorded_accuracy": 90.625,
+    "recorded_loss": 0.23600014549447224,
+    "evaluated_test_accuracy": 89.0625
+  },
+  {
+    "config": "configs/cnn_baselines/mnist_angle_4x4.yaml",
+    "checkpoint": "checkpoints_cnn/noise23/mnist_angle_4x4/cnn_mnist_angle_4x4_epoch_10.pt",
+    "epoch": 10,
+    "recorded_accuracy": 98.4375,
+    "recorded_loss": 0.02806787264853483,
+    "evaluated_test_accuracy": 96.875
+  },
+  {
+    "config": "configs/cnn_baselines/mnist_angle_4x4.yaml",
+    "checkpoint": "checkpoints_cnn/noise23/mnist_angle_4x4/cnn_mnist_angle_4x4_epoch_2.pt",
+    "epoch": 2,
+    "recorded_accuracy": 96.875,
+    "recorded_loss": 0.08042883168673143,
+    "evaluated_test_accuracy": 93.75
+  },
+  {
+    "config": "configs/cnn_baselines/mnist_angle_4x4.yaml",
+    "checkpoint": "checkpoints_cnn/noise23/mnist_angle_4x4/cnn_mnist_angle_4x4_epoch_3.pt",
+    "epoch": 3,
+    "recorded_accuracy": 95.3125,
+    "recorded_loss": 0.08638466341653839,
+    "evaluated_test_accuracy": 95.3125
+  },
+  {
+    "config": "configs/cnn_baselines/mnist_angle_4x4.yaml",
+    "checkpoint": "checkpoints_cnn/noise23/mnist_angle_4x4/cnn_mnist_angle_4x4_epoch_4.pt",
+    "epoch": 4,
+    "recorded_accuracy": 93.75,
+    "recorded_loss": 0.053662566213461105,
+    "evaluated_test_accuracy": 92.1875
+  },
+  {
+    "config": "configs/cnn_baselines/mnist_angle_4x4.yaml",
+    "checkpoint": "checkpoints_cnn/noise23/mnist_angle_4x4/cnn_mnist_angle_4x4_epoch_5.pt",
+    "epoch": 5,
+    "recorded_accuracy": 95.3125,
+    "recorded_loss": 0.057769126004131977,
+    "evaluated_test_accuracy": 93.75
+  },
+  {
+    "config": "configs/cnn_baselines/mnist_angle_4x4.yaml",
+    "checkpoint": "checkpoints_cnn/noise23/mnist_angle_4x4/cnn_mnist_angle_4x4_epoch_6.pt",
+    "epoch": 6,
+    "recorded_accuracy": 93.75,
+    "recorded_loss": 0.09766188982030144,
+    "evaluated_test_accuracy": 92.1875
+  },
+  {
+    "config": "configs/cnn_baselines/mnist_angle_4x4.yaml",
+    "checkpoint": "checkpoints_cnn/noise23/mnist_angle_4x4/cnn_mnist_angle_4x4_epoch_7.pt",
+    "epoch": 7,
+    "recorded_accuracy": 96.875,
+    "recorded_loss": 0.03469513435265981,
+    "evaluated_test_accuracy": 92.1875
+  },
+  {
+    "config": "configs/cnn_baselines/mnist_angle_4x4.yaml",
+    "checkpoint": "checkpoints_cnn/noise23/mnist_angle_4x4/cnn_mnist_angle_4x4_epoch_8.pt",
+    "epoch": 8,
+    "recorded_accuracy": 96.875,
+    "recorded_loss": 0.08673194142465945,
+    "evaluated_test_accuracy": 95.3125
+  },
+  {
+    "config": "configs/cnn_baselines/mnist_angle_4x4.yaml",
+    "checkpoint": "checkpoints_cnn/noise23/mnist_angle_4x4/cnn_mnist_angle_4x4_epoch_9.pt",
+    "epoch": 9,
+    "recorded_accuracy": 98.4375,
+    "recorded_loss": 0.03195841337219463,
+    "evaluated_test_accuracy": 93.75
+  },
+  {
+    "config": "configs/cnn_baselines/mnist_angle_4x4.yaml",
+    "checkpoint": "checkpoints_cnn/noise23/mnist_angle_4x4/last.pt",
+    "epoch": 10,
+    "recorded_accuracy": 98.4375,
+    "recorded_loss": 0.02806787264853483,
+    "evaluated_test_accuracy": 96.875
+  },
+  {
+    "config": "configs/cnn_baselines/mnist_angle_4x4_noise.yaml",
+    "checkpoint": "checkpoints_cnn/noise23/mnist_angle_4x4_noise/best.pt",
+    "epoch": 5,
+    "recorded_accuracy": 100.0,
+    "recorded_loss": 0.025996082436904544,
+    "evaluated_test_accuracy": 95.3125
+  },
+  {
+    "config": "configs/cnn_baselines/mnist_angle_4x4_noise.yaml",
+    "checkpoint": "checkpoints_cnn/noise23/mnist_angle_4x4_noise/cnn_mnist_angle_4x4_noise_epoch_1.pt",
+    "epoch": 1,
+    "recorded_accuracy": 98.4375,
+    "recorded_loss": 0.26192047295626253,
+    "evaluated_test_accuracy": 98.4375
+  },
+  {
+    "config": "configs/cnn_baselines/mnist_angle_4x4_noise.yaml",
+    "checkpoint": "checkpoints_cnn/noise23/mnist_angle_4x4_noise/cnn_mnist_angle_4x4_noise_epoch_10.pt",
+    "epoch": 10,
+    "recorded_accuracy": 98.4375,
+    "recorded_loss": 0.006216977207259333,
+    "evaluated_test_accuracy": 100.0
+  },
+  {
+    "config": "configs/cnn_baselines/mnist_angle_4x4_noise.yaml",
+    "checkpoint": "checkpoints_cnn/noise23/mnist_angle_4x4_noise/cnn_mnist_angle_4x4_noise_epoch_2.pt",
+    "epoch": 2,
+    "recorded_accuracy": 98.4375,
+    "recorded_loss": 0.06048811633081641,
+    "evaluated_test_accuracy": 100.0
+  },
+  {
+    "config": "configs/cnn_baselines/mnist_angle_4x4_noise.yaml",
+    "checkpoint": "checkpoints_cnn/noise23/mnist_angle_4x4_noise/cnn_mnist_angle_4x4_noise_epoch_3.pt",
+    "epoch": 3,
+    "recorded_accuracy": 98.4375,
+    "recorded_loss": 0.06049207937030587,
+    "evaluated_test_accuracy": 96.875
+  },
+  {
+    "config": "configs/cnn_baselines/mnist_angle_4x4_noise.yaml",
+    "checkpoint": "checkpoints_cnn/noise23/mnist_angle_4x4_noise/cnn_mnist_angle_4x4_noise_epoch_4.pt",
+    "epoch": 4,
+    "recorded_accuracy": 98.4375,
+    "recorded_loss": 0.020970935289369663,
+    "evaluated_test_accuracy": 100.0
+  },
+  {
+    "config": "configs/cnn_baselines/mnist_angle_4x4_noise.yaml",
+    "checkpoint": "checkpoints_cnn/noise23/mnist_angle_4x4_noise/cnn_mnist_angle_4x4_noise_epoch_5.pt",
+    "epoch": 5,
+    "recorded_accuracy": 100.0,
+    "recorded_loss": 0.025996082436904544,
+    "evaluated_test_accuracy": 95.3125
+  },
+  {
+    "config": "configs/cnn_baselines/mnist_angle_4x4_noise.yaml",
+    "checkpoint": "checkpoints_cnn/noise23/mnist_angle_4x4_noise/cnn_mnist_angle_4x4_noise_epoch_6.pt",
+    "epoch": 6,
+    "recorded_accuracy": 98.4375,
+    "recorded_loss": 0.03259023556893226,
+    "evaluated_test_accuracy": 98.4375
+  },
+  {
+    "config": "configs/cnn_baselines/mnist_angle_4x4_noise.yaml",
+    "checkpoint": "checkpoints_cnn/noise23/mnist_angle_4x4_noise/cnn_mnist_angle_4x4_noise_epoch_7.pt",
+    "epoch": 7,
+    "recorded_accuracy": 98.4375,
+    "recorded_loss": 0.028487960529673728,
+    "evaluated_test_accuracy": 93.75
+  },
+  {
+    "config": "configs/cnn_baselines/mnist_angle_4x4_noise.yaml",
+    "checkpoint": "checkpoints_cnn/noise23/mnist_angle_4x4_noise/cnn_mnist_angle_4x4_noise_epoch_8.pt",
+    "epoch": 8,
+    "recorded_accuracy": 98.4375,
+    "recorded_loss": 0.04332762654667022,
+    "evaluated_test_accuracy": 100.0
+  },
+  {
+    "config": "configs/cnn_baselines/mnist_angle_4x4_noise.yaml",
+    "checkpoint": "checkpoints_cnn/noise23/mnist_angle_4x4_noise/cnn_mnist_angle_4x4_noise_epoch_9.pt",
+    "epoch": 9,
+    "recorded_accuracy": 98.4375,
+    "recorded_loss": 0.01200355562605182,
+    "evaluated_test_accuracy": 98.4375
+  },
+  {
+    "config": "configs/cnn_baselines/mnist_angle_4x4_noise.yaml",
+    "checkpoint": "checkpoints_cnn/noise23/mnist_angle_4x4_noise/last.pt",
+    "epoch": 10,
+    "recorded_accuracy": 98.4375,
+    "recorded_loss": 0.006216977207259333,
+    "evaluated_test_accuracy": 100.0
+  },
+  {
+    "config": "configs/cnn_baselines/mnist_angle_4x4_noise_high.yaml",
+    "checkpoint": "checkpoints_cnn/noise23/mnist_angle_4x4_high/best.pt",
+    "epoch": 10,
+    "recorded_accuracy": 98.4375,
+    "recorded_loss": 0.026759076534290216,
+    "evaluated_test_accuracy": 100.0
+  },
+  {
+    "config": "configs/cnn_baselines/mnist_angle_4x4_noise_high.yaml",
+    "checkpoint": "checkpoints_cnn/noise23/mnist_angle_4x4_high/cnn_mnist_angle_4x4_noise_high_epoch_1.pt",
+    "epoch": 1,
+    "recorded_accuracy": 93.75,
+    "recorded_loss": 0.2734755303245038,
+    "evaluated_test_accuracy": 95.3125
+  },
+  {
+    "config": "configs/cnn_baselines/mnist_angle_4x4_noise_high.yaml",
+    "checkpoint": "checkpoints_cnn/noise23/mnist_angle_4x4_high/cnn_mnist_angle_4x4_noise_high_epoch_10.pt",
+    "epoch": 10,
+    "recorded_accuracy": 98.4375,
+    "recorded_loss": 0.026759076534290216,
+    "evaluated_test_accuracy": 100.0
+  },
+  {
+    "config": "configs/cnn_baselines/mnist_angle_4x4_noise_high.yaml",
+    "checkpoint": "checkpoints_cnn/noise23/mnist_angle_4x4_high/cnn_mnist_angle_4x4_noise_high_epoch_2.pt",
+    "epoch": 2,
+    "recorded_accuracy": 96.875,
+    "recorded_loss": 0.1038504252792336,
+    "evaluated_test_accuracy": 100.0
+  },
+  {
+    "config": "configs/cnn_baselines/mnist_angle_4x4_noise_high.yaml",
+    "checkpoint": "checkpoints_cnn/noise23/mnist_angle_4x4_high/cnn_mnist_angle_4x4_noise_high_epoch_3.pt",
+    "epoch": 3,
+    "recorded_accuracy": 93.75,
+    "recorded_loss": 0.04797595817944966,
+    "evaluated_test_accuracy": 90.625
+  },
+  {
+    "config": "configs/cnn_baselines/mnist_angle_4x4_noise_high.yaml",
+    "checkpoint": "checkpoints_cnn/noise23/mnist_angle_4x4_high/cnn_mnist_angle_4x4_noise_high_epoch_4.pt",
+    "epoch": 4,
+    "recorded_accuracy": 92.1875,
+    "recorded_loss": 0.055465450655901805,
+    "evaluated_test_accuracy": 100.0
+  },
+  {
+    "config": "configs/cnn_baselines/mnist_angle_4x4_noise_high.yaml",
+    "checkpoint": "checkpoints_cnn/noise23/mnist_angle_4x4_high/cnn_mnist_angle_4x4_noise_high_epoch_5.pt",
+    "epoch": 5,
+    "recorded_accuracy": 93.75,
+    "recorded_loss": 0.04595609935131506,
+    "evaluated_test_accuracy": 100.0
+  },
+  {
+    "config": "configs/cnn_baselines/mnist_angle_4x4_noise_high.yaml",
+    "checkpoint": "checkpoints_cnn/noise23/mnist_angle_4x4_high/cnn_mnist_angle_4x4_noise_high_epoch_6.pt",
+    "epoch": 6,
+    "recorded_accuracy": 96.875,
+    "recorded_loss": 0.04683930612736731,
+    "evaluated_test_accuracy": 100.0
+  },
+  {
+    "config": "configs/cnn_baselines/mnist_angle_4x4_noise_high.yaml",
+    "checkpoint": "checkpoints_cnn/noise23/mnist_angle_4x4_high/cnn_mnist_angle_4x4_noise_high_epoch_7.pt",
+    "epoch": 7,
+    "recorded_accuracy": 93.75,
+    "recorded_loss": 0.044268499920690374,
+    "evaluated_test_accuracy": 96.875
+  },
+  {
+    "config": "configs/cnn_baselines/mnist_angle_4x4_noise_high.yaml",
+    "checkpoint": "checkpoints_cnn/noise23/mnist_angle_4x4_high/cnn_mnist_angle_4x4_noise_high_epoch_8.pt",
+    "epoch": 8,
+    "recorded_accuracy": 96.875,
+    "recorded_loss": 0.06985057872225298,
+    "evaluated_test_accuracy": 96.875
+  },
+  {
+    "config": "configs/cnn_baselines/mnist_angle_4x4_noise_high.yaml",
+    "checkpoint": "checkpoints_cnn/noise23/mnist_angle_4x4_high/cnn_mnist_angle_4x4_noise_high_epoch_9.pt",
+    "epoch": 9,
+    "recorded_accuracy": 96.875,
+    "recorded_loss": 0.03819436767298612,
+    "evaluated_test_accuracy": 100.0
+  },
+  {
+    "config": "configs/cnn_baselines/mnist_angle_4x4_noise_high.yaml",
+    "checkpoint": "checkpoints_cnn/noise23/mnist_angle_4x4_high/last.pt",
+    "epoch": 10,
+    "recorded_accuracy": 98.4375,
+    "recorded_loss": 0.026759076534290216,
+    "evaluated_test_accuracy": 100.0
+  },
+  {
+    "config": "configs/cnn_baselines/mnist_angle_4x4_noise_low.yaml",
+    "checkpoint": "checkpoints_cnn/noise23/mnist_angle_4x4_low/best.pt",
+    "epoch": 2,
+    "recorded_accuracy": 98.4375,
+    "recorded_loss": 0.16078658861806616,
+    "evaluated_test_accuracy": 95.3125
+  },
+  {
+    "config": "configs/cnn_baselines/mnist_angle_4x4_noise_low.yaml",
+    "checkpoint": "checkpoints_cnn/noise23/mnist_angle_4x4_low/cnn_mnist_angle_4x4_noise_low_epoch_1.pt",
+    "epoch": 1,
+    "recorded_accuracy": 59.375,
+    "recorded_loss": 0.28355370042845607,
+    "evaluated_test_accuracy": 62.5
+  },
+  {
+    "config": "configs/cnn_baselines/mnist_angle_4x4_noise_low.yaml",
+    "checkpoint": "checkpoints_cnn/noise23/mnist_angle_4x4_low/cnn_mnist_angle_4x4_noise_low_epoch_10.pt",
+    "epoch": 10,
+    "recorded_accuracy": 98.4375,
+    "recorded_loss": 0.0867906902640243,
+    "evaluated_test_accuracy": 96.875
+  },
+  {
+    "config": "configs/cnn_baselines/mnist_angle_4x4_noise_low.yaml",
+    "checkpoint": "checkpoints_cnn/noise23/mnist_angle_4x4_low/cnn_mnist_angle_4x4_noise_low_epoch_2.pt",
+    "epoch": 2,
+    "recorded_accuracy": 98.4375,
+    "recorded_loss": 0.16078658861806616,
+    "evaluated_test_accuracy": 95.3125
+  },
+  {
+    "config": "configs/cnn_baselines/mnist_angle_4x4_noise_low.yaml",
+    "checkpoint": "checkpoints_cnn/noise23/mnist_angle_4x4_low/cnn_mnist_angle_4x4_noise_low_epoch_3.pt",
+    "epoch": 3,
+    "recorded_accuracy": 98.4375,
+    "recorded_loss": 0.07071010654908605,
+    "evaluated_test_accuracy": 100.0
+  },
+  {
+    "config": "configs/cnn_baselines/mnist_angle_4x4_noise_low.yaml",
+    "checkpoint": "checkpoints_cnn/noise23/mnist_angle_4x4_low/cnn_mnist_angle_4x4_noise_low_epoch_4.pt",
+    "epoch": 4,
+    "recorded_accuracy": 95.3125,
+    "recorded_loss": 0.0824882905362756,
+    "evaluated_test_accuracy": 92.1875
+  },
+  {
+    "config": "configs/cnn_baselines/mnist_angle_4x4_noise_low.yaml",
+    "checkpoint": "checkpoints_cnn/noise23/mnist_angle_4x4_low/cnn_mnist_angle_4x4_noise_low_epoch_5.pt",
+    "epoch": 5,
+    "recorded_accuracy": 98.4375,
+    "recorded_loss": 0.038795815518824384,
+    "evaluated_test_accuracy": 98.4375
+  },
+  {
+    "config": "configs/cnn_baselines/mnist_angle_4x4_noise_low.yaml",
+    "checkpoint": "checkpoints_cnn/noise23/mnist_angle_4x4_low/cnn_mnist_angle_4x4_noise_low_epoch_6.pt",
+    "epoch": 6,
+    "recorded_accuracy": 98.4375,
+    "recorded_loss": 0.019418650546867866,
+    "evaluated_test_accuracy": 98.4375
+  },
+  {
+    "config": "configs/cnn_baselines/mnist_angle_4x4_noise_low.yaml",
+    "checkpoint": "checkpoints_cnn/noise23/mnist_angle_4x4_low/cnn_mnist_angle_4x4_noise_low_epoch_7.pt",
+    "epoch": 7,
+    "recorded_accuracy": 98.4375,
+    "recorded_loss": 0.036851760665740585,
+    "evaluated_test_accuracy": 98.4375
+  },
+  {
+    "config": "configs/cnn_baselines/mnist_angle_4x4_noise_low.yaml",
+    "checkpoint": "checkpoints_cnn/noise23/mnist_angle_4x4_low/cnn_mnist_angle_4x4_noise_low_epoch_8.pt",
+    "epoch": 8,
+    "recorded_accuracy": 96.875,
+    "recorded_loss": 0.03862924651184585,
+    "evaluated_test_accuracy": 98.4375
+  },
+  {
+    "config": "configs/cnn_baselines/mnist_angle_4x4_noise_low.yaml",
+    "checkpoint": "checkpoints_cnn/noise23/mnist_angle_4x4_low/cnn_mnist_angle_4x4_noise_low_epoch_9.pt",
+    "epoch": 9,
+    "recorded_accuracy": 98.4375,
+    "recorded_loss": 0.03334040030858887,
+    "evaluated_test_accuracy": 98.4375
+  },
+  {
+    "config": "configs/cnn_baselines/mnist_angle_4x4_noise_low.yaml",
+    "checkpoint": "checkpoints_cnn/noise23/mnist_angle_4x4_low/last.pt",
+    "epoch": 10,
+    "recorded_accuracy": 98.4375,
+    "recorded_loss": 0.0867906902640243,
+    "evaluated_test_accuracy": 96.875
+  },
+  {
+    "config": "configs/cnn_baselines/mnist_angle_4x4_noise_mid.yaml",
+    "checkpoint": "checkpoints_cnn/noise23/mnist_angle_4x4_mid/best.pt",
+    "epoch": 8,
+    "recorded_accuracy": 100.0,
+    "recorded_loss": 0.06935658959991997,
+    "evaluated_test_accuracy": 95.3125
+  },
+  {
+    "config": "configs/cnn_baselines/mnist_angle_4x4_noise_mid.yaml",
+    "checkpoint": "checkpoints_cnn/noise23/mnist_angle_4x4_mid/cnn_mnist_angle_4x4_noise_mid_epoch_1.pt",
+    "epoch": 1,
+    "recorded_accuracy": 96.875,
+    "recorded_loss": 0.19538575448677875,
+    "evaluated_test_accuracy": 93.75
+  },
+  {
+    "config": "configs/cnn_baselines/mnist_angle_4x4_noise_mid.yaml",
+    "checkpoint": "checkpoints_cnn/noise23/mnist_angle_4x4_mid/cnn_mnist_angle_4x4_noise_mid_epoch_10.pt",
+    "epoch": 10,
+    "recorded_accuracy": 98.4375,
+    "recorded_loss": 0.035360479597329686,
+    "evaluated_test_accuracy": 93.75
+  },
+  {
+    "config": "configs/cnn_baselines/mnist_angle_4x4_noise_mid.yaml",
+    "checkpoint": "checkpoints_cnn/noise23/mnist_angle_4x4_mid/cnn_mnist_angle_4x4_noise_mid_epoch_2.pt",
+    "epoch": 2,
+    "recorded_accuracy": 98.4375,
+    "recorded_loss": 0.10048163251485676,
+    "evaluated_test_accuracy": 93.75
+  },
+  {
+    "config": "configs/cnn_baselines/mnist_angle_4x4_noise_mid.yaml",
+    "checkpoint": "checkpoints_cnn/noise23/mnist_angle_4x4_mid/cnn_mnist_angle_4x4_noise_mid_epoch_3.pt",
+    "epoch": 3,
+    "recorded_accuracy": 98.4375,
+    "recorded_loss": 0.07056234514311654,
+    "evaluated_test_accuracy": 95.3125
+  },
+  {
+    "config": "configs/cnn_baselines/mnist_angle_4x4_noise_mid.yaml",
+    "checkpoint": "checkpoints_cnn/noise23/mnist_angle_4x4_mid/cnn_mnist_angle_4x4_noise_mid_epoch_4.pt",
+    "epoch": 4,
+    "recorded_accuracy": 98.4375,
+    "recorded_loss": 0.07451511565886904,
+    "evaluated_test_accuracy": 93.75
+  },
+  {
+    "config": "configs/cnn_baselines/mnist_angle_4x4_noise_mid.yaml",
+    "checkpoint": "checkpoints_cnn/noise23/mnist_angle_4x4_mid/cnn_mnist_angle_4x4_noise_mid_epoch_5.pt",
+    "epoch": 5,
+    "recorded_accuracy": 98.4375,
+    "recorded_loss": 0.055358912046358455,
+    "evaluated_test_accuracy": 93.75
+  },
+  {
+    "config": "configs/cnn_baselines/mnist_angle_4x4_noise_mid.yaml",
+    "checkpoint": "checkpoints_cnn/noise23/mnist_angle_4x4_mid/cnn_mnist_angle_4x4_noise_mid_epoch_6.pt",
+    "epoch": 6,
+    "recorded_accuracy": 98.4375,
+    "recorded_loss": 0.022148469663079595,
+    "evaluated_test_accuracy": 93.75
+  },
+  {
+    "config": "configs/cnn_baselines/mnist_angle_4x4_noise_mid.yaml",
+    "checkpoint": "checkpoints_cnn/noise23/mnist_angle_4x4_mid/cnn_mnist_angle_4x4_noise_mid_epoch_7.pt",
+    "epoch": 7,
+    "recorded_accuracy": 98.4375,
+    "recorded_loss": 0.07950775407880428,
+    "evaluated_test_accuracy": 93.75
+  },
+  {
+    "config": "configs/cnn_baselines/mnist_angle_4x4_noise_mid.yaml",
+    "checkpoint": "checkpoints_cnn/noise23/mnist_angle_4x4_mid/cnn_mnist_angle_4x4_noise_mid_epoch_8.pt",
+    "epoch": 8,
+    "recorded_accuracy": 100.0,
+    "recorded_loss": 0.06935658959991997,
+    "evaluated_test_accuracy": 95.3125
+  },
+  {
+    "config": "configs/cnn_baselines/mnist_angle_4x4_noise_mid.yaml",
+    "checkpoint": "checkpoints_cnn/noise23/mnist_angle_4x4_mid/cnn_mnist_angle_4x4_noise_mid_epoch_9.pt",
+    "epoch": 9,
+    "recorded_accuracy": 98.4375,
+    "recorded_loss": 0.02784623067782377,
+    "evaluated_test_accuracy": 95.3125
+  },
+  {
+    "config": "configs/cnn_baselines/mnist_angle_4x4_noise_mid.yaml",
+    "checkpoint": "checkpoints_cnn/noise23/mnist_angle_4x4_mid/last.pt",
+    "epoch": 10,
+    "recorded_accuracy": 98.4375,
+    "recorded_loss": 0.035360479597329686,
+    "evaluated_test_accuracy": 93.75
+  },
+  {
+    "config": "configs/cnn_baselines/mnist_angle_8x8.yaml",
+    "checkpoint": "checkpoints_cnn/noise24/mnist_angle_8x8/best.pt",
+    "epoch": 5,
+    "recorded_accuracy": 100.0,
+    "recorded_loss": 0.01303002316126367,
+    "evaluated_test_accuracy": 100.0
+  },
+  {
+    "config": "configs/cnn_baselines/mnist_angle_8x8.yaml",
+    "checkpoint": "checkpoints_cnn/noise24/mnist_angle_8x8/cnn_mnist_angle_8x8_epoch_1.pt",
+    "epoch": 1,
+    "recorded_accuracy": 95.3125,
+    "recorded_loss": 0.17991821418399923,
+    "evaluated_test_accuracy": 98.4375
+  },
+  {
+    "config": "configs/cnn_baselines/mnist_angle_8x8.yaml",
+    "checkpoint": "checkpoints_cnn/noise24/mnist_angle_8x8/cnn_mnist_angle_8x8_epoch_10.pt",
+    "epoch": 10,
+    "recorded_accuracy": 100.0,
+    "recorded_loss": 0.0017439880667922125,
+    "evaluated_test_accuracy": 98.4375
+  },
+  {
+    "config": "configs/cnn_baselines/mnist_angle_8x8.yaml",
+    "checkpoint": "checkpoints_cnn/noise24/mnist_angle_8x8/cnn_mnist_angle_8x8_epoch_2.pt",
+    "epoch": 2,
+    "recorded_accuracy": 96.875,
+    "recorded_loss": 0.03736221762301284,
+    "evaluated_test_accuracy": 95.3125
+  },
+  {
+    "config": "configs/cnn_baselines/mnist_angle_8x8.yaml",
+    "checkpoint": "checkpoints_cnn/noise24/mnist_angle_8x8/cnn_mnist_angle_8x8_epoch_3.pt",
+    "epoch": 3,
+    "recorded_accuracy": 96.875,
+    "recorded_loss": 0.021522498560443637,
+    "evaluated_test_accuracy": 95.3125
+  },
+  {
+    "config": "configs/cnn_baselines/mnist_angle_8x8.yaml",
+    "checkpoint": "checkpoints_cnn/noise24/mnist_angle_8x8/cnn_mnist_angle_8x8_epoch_4.pt",
+    "epoch": 4,
+    "recorded_accuracy": 93.75,
+    "recorded_loss": 0.08717411796806118,
+    "evaluated_test_accuracy": 87.5
+  },
+  {
+    "config": "configs/cnn_baselines/mnist_angle_8x8.yaml",
+    "checkpoint": "checkpoints_cnn/noise24/mnist_angle_8x8/cnn_mnist_angle_8x8_epoch_5.pt",
+    "epoch": 5,
+    "recorded_accuracy": 100.0,
+    "recorded_loss": 0.01303002316126367,
+    "evaluated_test_accuracy": 100.0
+  },
+  {
+    "config": "configs/cnn_baselines/mnist_angle_8x8.yaml",
+    "checkpoint": "checkpoints_cnn/noise24/mnist_angle_8x8/cnn_mnist_angle_8x8_epoch_6.pt",
+    "epoch": 6,
+    "recorded_accuracy": 100.0,
+    "recorded_loss": 0.01362021976797223,
+    "evaluated_test_accuracy": 98.4375
+  },
+  {
+    "config": "configs/cnn_baselines/mnist_angle_8x8.yaml",
+    "checkpoint": "checkpoints_cnn/noise24/mnist_angle_8x8/cnn_mnist_angle_8x8_epoch_7.pt",
+    "epoch": 7,
+    "recorded_accuracy": 100.0,
+    "recorded_loss": 0.0077963510417475845,
+    "evaluated_test_accuracy": 98.4375
+  },
+  {
+    "config": "configs/cnn_baselines/mnist_angle_8x8.yaml",
+    "checkpoint": "checkpoints_cnn/noise24/mnist_angle_8x8/cnn_mnist_angle_8x8_epoch_8.pt",
+    "epoch": 8,
+    "recorded_accuracy": 100.0,
+    "recorded_loss": 0.0038231017058478756,
+    "evaluated_test_accuracy": 100.0
+  },
+  {
+    "config": "configs/cnn_baselines/mnist_angle_8x8.yaml",
+    "checkpoint": "checkpoints_cnn/noise24/mnist_angle_8x8/cnn_mnist_angle_8x8_epoch_9.pt",
+    "epoch": 9,
+    "recorded_accuracy": 100.0,
+    "recorded_loss": 0.0011521383714807598,
+    "evaluated_test_accuracy": 98.4375
+  },
+  {
+    "config": "configs/cnn_baselines/mnist_angle_8x8.yaml",
+    "checkpoint": "checkpoints_cnn/noise24/mnist_angle_8x8/last.pt",
+    "epoch": 10,
+    "recorded_accuracy": 100.0,
+    "recorded_loss": 0.0017439880667922125,
+    "evaluated_test_accuracy": 98.4375
+  },
+  {
+    "config": "configs/cnn_baselines/mnist_angle_8x8_noise.yaml",
+    "checkpoint": "checkpoints_cnn/noise24/mnist_angle_8x8_noise/best.pt",
+    "epoch": 1,
+    "recorded_accuracy": 100.0,
+    "recorded_loss": 0.3327241207007319,
+    "evaluated_test_accuracy": 95.3125
+  },
+  {
+    "config": "configs/cnn_baselines/mnist_angle_8x8_noise.yaml",
+    "checkpoint": "checkpoints_cnn/noise24/mnist_angle_8x8_noise/cnn_mnist_angle_8x8_noise_epoch_1.pt",
+    "epoch": 1,
+    "recorded_accuracy": 100.0,
+    "recorded_loss": 0.3327241207007319,
+    "evaluated_test_accuracy": 95.3125
+  },
+  {
+    "config": "configs/cnn_baselines/mnist_angle_8x8_noise.yaml",
+    "checkpoint": "checkpoints_cnn/noise24/mnist_angle_8x8_noise/cnn_mnist_angle_8x8_noise_epoch_10.pt",
+    "epoch": 10,
+    "recorded_accuracy": 100.0,
+    "recorded_loss": 0.015457300248272077,
+    "evaluated_test_accuracy": 100.0
+  },
+  {
+    "config": "configs/cnn_baselines/mnist_angle_8x8_noise.yaml",
+    "checkpoint": "checkpoints_cnn/noise24/mnist_angle_8x8_noise/cnn_mnist_angle_8x8_noise_epoch_2.pt",
+    "epoch": 2,
+    "recorded_accuracy": 100.0,
+    "recorded_loss": 0.0522083199757617,
+    "evaluated_test_accuracy": 96.875
+  },
+  {
+    "config": "configs/cnn_baselines/mnist_angle_8x8_noise.yaml",
+    "checkpoint": "checkpoints_cnn/noise24/mnist_angle_8x8_noise/cnn_mnist_angle_8x8_noise_epoch_3.pt",
+    "epoch": 3,
+    "recorded_accuracy": 100.0,
+    "recorded_loss": 0.05159382864803774,
+    "evaluated_test_accuracy": 100.0
+  },
+  {
+    "config": "configs/cnn_baselines/mnist_angle_8x8_noise.yaml",
+    "checkpoint": "checkpoints_cnn/noise24/mnist_angle_8x8_noise/cnn_mnist_angle_8x8_noise_epoch_4.pt",
+    "epoch": 4,
+    "recorded_accuracy": 100.0,
+    "recorded_loss": 0.01822483179603296,
+    "evaluated_test_accuracy": 100.0
+  },
+  {
+    "config": "configs/cnn_baselines/mnist_angle_8x8_noise.yaml",
+    "checkpoint": "checkpoints_cnn/noise24/mnist_angle_8x8_noise/cnn_mnist_angle_8x8_noise_epoch_5.pt",
+    "epoch": 5,
+    "recorded_accuracy": 100.0,
+    "recorded_loss": 0.0143833691108739,
+    "evaluated_test_accuracy": 98.4375
+  },
+  {
+    "config": "configs/cnn_baselines/mnist_angle_8x8_noise.yaml",
+    "checkpoint": "checkpoints_cnn/noise24/mnist_angle_8x8_noise/cnn_mnist_angle_8x8_noise_epoch_6.pt",
+    "epoch": 6,
+    "recorded_accuracy": 98.4375,
+    "recorded_loss": 0.0057989381239167415,
+    "evaluated_test_accuracy": 100.0
+  },
+  {
+    "config": "configs/cnn_baselines/mnist_angle_8x8_noise.yaml",
+    "checkpoint": "checkpoints_cnn/noise24/mnist_angle_8x8_noise/cnn_mnist_angle_8x8_noise_epoch_7.pt",
+    "epoch": 7,
+    "recorded_accuracy": 100.0,
+    "recorded_loss": 0.005557769212373387,
+    "evaluated_test_accuracy": 100.0
+  },
+  {
+    "config": "configs/cnn_baselines/mnist_angle_8x8_noise.yaml",
+    "checkpoint": "checkpoints_cnn/noise24/mnist_angle_8x8_noise/cnn_mnist_angle_8x8_noise_epoch_8.pt",
+    "epoch": 8,
+    "recorded_accuracy": 100.0,
+    "recorded_loss": 0.0044666247754321375,
+    "evaluated_test_accuracy": 100.0
+  },
+  {
+    "config": "configs/cnn_baselines/mnist_angle_8x8_noise.yaml",
+    "checkpoint": "checkpoints_cnn/noise24/mnist_angle_8x8_noise/cnn_mnist_angle_8x8_noise_epoch_9.pt",
+    "epoch": 9,
+    "recorded_accuracy": 100.0,
+    "recorded_loss": 0.01807870085394825,
+    "evaluated_test_accuracy": 100.0
+  },
+  {
+    "config": "configs/cnn_baselines/mnist_angle_8x8_noise.yaml",
+    "checkpoint": "checkpoints_cnn/noise24/mnist_angle_8x8_noise/last.pt",
+    "epoch": 10,
+    "recorded_accuracy": 100.0,
+    "recorded_loss": 0.015457300248272077,
+    "evaluated_test_accuracy": 100.0
+  },
+  {
+    "config": "configs/cnn_baselines/mnist_angle_8x8_noise_high.yaml",
+    "checkpoint": "checkpoints_cnn/noise24/mnist_angle_8x8_high/best.pt",
+    "epoch": 2,
+    "recorded_accuracy": 100.0,
+    "recorded_loss": 0.04631406765838619,
+    "evaluated_test_accuracy": 100.0
+  },
+  {
+    "config": "configs/cnn_baselines/mnist_angle_8x8_noise_high.yaml",
+    "checkpoint": "checkpoints_cnn/noise24/mnist_angle_8x8_high/cnn_mnist_angle_8x8_noise_high_epoch_1.pt",
+    "epoch": 1,
+    "recorded_accuracy": 95.3125,
+    "recorded_loss": 0.22337326244451106,
+    "evaluated_test_accuracy": 100.0
+  },
+  {
+    "config": "configs/cnn_baselines/mnist_angle_8x8_noise_high.yaml",
+    "checkpoint": "checkpoints_cnn/noise24/mnist_angle_8x8_high/cnn_mnist_angle_8x8_noise_high_epoch_10.pt",
+    "epoch": 10,
+    "recorded_accuracy": 98.4375,
+    "recorded_loss": 0.0018434090777645906,
+    "evaluated_test_accuracy": 100.0
+  },
+  {
+    "config": "configs/cnn_baselines/mnist_angle_8x8_noise_high.yaml",
+    "checkpoint": "checkpoints_cnn/noise24/mnist_angle_8x8_high/cnn_mnist_angle_8x8_noise_high_epoch_2.pt",
+    "epoch": 2,
+    "recorded_accuracy": 100.0,
+    "recorded_loss": 0.04631406765838619,
+    "evaluated_test_accuracy": 100.0
+  },
+  {
+    "config": "configs/cnn_baselines/mnist_angle_8x8_noise_high.yaml",
+    "checkpoint": "checkpoints_cnn/noise24/mnist_angle_8x8_high/cnn_mnist_angle_8x8_noise_high_epoch_3.pt",
+    "epoch": 3,
+    "recorded_accuracy": 96.875,
+    "recorded_loss": 0.026303456488676602,
+    "evaluated_test_accuracy": 100.0
+  },
+  {
+    "config": "configs/cnn_baselines/mnist_angle_8x8_noise_high.yaml",
+    "checkpoint": "checkpoints_cnn/noise24/mnist_angle_8x8_high/cnn_mnist_angle_8x8_noise_high_epoch_4.pt",
+    "epoch": 4,
+    "recorded_accuracy": 96.875,
+    "recorded_loss": 0.015089885024281102,
+    "evaluated_test_accuracy": 100.0
+  },
+  {
+    "config": "configs/cnn_baselines/mnist_angle_8x8_noise_high.yaml",
+    "checkpoint": "checkpoints_cnn/noise24/mnist_angle_8x8_high/cnn_mnist_angle_8x8_noise_high_epoch_5.pt",
+    "epoch": 5,
+    "recorded_accuracy": 92.1875,
+    "recorded_loss": 0.010070052012906672,
+    "evaluated_test_accuracy": 98.4375
+  },
+  {
+    "config": "configs/cnn_baselines/mnist_angle_8x8_noise_high.yaml",
+    "checkpoint": "checkpoints_cnn/noise24/mnist_angle_8x8_high/cnn_mnist_angle_8x8_noise_high_epoch_6.pt",
+    "epoch": 6,
+    "recorded_accuracy": 93.75,
+    "recorded_loss": 0.01789027116728903,
+    "evaluated_test_accuracy": 100.0
+  },
+  {
+    "config": "configs/cnn_baselines/mnist_angle_8x8_noise_high.yaml",
+    "checkpoint": "checkpoints_cnn/noise24/mnist_angle_8x8_high/cnn_mnist_angle_8x8_noise_high_epoch_7.pt",
+    "epoch": 7,
+    "recorded_accuracy": 98.4375,
+    "recorded_loss": 0.004672686738558696,
+    "evaluated_test_accuracy": 100.0
+  },
+  {
+    "config": "configs/cnn_baselines/mnist_angle_8x8_noise_high.yaml",
+    "checkpoint": "checkpoints_cnn/noise24/mnist_angle_8x8_high/cnn_mnist_angle_8x8_noise_high_epoch_8.pt",
+    "epoch": 8,
+    "recorded_accuracy": 98.4375,
+    "recorded_loss": 0.005232647649336286,
+    "evaluated_test_accuracy": 100.0
+  },
+  {
+    "config": "configs/cnn_baselines/mnist_angle_8x8_noise_high.yaml",
+    "checkpoint": "checkpoints_cnn/noise24/mnist_angle_8x8_high/cnn_mnist_angle_8x8_noise_high_epoch_9.pt",
+    "epoch": 9,
+    "recorded_accuracy": 100.0,
+    "recorded_loss": 0.003211857409496588,
+    "evaluated_test_accuracy": 100.0
+  },
+  {
+    "config": "configs/cnn_baselines/mnist_angle_8x8_noise_high.yaml",
+    "checkpoint": "checkpoints_cnn/noise24/mnist_angle_8x8_high/last.pt",
+    "epoch": 10,
+    "recorded_accuracy": 98.4375,
+    "recorded_loss": 0.0018434090777645906,
+    "evaluated_test_accuracy": 100.0
+  },
+  {
+    "config": "configs/cnn_baselines/mnist_angle_8x8_noise_low.yaml",
+    "checkpoint": "checkpoints_cnn/noise24/mnist_angle_8x8_low/best.pt",
+    "epoch": 8,
+    "recorded_accuracy": 100.0,
+    "recorded_loss": 0.0012104713539429213,
+    "evaluated_test_accuracy": 98.4375
+  },
+  {
+    "config": "configs/cnn_baselines/mnist_angle_8x8_noise_low.yaml",
+    "checkpoint": "checkpoints_cnn/noise24/mnist_angle_8x8_low/cnn_mnist_angle_8x8_noise_low_epoch_1.pt",
+    "epoch": 1,
+    "recorded_accuracy": 96.875,
+    "recorded_loss": 0.15321152450633235,
+    "evaluated_test_accuracy": 96.875
+  },
+  {
+    "config": "configs/cnn_baselines/mnist_angle_8x8_noise_low.yaml",
+    "checkpoint": "checkpoints_cnn/noise24/mnist_angle_8x8_low/cnn_mnist_angle_8x8_noise_low_epoch_10.pt",
+    "epoch": 10,
+    "recorded_accuracy": 98.4375,
+    "recorded_loss": 0.0006443467199233055,
+    "evaluated_test_accuracy": 98.4375
+  },
+  {
+    "config": "configs/cnn_baselines/mnist_angle_8x8_noise_low.yaml",
+    "checkpoint": "checkpoints_cnn/noise24/mnist_angle_8x8_low/cnn_mnist_angle_8x8_noise_low_epoch_2.pt",
+    "epoch": 2,
+    "recorded_accuracy": 98.4375,
+    "recorded_loss": 0.07344538118741184,
+    "evaluated_test_accuracy": 96.875
+  },
+  {
+    "config": "configs/cnn_baselines/mnist_angle_8x8_noise_low.yaml",
+    "checkpoint": "checkpoints_cnn/noise24/mnist_angle_8x8_low/cnn_mnist_angle_8x8_noise_low_epoch_3.pt",
+    "epoch": 3,
+    "recorded_accuracy": 98.4375,
+    "recorded_loss": 0.050514863894932205,
+    "evaluated_test_accuracy": 98.4375
+  },
+  {
+    "config": "configs/cnn_baselines/mnist_angle_8x8_noise_low.yaml",
+    "checkpoint": "checkpoints_cnn/noise24/mnist_angle_8x8_low/cnn_mnist_angle_8x8_noise_low_epoch_4.pt",
+    "epoch": 4,
+    "recorded_accuracy": 98.4375,
+    "recorded_loss": 0.028787616442059516,
+    "evaluated_test_accuracy": 98.4375
+  },
+  {
+    "config": "configs/cnn_baselines/mnist_angle_8x8_noise_low.yaml",
+    "checkpoint": "checkpoints_cnn/noise24/mnist_angle_8x8_low/cnn_mnist_angle_8x8_noise_low_epoch_5.pt",
+    "epoch": 5,
+    "recorded_accuracy": 96.875,
+    "recorded_loss": 0.01380804615064335,
+    "evaluated_test_accuracy": 96.875
+  },
+  {
+    "config": "configs/cnn_baselines/mnist_angle_8x8_noise_low.yaml",
+    "checkpoint": "checkpoints_cnn/noise24/mnist_angle_8x8_low/cnn_mnist_angle_8x8_noise_low_epoch_6.pt",
+    "epoch": 6,
+    "recorded_accuracy": 98.4375,
+    "recorded_loss": 0.00587116701103696,
+    "evaluated_test_accuracy": 96.875
+  },
+  {
+    "config": "configs/cnn_baselines/mnist_angle_8x8_noise_low.yaml",
+    "checkpoint": "checkpoints_cnn/noise24/mnist_angle_8x8_low/cnn_mnist_angle_8x8_noise_low_epoch_7.pt",
+    "epoch": 7,
+    "recorded_accuracy": 98.4375,
+    "recorded_loss": 0.0036895505967322606,
+    "evaluated_test_accuracy": 98.4375
+  },
+  {
+    "config": "configs/cnn_baselines/mnist_angle_8x8_noise_low.yaml",
+    "checkpoint": "checkpoints_cnn/noise24/mnist_angle_8x8_low/cnn_mnist_angle_8x8_noise_low_epoch_8.pt",
+    "epoch": 8,
+    "recorded_accuracy": 100.0,
+    "recorded_loss": 0.0012104713539429213,
+    "evaluated_test_accuracy": 98.4375
+  },
+  {
+    "config": "configs/cnn_baselines/mnist_angle_8x8_noise_low.yaml",
+    "checkpoint": "checkpoints_cnn/noise24/mnist_angle_8x8_low/cnn_mnist_angle_8x8_noise_low_epoch_9.pt",
+    "epoch": 9,
+    "recorded_accuracy": 98.4375,
+    "recorded_loss": 0.0007655797833194811,
+    "evaluated_test_accuracy": 98.4375
+  },
+  {
+    "config": "configs/cnn_baselines/mnist_angle_8x8_noise_low.yaml",
+    "checkpoint": "checkpoints_cnn/noise24/mnist_angle_8x8_low/last.pt",
+    "epoch": 10,
+    "recorded_accuracy": 98.4375,
+    "recorded_loss": 0.0006443467199233055,
+    "evaluated_test_accuracy": 98.4375
+  },
+  {
+    "config": "configs/cnn_baselines/mnist_angle_8x8_noise_mid.yaml",
+    "checkpoint": "checkpoints_cnn/noise24/mnist_angle_8x8_mid/best.pt",
+    "epoch": 3,
+    "recorded_accuracy": 100.0,
+    "recorded_loss": 0.03454098007568973,
+    "evaluated_test_accuracy": 96.875
+  },
+  {
+    "config": "configs/cnn_baselines/mnist_angle_8x8_noise_mid.yaml",
+    "checkpoint": "checkpoints_cnn/noise24/mnist_angle_8x8_mid/cnn_mnist_angle_8x8_noise_mid_epoch_1.pt",
+    "epoch": 1,
+    "recorded_accuracy": 98.4375,
+    "recorded_loss": 0.27132448775228113,
+    "evaluated_test_accuracy": 100.0
+  },
+  {
+    "config": "configs/cnn_baselines/mnist_angle_8x8_noise_mid.yaml",
+    "checkpoint": "checkpoints_cnn/noise24/mnist_angle_8x8_mid/cnn_mnist_angle_8x8_noise_mid_epoch_10.pt",
+    "epoch": 10,
+    "recorded_accuracy": 100.0,
+    "recorded_loss": 0.0359976571653533,
+    "evaluated_test_accuracy": 96.875
+  },
+  {
+    "config": "configs/cnn_baselines/mnist_angle_8x8_noise_mid.yaml",
+    "checkpoint": "checkpoints_cnn/noise24/mnist_angle_8x8_mid/cnn_mnist_angle_8x8_noise_mid_epoch_2.pt",
+    "epoch": 2,
+    "recorded_accuracy": 98.4375,
+    "recorded_loss": 0.09107944450806826,
+    "evaluated_test_accuracy": 100.0
+  },
+  {
+    "config": "configs/cnn_baselines/mnist_angle_8x8_noise_mid.yaml",
+    "checkpoint": "checkpoints_cnn/noise24/mnist_angle_8x8_mid/cnn_mnist_angle_8x8_noise_mid_epoch_3.pt",
+    "epoch": 3,
+    "recorded_accuracy": 100.0,
+    "recorded_loss": 0.03454098007568973,
+    "evaluated_test_accuracy": 96.875
+  },
+  {
+    "config": "configs/cnn_baselines/mnist_angle_8x8_noise_mid.yaml",
+    "checkpoint": "checkpoints_cnn/noise24/mnist_angle_8x8_mid/cnn_mnist_angle_8x8_noise_mid_epoch_4.pt",
+    "epoch": 4,
+    "recorded_accuracy": 96.875,
+    "recorded_loss": 0.022122822847450152,
+    "evaluated_test_accuracy": 100.0
+  },
+  {
+    "config": "configs/cnn_baselines/mnist_angle_8x8_noise_mid.yaml",
+    "checkpoint": "checkpoints_cnn/noise24/mnist_angle_8x8_mid/cnn_mnist_angle_8x8_noise_mid_epoch_5.pt",
+    "epoch": 5,
+    "recorded_accuracy": 100.0,
+    "recorded_loss": 0.014608175044486416,
+    "evaluated_test_accuracy": 96.875
+  },
+  {
+    "config": "configs/cnn_baselines/mnist_angle_8x8_noise_mid.yaml",
+    "checkpoint": "checkpoints_cnn/noise24/mnist_angle_8x8_mid/cnn_mnist_angle_8x8_noise_mid_epoch_6.pt",
+    "epoch": 6,
+    "recorded_accuracy": 98.4375,
+    "recorded_loss": 0.008670704457927059,
+    "evaluated_test_accuracy": 100.0
+  },
+  {
+    "config": "configs/cnn_baselines/mnist_angle_8x8_noise_mid.yaml",
+    "checkpoint": "checkpoints_cnn/noise24/mnist_angle_8x8_mid/cnn_mnist_angle_8x8_noise_mid_epoch_7.pt",
+    "epoch": 7,
+    "recorded_accuracy": 100.0,
+    "recorded_loss": 0.009061153386028309,
+    "evaluated_test_accuracy": 98.4375
+  },
+  {
+    "config": "configs/cnn_baselines/mnist_angle_8x8_noise_mid.yaml",
+    "checkpoint": "checkpoints_cnn/noise24/mnist_angle_8x8_mid/cnn_mnist_angle_8x8_noise_mid_epoch_8.pt",
+    "epoch": 8,
+    "recorded_accuracy": 100.0,
+    "recorded_loss": 0.004722716271771787,
+    "evaluated_test_accuracy": 98.4375
+  },
+  {
+    "config": "configs/cnn_baselines/mnist_angle_8x8_noise_mid.yaml",
+    "checkpoint": "checkpoints_cnn/noise24/mnist_angle_8x8_mid/cnn_mnist_angle_8x8_noise_mid_epoch_9.pt",
+    "epoch": 9,
+    "recorded_accuracy": 96.875,
+    "recorded_loss": 0.006387037899116876,
+    "evaluated_test_accuracy": 100.0
+  },
+  {
+    "config": "configs/cnn_baselines/mnist_angle_8x8_noise_mid.yaml",
+    "checkpoint": "checkpoints_cnn/noise24/mnist_angle_8x8_mid/last.pt",
+    "epoch": 10,
+    "recorded_accuracy": 100.0,
+    "recorded_loss": 0.0359976571653533,
+    "evaluated_test_accuracy": 96.875
+  }
+]

@@ -1,0 +1,34 @@
+[
+  {
+    "config": "configs/noise_2.1/mnist_angle_noise_mid.yaml",
+    "checkpoint": "checkpoints_noise21/mnist_angle/noise_mid/best.pt",
+    "epoch": 1,
+    "recorded_accuracy": 46.875,
+    "recorded_loss": 1.1283915142218273,
+    "evaluated_test_accuracy": 52.083333333333336
+  },
+  {
+    "config": "configs/noise_2.1/mnist_angle_noise_mid.yaml",
+    "checkpoint": "checkpoints_noise21/mnist_angle/noise_mid/last.pt",
+    "epoch": 4,
+    "recorded_accuracy": 46.875,
+    "recorded_loss": 0.7619247908393542,
+    "evaluated_test_accuracy": 52.083333333333336
+  },
+  {
+    "config": "configs/noise_2.1/mnist_angle_noise_mid.yaml",
+    "checkpoint": "checkpoints_noise21/mnist_angle/noise_mid/mnist_angle_noise21_mid_epoch_2.pt",
+    "epoch": 2,
+    "recorded_accuracy": 46.875,
+    "recorded_loss": 0.9124507370094458,
+    "evaluated_test_accuracy": 52.083333333333336
+  },
+  {
+    "config": "configs/noise_2.1/mnist_angle_noise_mid.yaml",
+    "checkpoint": "checkpoints_noise21/mnist_angle/noise_mid/mnist_angle_noise21_mid_epoch_4.pt",
+    "epoch": 4,
+    "recorded_accuracy": 46.875,
+    "recorded_loss": 0.7619247908393542,
+    "evaluated_test_accuracy": 52.083333333333336
+  }
+]

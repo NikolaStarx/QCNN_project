@@ -1,0 +1,3698 @@
+[
+  {
+    "config": "configs/noise_2.3/mnist_amplitude_noise_high.yaml",
+    "checkpoint": "checkpoints_noise23/mnist_amplitude/noise_high/best.pt",
+    "epoch": 10,
+    "recorded_accuracy": 96.875,
+    "recorded_loss": 0.4857320748269558,
+    "evaluated_test_accuracy": 96.875
+  },
+  {
+    "config": "configs/noise_2.3/mnist_amplitude_noise_high.yaml",
+    "checkpoint": "checkpoints_noise23/mnist_amplitude/noise_high/last.pt",
+    "epoch": 10,
+    "recorded_accuracy": 96.875,
+    "recorded_loss": 0.4857320748269558,
+    "evaluated_test_accuracy": 96.875
+  },
+  {
+    "config": "configs/noise_2.3/mnist_amplitude_noise_high.yaml",
+    "checkpoint": "checkpoints_noise23/mnist_amplitude/noise_high/mnist_amplitude_noise23_high_epoch_1.pt",
+    "epoch": 1,
+    "recorded_accuracy": 45.703125,
+    "recorded_loss": 0.8396151438355446,
+    "evaluated_test_accuracy": 46.875
+  },
+  {
+    "config": "configs/noise_2.3/mnist_amplitude_noise_high.yaml",
+    "checkpoint": "checkpoints_noise23/mnist_amplitude/noise_high/mnist_amplitude_noise23_high_epoch_10.pt",
+    "epoch": 10,
+    "recorded_accuracy": 96.875,
+    "recorded_loss": 0.4857320748269558,
+    "evaluated_test_accuracy": 96.875
+  },
+  {
+    "config": "configs/noise_2.3/mnist_amplitude_noise_high.yaml",
+    "checkpoint": "checkpoints_noise23/mnist_amplitude/noise_high/mnist_amplitude_noise23_high_epoch_2.pt",
+    "epoch": 2,
+    "recorded_accuracy": 45.703125,
+    "recorded_loss": 0.7635685242712498,
+    "evaluated_test_accuracy": 46.875
+  },
+  {
+    "config": "configs/noise_2.3/mnist_amplitude_noise_high.yaml",
+    "checkpoint": "checkpoints_noise23/mnist_amplitude/noise_high/mnist_amplitude_noise23_high_epoch_3.pt",
+    "epoch": 3,
+    "recorded_accuracy": 45.703125,
+    "recorded_loss": 0.7164328694343567,
+    "evaluated_test_accuracy": 46.875
+  },
+  {
+    "config": "configs/noise_2.3/mnist_amplitude_noise_high.yaml",
+    "checkpoint": "checkpoints_noise23/mnist_amplitude/noise_high/mnist_amplitude_noise23_high_epoch_4.pt",
+    "epoch": 4,
+    "recorded_accuracy": 45.703125,
+    "recorded_loss": 0.6943061612546444,
+    "evaluated_test_accuracy": 54.6875
+  },
+  {
+    "config": "configs/noise_2.3/mnist_amplitude_noise_high.yaml",
+    "checkpoint": "checkpoints_noise23/mnist_amplitude/noise_high/mnist_amplitude_noise23_high_epoch_5.pt",
+    "epoch": 5,
+    "recorded_accuracy": 77.34375,
+    "recorded_loss": 0.6740419790148735,
+    "evaluated_test_accuracy": 82.8125
+  },
+  {
+    "config": "configs/noise_2.3/mnist_amplitude_noise_high.yaml",
+    "checkpoint": "checkpoints_noise23/mnist_amplitude/noise_high/mnist_amplitude_noise23_high_epoch_6.pt",
+    "epoch": 6,
+    "recorded_accuracy": 83.203125,
+    "recorded_loss": 0.640921164304018,
+    "evaluated_test_accuracy": 92.1875
+  },
+  {
+    "config": "configs/noise_2.3/mnist_amplitude_noise_high.yaml",
+    "checkpoint": "checkpoints_noise23/mnist_amplitude/noise_high/mnist_amplitude_noise23_high_epoch_7.pt",
+    "epoch": 7,
+    "recorded_accuracy": 89.84375,
+    "recorded_loss": 0.5977099016308784,
+    "evaluated_test_accuracy": 95.3125
+  },
+  {
+    "config": "configs/noise_2.3/mnist_amplitude_noise_high.yaml",
+    "checkpoint": "checkpoints_noise23/mnist_amplitude/noise_high/mnist_amplitude_noise23_high_epoch_8.pt",
+    "epoch": 8,
+    "recorded_accuracy": 95.703125,
+    "recorded_loss": 0.5537672117352486,
+    "evaluated_test_accuracy": 95.3125
+  },
+  {
+    "config": "configs/noise_2.3/mnist_amplitude_noise_high.yaml",
+    "checkpoint": "checkpoints_noise23/mnist_amplitude/noise_high/mnist_amplitude_noise23_high_epoch_9.pt",
+    "epoch": 9,
+    "recorded_accuracy": 94.921875,
+    "recorded_loss": 0.516467060893774,
+    "evaluated_test_accuracy": 95.3125
+  },
+  {
+    "config": "configs/noise_2.3/mnist_amplitude_noise_low.yaml",
+    "checkpoint": "checkpoints_noise23/mnist_amplitude/noise_low/best.pt",
+    "epoch": 8,
+    "recorded_accuracy": 96.484375,
+    "recorded_loss": 0.4043179452419281,
+    "evaluated_test_accuracy": 96.875
+  },
+  {
+    "config": "configs/noise_2.3/mnist_amplitude_noise_low.yaml",
+    "checkpoint": "checkpoints_noise23/mnist_amplitude/noise_low/last.pt",
+    "epoch": 10,
+    "recorded_accuracy": 96.484375,
+    "recorded_loss": 0.36612006090581417,
+    "evaluated_test_accuracy": 98.4375
+  },
+  {
+    "config": "configs/noise_2.3/mnist_amplitude_noise_low.yaml",
+    "checkpoint": "checkpoints_noise23/mnist_amplitude/noise_low/mnist_amplitude_noise23_low_epoch_1.pt",
+    "epoch": 1,
+    "recorded_accuracy": 58.984375,
+    "recorded_loss": 0.6835719533264637,
+    "evaluated_test_accuracy": 89.0625
+  },
+  {
+    "config": "configs/noise_2.3/mnist_amplitude_noise_low.yaml",
+    "checkpoint": "checkpoints_noise23/mnist_amplitude/noise_low/mnist_amplitude_noise23_low_epoch_10.pt",
+    "epoch": 10,
+    "recorded_accuracy": 96.484375,
+    "recorded_loss": 0.36612006090581417,
+    "evaluated_test_accuracy": 98.4375
+  },
+  {
+    "config": "configs/noise_2.3/mnist_amplitude_noise_low.yaml",
+    "checkpoint": "checkpoints_noise23/mnist_amplitude/noise_low/mnist_amplitude_noise23_low_epoch_2.pt",
+    "epoch": 2,
+    "recorded_accuracy": 78.125,
+    "recorded_loss": 0.6445285342633724,
+    "evaluated_test_accuracy": 90.625
+  },
+  {
+    "config": "configs/noise_2.3/mnist_amplitude_noise_low.yaml",
+    "checkpoint": "checkpoints_noise23/mnist_amplitude/noise_low/mnist_amplitude_noise23_low_epoch_3.pt",
+    "epoch": 3,
+    "recorded_accuracy": 82.8125,
+    "recorded_loss": 0.5988282077014446,
+    "evaluated_test_accuracy": 93.75
+  },
+  {
+    "config": "configs/noise_2.3/mnist_amplitude_noise_low.yaml",
+    "checkpoint": "checkpoints_noise23/mnist_amplitude/noise_low/mnist_amplitude_noise23_low_epoch_4.pt",
+    "epoch": 4,
+    "recorded_accuracy": 91.015625,
+    "recorded_loss": 0.5511571653187275,
+    "evaluated_test_accuracy": 96.875
+  },
+  {
+    "config": "configs/noise_2.3/mnist_amplitude_noise_low.yaml",
+    "checkpoint": "checkpoints_noise23/mnist_amplitude/noise_low/mnist_amplitude_noise23_low_epoch_5.pt",
+    "epoch": 5,
+    "recorded_accuracy": 95.3125,
+    "recorded_loss": 0.5004734676331282,
+    "evaluated_test_accuracy": 96.875
+  },
+  {
+    "config": "configs/noise_2.3/mnist_amplitude_noise_low.yaml",
+    "checkpoint": "checkpoints_noise23/mnist_amplitude/noise_low/mnist_amplitude_noise23_low_epoch_6.pt",
+    "epoch": 6,
+    "recorded_accuracy": 94.140625,
+    "recorded_loss": 0.46574852615594864,
+    "evaluated_test_accuracy": 98.4375
+  },
+  {
+    "config": "configs/noise_2.3/mnist_amplitude_noise_low.yaml",
+    "checkpoint": "checkpoints_noise23/mnist_amplitude/noise_low/mnist_amplitude_noise23_low_epoch_7.pt",
+    "epoch": 7,
+    "recorded_accuracy": 94.921875,
+    "recorded_loss": 0.4323033466935158,
+    "evaluated_test_accuracy": 98.4375
+  },
+  {
+    "config": "configs/noise_2.3/mnist_amplitude_noise_low.yaml",
+    "checkpoint": "checkpoints_noise23/mnist_amplitude/noise_low/mnist_amplitude_noise23_low_epoch_8.pt",
+    "epoch": 8,
+    "recorded_accuracy": 96.484375,
+    "recorded_loss": 0.4043179452419281,
+    "evaluated_test_accuracy": 98.4375
+  },
+  {
+    "config": "configs/noise_2.3/mnist_amplitude_noise_low.yaml",
+    "checkpoint": "checkpoints_noise23/mnist_amplitude/noise_low/mnist_amplitude_noise23_low_epoch_9.pt",
+    "epoch": 9,
+    "recorded_accuracy": 96.09375,
+    "recorded_loss": 0.38209089264273643,
+    "evaluated_test_accuracy": 96.875
+  },
+  {
+    "config": "configs/noise_2.3/mnist_amplitude_noise_mid.yaml",
+    "checkpoint": "checkpoints_noise23/mnist_amplitude/noise_mid/best.pt",
+    "epoch": 9,
+    "recorded_accuracy": 95.703125,
+    "recorded_loss": 0.40992281772196293,
+    "evaluated_test_accuracy": 95.3125
+  },
+  {
+    "config": "configs/noise_2.3/mnist_amplitude_noise_mid.yaml",
+    "checkpoint": "checkpoints_noise23/mnist_amplitude/noise_mid/last.pt",
+    "epoch": 10,
+    "recorded_accuracy": 94.53125,
+    "recorded_loss": 0.3965768367052078,
+    "evaluated_test_accuracy": 96.875
+  },
+  {
+    "config": "configs/noise_2.3/mnist_amplitude_noise_mid.yaml",
+    "checkpoint": "checkpoints_noise23/mnist_amplitude/noise_mid/mnist_amplitude_noise23_mid_epoch_1.pt",
+    "epoch": 1,
+    "recorded_accuracy": 53.90625,
+    "recorded_loss": 0.6600336953997612,
+    "evaluated_test_accuracy": 46.875
+  },
+  {
+    "config": "configs/noise_2.3/mnist_amplitude_noise_mid.yaml",
+    "checkpoint": "checkpoints_noise23/mnist_amplitude/noise_mid/mnist_amplitude_noise23_mid_epoch_10.pt",
+    "epoch": 10,
+    "recorded_accuracy": 94.53125,
+    "recorded_loss": 0.3965768367052078,
+    "evaluated_test_accuracy": 96.875
+  },
+  {
+    "config": "configs/noise_2.3/mnist_amplitude_noise_mid.yaml",
+    "checkpoint": "checkpoints_noise23/mnist_amplitude/noise_mid/mnist_amplitude_noise23_mid_epoch_2.pt",
+    "epoch": 2,
+    "recorded_accuracy": 54.6875,
+    "recorded_loss": 0.6025857292115688,
+    "evaluated_test_accuracy": 59.375
+  },
+  {
+    "config": "configs/noise_2.3/mnist_amplitude_noise_mid.yaml",
+    "checkpoint": "checkpoints_noise23/mnist_amplitude/noise_mid/mnist_amplitude_noise23_mid_epoch_3.pt",
+    "epoch": 3,
+    "recorded_accuracy": 77.734375,
+    "recorded_loss": 0.5613601710647345,
+    "evaluated_test_accuracy": 82.8125
+  },
+  {
+    "config": "configs/noise_2.3/mnist_amplitude_noise_mid.yaml",
+    "checkpoint": "checkpoints_noise23/mnist_amplitude/noise_mid/mnist_amplitude_noise23_mid_epoch_4.pt",
+    "epoch": 4,
+    "recorded_accuracy": 91.796875,
+    "recorded_loss": 0.5267982371151447,
+    "evaluated_test_accuracy": 89.0625
+  },
+  {
+    "config": "configs/noise_2.3/mnist_amplitude_noise_mid.yaml",
+    "checkpoint": "checkpoints_noise23/mnist_amplitude/noise_mid/mnist_amplitude_noise23_mid_epoch_5.pt",
+    "epoch": 5,
+    "recorded_accuracy": 92.96875,
+    "recorded_loss": 0.4984783995896578,
+    "evaluated_test_accuracy": 95.3125
+  },
+  {
+    "config": "configs/noise_2.3/mnist_amplitude_noise_mid.yaml",
+    "checkpoint": "checkpoints_noise23/mnist_amplitude/noise_mid/mnist_amplitude_noise23_mid_epoch_6.pt",
+    "epoch": 6,
+    "recorded_accuracy": 94.140625,
+    "recorded_loss": 0.4761553294956684,
+    "evaluated_test_accuracy": 96.875
+  },
+  {
+    "config": "configs/noise_2.3/mnist_amplitude_noise_mid.yaml",
+    "checkpoint": "checkpoints_noise23/mnist_amplitude/noise_mid/mnist_amplitude_noise23_mid_epoch_7.pt",
+    "epoch": 7,
+    "recorded_accuracy": 94.140625,
+    "recorded_loss": 0.4520770441740751,
+    "evaluated_test_accuracy": 95.3125
+  },
+  {
+    "config": "configs/noise_2.3/mnist_amplitude_noise_mid.yaml",
+    "checkpoint": "checkpoints_noise23/mnist_amplitude/noise_mid/mnist_amplitude_noise23_mid_epoch_8.pt",
+    "epoch": 8,
+    "recorded_accuracy": 94.140625,
+    "recorded_loss": 0.4317899774760008,
+    "evaluated_test_accuracy": 96.875
+  },
+  {
+    "config": "configs/noise_2.3/mnist_amplitude_noise_mid.yaml",
+    "checkpoint": "checkpoints_noise23/mnist_amplitude/noise_mid/mnist_amplitude_noise23_mid_epoch_9.pt",
+    "epoch": 9,
+    "recorded_accuracy": 95.703125,
+    "recorded_loss": 0.40992281772196293,
+    "evaluated_test_accuracy": 96.875
+  },
+  {
+    "config": "configs/noise_2.3/mnist_angle_noise_high.yaml",
+    "checkpoint": "checkpoints_noise23/mnist_angle/noise_high/best.pt",
+    "epoch": 2,
+    "recorded_accuracy": 51.171875,
+    "recorded_loss": 0.6934790760278702,
+    "evaluated_test_accuracy": 60.9375
+  },
+  {
+    "config": "configs/noise_2.3/mnist_angle_noise_high.yaml",
+    "checkpoint": "checkpoints_noise23/mnist_angle/noise_high/last.pt",
+    "epoch": 10,
+    "recorded_accuracy": 51.171875,
+    "recorded_loss": 0.6935604549944401,
+    "evaluated_test_accuracy": 60.9375
+  },
+  {
+    "config": "configs/noise_2.3/mnist_angle_noise_high.yaml",
+    "checkpoint": "checkpoints_noise23/mnist_angle/noise_high/mnist_angle_noise23_high_epoch_1.pt",
+    "epoch": 1,
+    "recorded_accuracy": 46.875,
+    "recorded_loss": 0.698999248445034,
+    "evaluated_test_accuracy": 60.9375
+  },
+  {
+    "config": "configs/noise_2.3/mnist_angle_noise_high.yaml",
+    "checkpoint": "checkpoints_noise23/mnist_angle/noise_high/mnist_angle_noise23_high_epoch_10.pt",
+    "epoch": 10,
+    "recorded_accuracy": 51.171875,
+    "recorded_loss": 0.6935604549944401,
+    "evaluated_test_accuracy": 60.9375
+  },
+  {
+    "config": "configs/noise_2.3/mnist_angle_noise_high.yaml",
+    "checkpoint": "checkpoints_noise23/mnist_angle/noise_high/mnist_angle_noise23_high_epoch_2.pt",
+    "epoch": 2,
+    "recorded_accuracy": 51.171875,
+    "recorded_loss": 0.6934790760278702,
+    "evaluated_test_accuracy": 60.9375
+  },
+  {
+    "config": "configs/noise_2.3/mnist_angle_noise_high.yaml",
+    "checkpoint": "checkpoints_noise23/mnist_angle/noise_high/mnist_angle_noise23_high_epoch_3.pt",
+    "epoch": 3,
+    "recorded_accuracy": 46.484375,
+    "recorded_loss": 0.694377988576889,
+    "evaluated_test_accuracy": 60.9375
+  },
+  {
+    "config": "configs/noise_2.3/mnist_angle_noise_high.yaml",
+    "checkpoint": "checkpoints_noise23/mnist_angle/noise_high/mnist_angle_noise23_high_epoch_4.pt",
+    "epoch": 4,
+    "recorded_accuracy": 51.171875,
+    "recorded_loss": 0.6941910684108734,
+    "evaluated_test_accuracy": 60.9375
+  },
+  {
+    "config": "configs/noise_2.3/mnist_angle_noise_high.yaml",
+    "checkpoint": "checkpoints_noise23/mnist_angle/noise_high/mnist_angle_noise23_high_epoch_5.pt",
+    "epoch": 5,
+    "recorded_accuracy": 51.171875,
+    "recorded_loss": 0.6941983327269554,
+    "evaluated_test_accuracy": 60.9375
+  },
+  {
+    "config": "configs/noise_2.3/mnist_angle_noise_high.yaml",
+    "checkpoint": "checkpoints_noise23/mnist_angle/noise_high/mnist_angle_noise23_high_epoch_6.pt",
+    "epoch": 6,
+    "recorded_accuracy": 49.609375,
+    "recorded_loss": 0.693426376208663,
+    "evaluated_test_accuracy": 60.9375
+  },
+  {
+    "config": "configs/noise_2.3/mnist_angle_noise_high.yaml",
+    "checkpoint": "checkpoints_noise23/mnist_angle/noise_high/mnist_angle_noise23_high_epoch_7.pt",
+    "epoch": 7,
+    "recorded_accuracy": 51.171875,
+    "recorded_loss": 0.6934537142515182,
+    "evaluated_test_accuracy": 60.9375
+  },
+  {
+    "config": "configs/noise_2.3/mnist_angle_noise_high.yaml",
+    "checkpoint": "checkpoints_noise23/mnist_angle/noise_high/mnist_angle_noise23_high_epoch_8.pt",
+    "epoch": 8,
+    "recorded_accuracy": 51.171875,
+    "recorded_loss": 0.6933845486491919,
+    "evaluated_test_accuracy": 60.9375
+  },
+  {
+    "config": "configs/noise_2.3/mnist_angle_noise_high.yaml",
+    "checkpoint": "checkpoints_noise23/mnist_angle/noise_high/mnist_angle_noise23_high_epoch_9.pt",
+    "epoch": 9,
+    "recorded_accuracy": 51.171875,
+    "recorded_loss": 0.6946358736604452,
+    "evaluated_test_accuracy": 60.9375
+  },
+  {
+    "config": "configs/noise_2.3/mnist_angle_noise_low.yaml",
+    "checkpoint": "checkpoints_noise23/mnist_angle/noise_low/best.pt",
+    "epoch": 1,
+    "recorded_accuracy": 56.25,
+    "recorded_loss": 0.8963403436355293,
+    "evaluated_test_accuracy": 43.75
+  },
+  {
+    "config": "configs/noise_2.3/mnist_angle_noise_low.yaml",
+    "checkpoint": "checkpoints_noise23/mnist_angle/noise_low/last.pt",
+    "epoch": 10,
+    "recorded_accuracy": 56.25,
+    "recorded_loss": 0.6866082362830639,
+    "evaluated_test_accuracy": 43.75
+  },
+  {
+    "config": "configs/noise_2.3/mnist_angle_noise_low.yaml",
+    "checkpoint": "checkpoints_noise23/mnist_angle/noise_low/mnist_angle_noise23_low_epoch_1.pt",
+    "epoch": 1,
+    "recorded_accuracy": 56.25,
+    "recorded_loss": 0.8963403436355293,
+    "evaluated_test_accuracy": 43.75
+  },
+  {
+    "config": "configs/noise_2.3/mnist_angle_noise_low.yaml",
+    "checkpoint": "checkpoints_noise23/mnist_angle/noise_low/mnist_angle_noise23_low_epoch_10.pt",
+    "epoch": 10,
+    "recorded_accuracy": 56.25,
+    "recorded_loss": 0.6866082362830639,
+    "evaluated_test_accuracy": 43.75
+  },
+  {
+    "config": "configs/noise_2.3/mnist_angle_noise_low.yaml",
+    "checkpoint": "checkpoints_noise23/mnist_angle/noise_low/mnist_angle_noise23_low_epoch_2.pt",
+    "epoch": 2,
+    "recorded_accuracy": 56.25,
+    "recorded_loss": 0.7082737749442458,
+    "evaluated_test_accuracy": 43.75
+  },
+  {
+    "config": "configs/noise_2.3/mnist_angle_noise_low.yaml",
+    "checkpoint": "checkpoints_noise23/mnist_angle/noise_low/mnist_angle_noise23_low_epoch_3.pt",
+    "epoch": 3,
+    "recorded_accuracy": 56.25,
+    "recorded_loss": 0.6878677289932966,
+    "evaluated_test_accuracy": 43.75
+  },
+  {
+    "config": "configs/noise_2.3/mnist_angle_noise_low.yaml",
+    "checkpoint": "checkpoints_noise23/mnist_angle/noise_low/mnist_angle_noise23_low_epoch_4.pt",
+    "epoch": 4,
+    "recorded_accuracy": 56.25,
+    "recorded_loss": 0.6863795444369316,
+    "evaluated_test_accuracy": 43.75
+  },
+  {
+    "config": "configs/noise_2.3/mnist_angle_noise_low.yaml",
+    "checkpoint": "checkpoints_noise23/mnist_angle/noise_low/mnist_angle_noise23_low_epoch_5.pt",
+    "epoch": 5,
+    "recorded_accuracy": 56.25,
+    "recorded_loss": 0.688038345426321,
+    "evaluated_test_accuracy": 43.75
+  },
+  {
+    "config": "configs/noise_2.3/mnist_angle_noise_low.yaml",
+    "checkpoint": "checkpoints_noise23/mnist_angle/noise_low/mnist_angle_noise23_low_epoch_6.pt",
+    "epoch": 6,
+    "recorded_accuracy": 56.25,
+    "recorded_loss": 0.6871708389371634,
+    "evaluated_test_accuracy": 43.75
+  },
+  {
+    "config": "configs/noise_2.3/mnist_angle_noise_low.yaml",
+    "checkpoint": "checkpoints_noise23/mnist_angle/noise_low/mnist_angle_noise23_low_epoch_7.pt",
+    "epoch": 7,
+    "recorded_accuracy": 56.25,
+    "recorded_loss": 0.6874144561588764,
+    "evaluated_test_accuracy": 43.75
+  },
+  {
+    "config": "configs/noise_2.3/mnist_angle_noise_low.yaml",
+    "checkpoint": "checkpoints_noise23/mnist_angle/noise_low/mnist_angle_noise23_low_epoch_8.pt",
+    "epoch": 8,
+    "recorded_accuracy": 56.25,
+    "recorded_loss": 0.6875980515033007,
+    "evaluated_test_accuracy": 43.75
+  },
+  {
+    "config": "configs/noise_2.3/mnist_angle_noise_low.yaml",
+    "checkpoint": "checkpoints_noise23/mnist_angle/noise_low/mnist_angle_noise23_low_epoch_9.pt",
+    "epoch": 9,
+    "recorded_accuracy": 56.25,
+    "recorded_loss": 0.686474584043026,
+    "evaluated_test_accuracy": 43.75
+  },
+  {
+    "config": "configs/noise_2.3/mnist_angle_noise_mid.yaml",
+    "checkpoint": "checkpoints_noise23/mnist_angle/noise_mid/best.pt",
+    "epoch": 2,
+    "recorded_accuracy": 52.734375,
+    "recorded_loss": 0.6941290572285652,
+    "evaluated_test_accuracy": 25.0
+  },
+  {
+    "config": "configs/noise_2.3/mnist_angle_noise_mid.yaml",
+    "checkpoint": "checkpoints_noise23/mnist_angle/noise_mid/last.pt",
+    "epoch": 10,
+    "recorded_accuracy": 52.734375,
+    "recorded_loss": 0.6932588908821344,
+    "evaluated_test_accuracy": 50.0
+  },
+  {
+    "config": "configs/noise_2.3/mnist_angle_noise_mid.yaml",
+    "checkpoint": "checkpoints_noise23/mnist_angle/noise_mid/mnist_angle_noise23_mid_epoch_1.pt",
+    "epoch": 1,
+    "recorded_accuracy": 50.390625,
+    "recorded_loss": 0.6941786613315344,
+    "evaluated_test_accuracy": 50.0
+  },
+  {
+    "config": "configs/noise_2.3/mnist_angle_noise_mid.yaml",
+    "checkpoint": "checkpoints_noise23/mnist_angle/noise_mid/mnist_angle_noise23_mid_epoch_10.pt",
+    "epoch": 10,
+    "recorded_accuracy": 52.734375,
+    "recorded_loss": 0.6932588908821344,
+    "evaluated_test_accuracy": 37.5
+  },
+  {
+    "config": "configs/noise_2.3/mnist_angle_noise_mid.yaml",
+    "checkpoint": "checkpoints_noise23/mnist_angle/noise_mid/mnist_angle_noise23_mid_epoch_2.pt",
+    "epoch": 2,
+    "recorded_accuracy": 52.734375,
+    "recorded_loss": 0.6941290572285652,
+    "evaluated_test_accuracy": 50.0
+  },
+  {
+    "config": "configs/noise_2.3/mnist_angle_noise_mid.yaml",
+    "checkpoint": "checkpoints_noise23/mnist_angle/noise_mid/mnist_angle_noise23_mid_epoch_3.pt",
+    "epoch": 3,
+    "recorded_accuracy": 52.734375,
+    "recorded_loss": 0.695624154061079,
+    "evaluated_test_accuracy": 68.75
+  },
+  {
+    "config": "configs/noise_2.3/mnist_angle_noise_mid.yaml",
+    "checkpoint": "checkpoints_noise23/mnist_angle/noise_mid/mnist_angle_noise23_mid_epoch_4.pt",
+    "epoch": 4,
+    "recorded_accuracy": 52.734375,
+    "recorded_loss": 0.6946613192558289,
+    "evaluated_test_accuracy": 37.5
+  },
+  {
+    "config": "configs/noise_2.3/mnist_angle_noise_mid.yaml",
+    "checkpoint": "checkpoints_noise23/mnist_angle/noise_mid/mnist_angle_noise23_mid_epoch_5.pt",
+    "epoch": 5,
+    "recorded_accuracy": 52.734375,
+    "recorded_loss": 0.6920665744692087,
+    "evaluated_test_accuracy": 56.25
+  },
+  {
+    "config": "configs/noise_2.3/mnist_angle_noise_mid.yaml",
+    "checkpoint": "checkpoints_noise23/mnist_angle/noise_mid/mnist_angle_noise23_mid_epoch_6.pt",
+    "epoch": 6,
+    "recorded_accuracy": 46.09375,
+    "recorded_loss": 0.6942495200783014,
+    "evaluated_test_accuracy": 50.0
+  },
+  {
+    "config": "configs/noise_2.3/mnist_angle_noise_mid.yaml",
+    "checkpoint": "checkpoints_noise23/mnist_angle/noise_mid/mnist_angle_noise23_mid_epoch_7.pt",
+    "epoch": 7,
+    "recorded_accuracy": 52.734375,
+    "recorded_loss": 0.6936236340552568,
+    "evaluated_test_accuracy": 56.25
+  },
+  {
+    "config": "configs/noise_2.3/mnist_angle_noise_mid.yaml",
+    "checkpoint": "checkpoints_noise23/mnist_angle/noise_mid/mnist_angle_noise23_mid_epoch_8.pt",
+    "epoch": 8,
+    "recorded_accuracy": 50.0,
+    "recorded_loss": 0.6957067362964153,
+    "evaluated_test_accuracy": 37.5
+  },
+  {
+    "config": "configs/noise_2.3/mnist_angle_noise_mid.yaml",
+    "checkpoint": "checkpoints_noise23/mnist_angle/noise_mid/mnist_angle_noise23_mid_epoch_9.pt",
+    "epoch": 9,
+    "recorded_accuracy": 52.734375,
+    "recorded_loss": 0.6936014927923679,
+    "evaluated_test_accuracy": 56.25
+  },
+  {
+    "config": "configs/noise_2.3.1/mnist_amplitude_noise_high.yaml",
+    "checkpoint": "checkpoints_noise23_1/mnist_amplitude/noise_high/best.pt",
+    "epoch": 10,
+    "recorded_accuracy": 57.03125,
+    "recorded_loss": 0.6706478074193001,
+    "evaluated_test_accuracy": 56.25
+  },
+  {
+    "config": "configs/noise_2.3.1/mnist_amplitude_noise_high.yaml",
+    "checkpoint": "checkpoints_noise23_1/mnist_amplitude/noise_high/last.pt",
+    "epoch": 10,
+    "recorded_accuracy": 57.03125,
+    "recorded_loss": 0.6706478074193001,
+    "evaluated_test_accuracy": 50.0
+  },
+  {
+    "config": "configs/noise_2.3.1/mnist_amplitude_noise_high.yaml",
+    "checkpoint": "checkpoints_noise23_1/mnist_amplitude/noise_high/mnist_amplitude_noise23_1_high_epoch_1.pt",
+    "epoch": 1,
+    "recorded_accuracy": 53.90625,
+    "recorded_loss": 1.1327252686023712,
+    "evaluated_test_accuracy": 37.5
+  },
+  {
+    "config": "configs/noise_2.3.1/mnist_amplitude_noise_high.yaml",
+    "checkpoint": "checkpoints_noise23_1/mnist_amplitude/noise_high/mnist_amplitude_noise23_1_high_epoch_10.pt",
+    "epoch": 10,
+    "recorded_accuracy": 57.03125,
+    "recorded_loss": 0.6706478074193001,
+    "evaluated_test_accuracy": 43.75
+  },
+  {
+    "config": "configs/noise_2.3.1/mnist_amplitude_noise_high.yaml",
+    "checkpoint": "checkpoints_noise23_1/mnist_amplitude/noise_high/mnist_amplitude_noise23_1_high_epoch_2.pt",
+    "epoch": 2,
+    "recorded_accuracy": 53.515625,
+    "recorded_loss": 1.0020293667912483,
+    "evaluated_test_accuracy": 50.0
+  },
+  {
+    "config": "configs/noise_2.3.1/mnist_amplitude_noise_high.yaml",
+    "checkpoint": "checkpoints_noise23_1/mnist_amplitude/noise_high/mnist_amplitude_noise23_1_high_epoch_3.pt",
+    "epoch": 3,
+    "recorded_accuracy": 53.125,
+    "recorded_loss": 0.896443385630846,
+    "evaluated_test_accuracy": 50.0
+  },
+  {
+    "config": "configs/noise_2.3.1/mnist_amplitude_noise_high.yaml",
+    "checkpoint": "checkpoints_noise23_1/mnist_amplitude/noise_high/mnist_amplitude_noise23_1_high_epoch_4.pt",
+    "epoch": 4,
+    "recorded_accuracy": 51.953125,
+    "recorded_loss": 0.8177935183048248,
+    "evaluated_test_accuracy": 62.5
+  },
+  {
+    "config": "configs/noise_2.3.1/mnist_amplitude_noise_high.yaml",
+    "checkpoint": "checkpoints_noise23_1/mnist_amplitude/noise_high/mnist_amplitude_noise23_1_high_epoch_5.pt",
+    "epoch": 5,
+    "recorded_accuracy": 53.90625,
+    "recorded_loss": 0.7642493918538094,
+    "evaluated_test_accuracy": 43.75
+  },
+  {
+    "config": "configs/noise_2.3.1/mnist_amplitude_noise_high.yaml",
+    "checkpoint": "checkpoints_noise23_1/mnist_amplitude/noise_high/mnist_amplitude_noise23_1_high_epoch_6.pt",
+    "epoch": 6,
+    "recorded_accuracy": 53.515625,
+    "recorded_loss": 0.7316012382507324,
+    "evaluated_test_accuracy": 68.75
+  },
+  {
+    "config": "configs/noise_2.3.1/mnist_amplitude_noise_high.yaml",
+    "checkpoint": "checkpoints_noise23_1/mnist_amplitude/noise_high/mnist_amplitude_noise23_1_high_epoch_7.pt",
+    "epoch": 7,
+    "recorded_accuracy": 53.90625,
+    "recorded_loss": 0.7087344564497471,
+    "evaluated_test_accuracy": 56.25
+  },
+  {
+    "config": "configs/noise_2.3.1/mnist_amplitude_noise_high.yaml",
+    "checkpoint": "checkpoints_noise23_1/mnist_amplitude/noise_high/mnist_amplitude_noise23_1_high_epoch_8.pt",
+    "epoch": 8,
+    "recorded_accuracy": 53.90625,
+    "recorded_loss": 0.694567508995533,
+    "evaluated_test_accuracy": 50.0
+  },
+  {
+    "config": "configs/noise_2.3.1/mnist_amplitude_noise_high.yaml",
+    "checkpoint": "checkpoints_noise23_1/mnist_amplitude/noise_high/mnist_amplitude_noise23_1_high_epoch_9.pt",
+    "epoch": 9,
+    "recorded_accuracy": 54.6875,
+    "recorded_loss": 0.6830866299569607,
+    "evaluated_test_accuracy": 68.75
+  },
+  {
+    "config": "configs/noise_2.3.1/mnist_amplitude_noise_low.yaml",
+    "checkpoint": "checkpoints_noise23_1/mnist_amplitude/noise_low/best.pt",
+    "epoch": 10,
+    "recorded_accuracy": 93.75,
+    "recorded_loss": 0.40990186855196953,
+    "evaluated_test_accuracy": 100.0
+  },
+  {
+    "config": "configs/noise_2.3.1/mnist_amplitude_noise_low.yaml",
+    "checkpoint": "checkpoints_noise23_1/mnist_amplitude/noise_low/last.pt",
+    "epoch": 10,
+    "recorded_accuracy": 93.75,
+    "recorded_loss": 0.40990186855196953,
+    "evaluated_test_accuracy": 100.0
+  },
+  {
+    "config": "configs/noise_2.3.1/mnist_amplitude_noise_low.yaml",
+    "checkpoint": "checkpoints_noise23_1/mnist_amplitude/noise_low/mnist_amplitude_noise23_1_low_epoch_1.pt",
+    "epoch": 1,
+    "recorded_accuracy": 50.0,
+    "recorded_loss": 0.8587822578847408,
+    "evaluated_test_accuracy": 43.75
+  },
+  {
+    "config": "configs/noise_2.3.1/mnist_amplitude_noise_low.yaml",
+    "checkpoint": "checkpoints_noise23_1/mnist_amplitude/noise_low/mnist_amplitude_noise23_1_low_epoch_10.pt",
+    "epoch": 10,
+    "recorded_accuracy": 93.75,
+    "recorded_loss": 0.40990186855196953,
+    "evaluated_test_accuracy": 93.75
+  },
+  {
+    "config": "configs/noise_2.3.1/mnist_amplitude_noise_low.yaml",
+    "checkpoint": "checkpoints_noise23_1/mnist_amplitude/noise_low/mnist_amplitude_noise23_1_low_epoch_2.pt",
+    "epoch": 2,
+    "recorded_accuracy": 50.0,
+    "recorded_loss": 0.7955751940608025,
+    "evaluated_test_accuracy": 43.75
+  },
+  {
+    "config": "configs/noise_2.3.1/mnist_amplitude_noise_low.yaml",
+    "checkpoint": "checkpoints_noise23_1/mnist_amplitude/noise_low/mnist_amplitude_noise23_1_low_epoch_3.pt",
+    "epoch": 3,
+    "recorded_accuracy": 50.0,
+    "recorded_loss": 0.7329006530344486,
+    "evaluated_test_accuracy": 37.5
+  },
+  {
+    "config": "configs/noise_2.3.1/mnist_amplitude_noise_low.yaml",
+    "checkpoint": "checkpoints_noise23_1/mnist_amplitude/noise_low/mnist_amplitude_noise23_1_low_epoch_4.pt",
+    "epoch": 4,
+    "recorded_accuracy": 50.0,
+    "recorded_loss": 0.662069033831358,
+    "evaluated_test_accuracy": 56.25
+  },
+  {
+    "config": "configs/noise_2.3.1/mnist_amplitude_noise_low.yaml",
+    "checkpoint": "checkpoints_noise23_1/mnist_amplitude/noise_low/mnist_amplitude_noise23_1_low_epoch_5.pt",
+    "epoch": 5,
+    "recorded_accuracy": 79.6875,
+    "recorded_loss": 0.5967128090560436,
+    "evaluated_test_accuracy": 100.0
+  },
+  {
+    "config": "configs/noise_2.3.1/mnist_amplitude_noise_low.yaml",
+    "checkpoint": "checkpoints_noise23_1/mnist_amplitude/noise_low/mnist_amplitude_noise23_1_low_epoch_6.pt",
+    "epoch": 6,
+    "recorded_accuracy": 92.1875,
+    "recorded_loss": 0.5338841006159782,
+    "evaluated_test_accuracy": 87.5
+  },
+  {
+    "config": "configs/noise_2.3.1/mnist_amplitude_noise_low.yaml",
+    "checkpoint": "checkpoints_noise23_1/mnist_amplitude/noise_low/mnist_amplitude_noise23_1_low_epoch_7.pt",
+    "epoch": 7,
+    "recorded_accuracy": 92.96875,
+    "recorded_loss": 0.49129468947649,
+    "evaluated_test_accuracy": 100.0
+  },
+  {
+    "config": "configs/noise_2.3.1/mnist_amplitude_noise_low.yaml",
+    "checkpoint": "checkpoints_noise23_1/mnist_amplitude/noise_low/mnist_amplitude_noise23_1_low_epoch_8.pt",
+    "epoch": 8,
+    "recorded_accuracy": 92.96875,
+    "recorded_loss": 0.45555887930095196,
+    "evaluated_test_accuracy": 93.75
+  },
+  {
+    "config": "configs/noise_2.3.1/mnist_amplitude_noise_low.yaml",
+    "checkpoint": "checkpoints_noise23_1/mnist_amplitude/noise_low/mnist_amplitude_noise23_1_low_epoch_9.pt",
+    "epoch": 9,
+    "recorded_accuracy": 93.359375,
+    "recorded_loss": 0.4300730284303427,
+    "evaluated_test_accuracy": 93.75
+  },
+  {
+    "config": "configs/noise_2.3.1/mnist_amplitude_noise_mid.yaml",
+    "checkpoint": "checkpoints_noise23_1/mnist_amplitude/noise_mid/best.pt",
+    "epoch": 10,
+    "recorded_accuracy": 95.3125,
+    "recorded_loss": 0.333729462698102,
+    "evaluated_test_accuracy": 75.0
+  },
+  {
+    "config": "configs/noise_2.3.1/mnist_amplitude_noise_mid.yaml",
+    "checkpoint": "checkpoints_noise23_1/mnist_amplitude/noise_mid/last.pt",
+    "epoch": 10,
+    "recorded_accuracy": 95.3125,
+    "recorded_loss": 0.333729462698102,
+    "evaluated_test_accuracy": 93.75
+  },
+  {
+    "config": "configs/noise_2.3.1/mnist_amplitude_noise_mid.yaml",
+    "checkpoint": "checkpoints_noise23_1/mnist_amplitude/noise_mid/mnist_amplitude_noise23_1_mid_epoch_1.pt",
+    "epoch": 1,
+    "recorded_accuracy": 46.09375,
+    "recorded_loss": 0.8514426648616791,
+    "evaluated_test_accuracy": 43.75
+  },
+  {
+    "config": "configs/noise_2.3.1/mnist_amplitude_noise_mid.yaml",
+    "checkpoint": "checkpoints_noise23_1/mnist_amplitude/noise_mid/mnist_amplitude_noise23_1_mid_epoch_10.pt",
+    "epoch": 10,
+    "recorded_accuracy": 95.3125,
+    "recorded_loss": 0.333729462698102,
+    "evaluated_test_accuracy": 81.25
+  },
+  {
+    "config": "configs/noise_2.3.1/mnist_amplitude_noise_mid.yaml",
+    "checkpoint": "checkpoints_noise23_1/mnist_amplitude/noise_mid/mnist_amplitude_noise23_1_mid_epoch_2.pt",
+    "epoch": 2,
+    "recorded_accuracy": 46.09375,
+    "recorded_loss": 0.7368644699454308,
+    "evaluated_test_accuracy": 56.25
+  },
+  {
+    "config": "configs/noise_2.3.1/mnist_amplitude_noise_mid.yaml",
+    "checkpoint": "checkpoints_noise23_1/mnist_amplitude/noise_mid/mnist_amplitude_noise23_1_mid_epoch_3.pt",
+    "epoch": 3,
+    "recorded_accuracy": 56.25,
+    "recorded_loss": 0.6342461220920086,
+    "evaluated_test_accuracy": 56.25
+  },
+  {
+    "config": "configs/noise_2.3.1/mnist_amplitude_noise_mid.yaml",
+    "checkpoint": "checkpoints_noise23_1/mnist_amplitude/noise_mid/mnist_amplitude_noise23_1_mid_epoch_4.pt",
+    "epoch": 4,
+    "recorded_accuracy": 81.25,
+    "recorded_loss": 0.5482625886797905,
+    "evaluated_test_accuracy": 87.5
+  },
+  {
+    "config": "configs/noise_2.3.1/mnist_amplitude_noise_mid.yaml",
+    "checkpoint": "checkpoints_noise23_1/mnist_amplitude/noise_mid/mnist_amplitude_noise23_1_mid_epoch_5.pt",
+    "epoch": 5,
+    "recorded_accuracy": 91.015625,
+    "recorded_loss": 0.49131636321544647,
+    "evaluated_test_accuracy": 68.75
+  },
+  {
+    "config": "configs/noise_2.3.1/mnist_amplitude_noise_mid.yaml",
+    "checkpoint": "checkpoints_noise23_1/mnist_amplitude/noise_mid/mnist_amplitude_noise23_1_mid_epoch_6.pt",
+    "epoch": 6,
+    "recorded_accuracy": 94.140625,
+    "recorded_loss": 0.43727730587124825,
+    "evaluated_test_accuracy": 87.5
+  },
+  {
+    "config": "configs/noise_2.3.1/mnist_amplitude_noise_mid.yaml",
+    "checkpoint": "checkpoints_noise23_1/mnist_amplitude/noise_mid/mnist_amplitude_noise23_1_mid_epoch_7.pt",
+    "epoch": 7,
+    "recorded_accuracy": 94.53125,
+    "recorded_loss": 0.399245984852314,
+    "evaluated_test_accuracy": 100.0
+  },
+  {
+    "config": "configs/noise_2.3.1/mnist_amplitude_noise_mid.yaml",
+    "checkpoint": "checkpoints_noise23_1/mnist_amplitude/noise_mid/mnist_amplitude_noise23_1_mid_epoch_8.pt",
+    "epoch": 8,
+    "recorded_accuracy": 94.140625,
+    "recorded_loss": 0.37337576039135456,
+    "evaluated_test_accuracy": 87.5
+  },
+  {
+    "config": "configs/noise_2.3.1/mnist_amplitude_noise_mid.yaml",
+    "checkpoint": "checkpoints_noise23_1/mnist_amplitude/noise_mid/mnist_amplitude_noise23_1_mid_epoch_9.pt",
+    "epoch": 9,
+    "recorded_accuracy": 94.921875,
+    "recorded_loss": 0.3511962704360485,
+    "evaluated_test_accuracy": 87.5
+  },
+  {
+    "config": "configs/noise_2.3.1/mnist_angle_noise_high.yaml",
+    "checkpoint": "checkpoints_noise23_1/mnist_angle/noise_high/best.pt",
+    "epoch": 2,
+    "recorded_accuracy": 52.34375,
+    "recorded_loss": 0.6953215580433607,
+    "evaluated_test_accuracy": 56.25
+  },
+  {
+    "config": "configs/noise_2.3.1/mnist_angle_noise_high.yaml",
+    "checkpoint": "checkpoints_noise23_1/mnist_angle/noise_high/last.pt",
+    "epoch": 9,
+    "recorded_accuracy": 43.359375,
+    "recorded_loss": 0.69738694652915,
+    "evaluated_test_accuracy": 56.25
+  },
+  {
+    "config": "configs/noise_2.3.1/mnist_angle_noise_high.yaml",
+    "checkpoint": "checkpoints_noise23_1/mnist_angle/noise_high/mnist_angle_noise23_1_high_epoch_1.pt",
+    "epoch": 1,
+    "recorded_accuracy": 50.78125,
+    "recorded_loss": 0.6930352468043566,
+    "evaluated_test_accuracy": 31.25
+  },
+  {
+    "config": "configs/noise_2.3.1/mnist_angle_noise_high.yaml",
+    "checkpoint": "checkpoints_noise23_1/mnist_angle/noise_high/mnist_angle_noise23_1_high_epoch_2.pt",
+    "epoch": 2,
+    "recorded_accuracy": 52.34375,
+    "recorded_loss": 0.6953215580433607,
+    "evaluated_test_accuracy": 62.5
+  },
+  {
+    "config": "configs/noise_2.3.1/mnist_angle_noise_high.yaml",
+    "checkpoint": "checkpoints_noise23_1/mnist_angle/noise_high/mnist_angle_noise23_1_high_epoch_3.pt",
+    "epoch": 3,
+    "recorded_accuracy": 48.046875,
+    "recorded_loss": 0.6960966065526009,
+    "evaluated_test_accuracy": 18.75
+  },
+  {
+    "config": "configs/noise_2.3.1/mnist_angle_noise_high.yaml",
+    "checkpoint": "checkpoints_noise23_1/mnist_angle/noise_high/mnist_angle_noise23_1_high_epoch_4.pt",
+    "epoch": 4,
+    "recorded_accuracy": 48.046875,
+    "recorded_loss": 0.6981605123728514,
+    "evaluated_test_accuracy": 68.75
+  },
+  {
+    "config": "configs/noise_2.3.1/mnist_angle_noise_high.yaml",
+    "checkpoint": "checkpoints_noise23_1/mnist_angle/noise_high/mnist_angle_noise23_1_high_epoch_5.pt",
+    "epoch": 5,
+    "recorded_accuracy": 50.0,
+    "recorded_loss": 0.6939788106828928,
+    "evaluated_test_accuracy": 37.5
+  },
+  {
+    "config": "configs/noise_2.3.1/mnist_angle_noise_high.yaml",
+    "checkpoint": "checkpoints_noise23_1/mnist_angle/noise_high/mnist_angle_noise23_1_high_epoch_6.pt",
+    "epoch": 6,
+    "recorded_accuracy": 48.046875,
+    "recorded_loss": 0.6959013435989618,
+    "evaluated_test_accuracy": 50.0
+  },
+  {
+    "config": "configs/noise_2.3.1/mnist_angle_noise_high.yaml",
+    "checkpoint": "checkpoints_noise23_1/mnist_angle/noise_high/mnist_angle_noise23_1_high_epoch_7.pt",
+    "epoch": 7,
+    "recorded_accuracy": 46.484375,
+    "recorded_loss": 0.694709300994873,
+    "evaluated_test_accuracy": 62.5
+  },
+  {
+    "config": "configs/noise_2.3.1/mnist_angle_noise_high.yaml",
+    "checkpoint": "checkpoints_noise23_1/mnist_angle/noise_high/mnist_angle_noise23_1_high_epoch_8.pt",
+    "epoch": 8,
+    "recorded_accuracy": 50.78125,
+    "recorded_loss": 0.6930834073573351,
+    "evaluated_test_accuracy": 62.5
+  },
+  {
+    "config": "configs/noise_2.3.1/mnist_angle_noise_high.yaml",
+    "checkpoint": "checkpoints_noise23_1/mnist_angle/noise_high/mnist_angle_noise23_1_high_epoch_9.pt",
+    "epoch": 9,
+    "recorded_accuracy": 43.359375,
+    "recorded_loss": 0.69738694652915,
+    "evaluated_test_accuracy": 62.5
+  },
+  {
+    "config": "configs/noise_2.3.1/mnist_angle_noise_low.yaml",
+    "checkpoint": "checkpoints_noise23_1/mnist_angle/noise_low/best.pt",
+    "epoch": 7,
+    "recorded_accuracy": 53.125,
+    "recorded_loss": 0.6932568363845348,
+    "evaluated_test_accuracy": 56.25
+  },
+  {
+    "config": "configs/noise_2.3.1/mnist_angle_noise_low.yaml",
+    "checkpoint": "checkpoints_noise23_1/mnist_angle/noise_low/last.pt",
+    "epoch": 9,
+    "recorded_accuracy": 52.734375,
+    "recorded_loss": 0.6917962171137333,
+    "evaluated_test_accuracy": 75.0
+  },
+  {
+    "config": "configs/noise_2.3.1/mnist_angle_noise_low.yaml",
+    "checkpoint": "checkpoints_noise23_1/mnist_angle/noise_low/mnist_angle_noise23_1_low_epoch_1.pt",
+    "epoch": 1,
+    "recorded_accuracy": 52.34375,
+    "recorded_loss": 0.7436886709183455,
+    "evaluated_test_accuracy": 62.5
+  },
+  {
+    "config": "configs/noise_2.3.1/mnist_angle_noise_low.yaml",
+    "checkpoint": "checkpoints_noise23_1/mnist_angle/noise_low/mnist_angle_noise23_1_low_epoch_2.pt",
+    "epoch": 2,
+    "recorded_accuracy": 52.34375,
+    "recorded_loss": 0.6947897616773844,
+    "evaluated_test_accuracy": 81.25
+  },
+  {
+    "config": "configs/noise_2.3.1/mnist_angle_noise_low.yaml",
+    "checkpoint": "checkpoints_noise23_1/mnist_angle/noise_low/mnist_angle_noise23_1_low_epoch_3.pt",
+    "epoch": 3,
+    "recorded_accuracy": 52.34375,
+    "recorded_loss": 0.6925796028226614,
+    "evaluated_test_accuracy": 81.25
+  },
+  {
+    "config": "configs/noise_2.3.1/mnist_angle_noise_low.yaml",
+    "checkpoint": "checkpoints_noise23_1/mnist_angle/noise_low/mnist_angle_noise23_1_low_epoch_4.pt",
+    "epoch": 4,
+    "recorded_accuracy": 52.34375,
+    "recorded_loss": 0.6930092144757509,
+    "evaluated_test_accuracy": 75.0
+  },
+  {
+    "config": "configs/noise_2.3.1/mnist_angle_noise_low.yaml",
+    "checkpoint": "checkpoints_noise23_1/mnist_angle/noise_low/mnist_angle_noise23_1_low_epoch_5.pt",
+    "epoch": 5,
+    "recorded_accuracy": 52.34375,
+    "recorded_loss": 0.6919253077358007,
+    "evaluated_test_accuracy": 37.5
+  },
+  {
+    "config": "configs/noise_2.3.1/mnist_angle_noise_low.yaml",
+    "checkpoint": "checkpoints_noise23_1/mnist_angle/noise_low/mnist_angle_noise23_1_low_epoch_6.pt",
+    "epoch": 6,
+    "recorded_accuracy": 52.734375,
+    "recorded_loss": 0.6920807994902134,
+    "evaluated_test_accuracy": 50.0
+  },
+  {
+    "config": "configs/noise_2.3.1/mnist_angle_noise_mid.yaml",
+    "checkpoint": "checkpoints_noise23_1/mnist_angle/noise_mid/best.pt",
+    "epoch": 2,
+    "recorded_accuracy": 51.5625,
+    "recorded_loss": 0.6954404097050428,
+    "evaluated_test_accuracy": 43.75
+  },
+  {
+    "config": "configs/noise_2.3.1/mnist_angle_noise_mid.yaml",
+    "checkpoint": "checkpoints_noise23_1/mnist_angle/noise_mid/last.pt",
+    "epoch": 9,
+    "recorded_accuracy": 51.5625,
+    "recorded_loss": 0.6932267714291811,
+    "evaluated_test_accuracy": 50.0
+  },
+  {
+    "config": "configs/noise_2.3.1/mnist_angle_noise_mid.yaml",
+    "checkpoint": "checkpoints_noise23_1/mnist_angle/noise_mid/mnist_angle_noise23_1_mid_epoch_1.pt",
+    "epoch": 1,
+    "recorded_accuracy": 44.921875,
+    "recorded_loss": 0.6983799915760756,
+    "evaluated_test_accuracy": 68.75
+  },
+  {
+    "config": "configs/noise_2.3.1/mnist_angle_noise_mid.yaml",
+    "checkpoint": "checkpoints_noise23_1/mnist_angle/noise_mid/mnist_angle_noise23_1_mid_epoch_2.pt",
+    "epoch": 2,
+    "recorded_accuracy": 51.5625,
+    "recorded_loss": 0.6954404097050428,
+    "evaluated_test_accuracy": 62.5
+  },
+  {
+    "config": "configs/noise_2.3.1/mnist_angle_noise_mid.yaml",
+    "checkpoint": "checkpoints_noise23_1/mnist_angle/noise_mid/mnist_angle_noise23_1_mid_epoch_3.pt",
+    "epoch": 3,
+    "recorded_accuracy": 51.5625,
+    "recorded_loss": 0.6945707760751247,
+    "evaluated_test_accuracy": 56.25
+  },
+  {
+    "config": "configs/noise_2.3.1/mnist_angle_noise_mid.yaml",
+    "checkpoint": "checkpoints_noise23_1/mnist_angle/noise_mid/mnist_angle_noise23_1_mid_epoch_4.pt",
+    "epoch": 4,
+    "recorded_accuracy": 46.875,
+    "recorded_loss": 0.694803599268198,
+    "evaluated_test_accuracy": 62.5
+  },
+  {
+    "config": "configs/noise_2.3.1/mnist_angle_noise_mid.yaml",
+    "checkpoint": "checkpoints_noise23_1/mnist_angle/noise_mid/mnist_angle_noise23_1_mid_epoch_5.pt",
+    "epoch": 5,
+    "recorded_accuracy": 46.09375,
+    "recorded_loss": 0.6942113693803549,
+    "evaluated_test_accuracy": 50.0
+  },
+  {
+    "config": "configs/noise_2.3.1/mnist_angle_noise_mid.yaml",
+    "checkpoint": "checkpoints_noise23_1/mnist_angle/noise_mid/mnist_angle_noise23_1_mid_epoch_6.pt",
+    "epoch": 6,
+    "recorded_accuracy": 51.5625,
+    "recorded_loss": 0.6928629148751497,
+    "evaluated_test_accuracy": 50.0
+  },
+  {
+    "config": "configs/noise_2.3.1/mnist_angle_noise_mid.yaml",
+    "checkpoint": "checkpoints_noise23_1/mnist_angle/noise_mid/mnist_angle_noise23_1_mid_epoch_7.pt",
+    "epoch": 7,
+    "recorded_accuracy": 51.5625,
+    "recorded_loss": 0.6930796895176172,
+    "evaluated_test_accuracy": 50.0
+  },
+  {
+    "config": "configs/noise_2.3.1/mnist_angle_noise_mid.yaml",
+    "checkpoint": "checkpoints_noise23_1/mnist_angle/noise_mid/mnist_angle_noise23_1_mid_epoch_8.pt",
+    "epoch": 8,
+    "recorded_accuracy": 51.5625,
+    "recorded_loss": 0.69352619163692,
+    "evaluated_test_accuracy": 50.0
+  },
+  {
+    "config": "configs/noise_2.3.1/mnist_angle_noise_mid.yaml",
+    "checkpoint": "checkpoints_noise23_1/mnist_angle/noise_mid/mnist_angle_noise23_1_mid_epoch_9.pt",
+    "epoch": 9,
+    "recorded_accuracy": 51.5625,
+    "recorded_loss": 0.6932267714291811,
+    "evaluated_test_accuracy": 62.5
+  },
+  {
+    "config": "configs/noise_2.3.1/mnist_hybrid_noise_high.yaml",
+    "checkpoint": "checkpoints_noise23_1/mnist_hybrid/noise_high/best.pt",
+    "epoch": 4,
+    "recorded_accuracy": 61.328125,
+    "recorded_loss": 0.656936502084136,
+    "evaluated_test_accuracy": 50.0
+  },
+  {
+    "config": "configs/noise_2.3.1/mnist_hybrid_noise_high.yaml",
+    "checkpoint": "checkpoints_noise23_1/mnist_hybrid/noise_high/last.pt",
+    "epoch": 10,
+    "recorded_accuracy": 58.203125,
+    "recorded_loss": 0.6483742482960224,
+    "evaluated_test_accuracy": 56.25
+  },
+  {
+    "config": "configs/noise_2.3.1/mnist_hybrid_noise_high.yaml",
+    "checkpoint": "checkpoints_noise23_1/mnist_hybrid/noise_high/mnist_hybrid_noise23_1_high_epoch_1.pt",
+    "epoch": 1,
+    "recorded_accuracy": 45.703125,
+    "recorded_loss": 0.7861925233155489,
+    "evaluated_test_accuracy": 37.5
+  },
+  {
+    "config": "configs/noise_2.3.1/mnist_hybrid_noise_high.yaml",
+    "checkpoint": "checkpoints_noise23_1/mnist_hybrid/noise_high/mnist_hybrid_noise23_1_high_epoch_10.pt",
+    "epoch": 10,
+    "recorded_accuracy": 58.203125,
+    "recorded_loss": 0.6483742482960224,
+    "evaluated_test_accuracy": 56.25
+  },
+  {
+    "config": "configs/noise_2.3.1/mnist_hybrid_noise_high.yaml",
+    "checkpoint": "checkpoints_noise23_1/mnist_hybrid/noise_high/mnist_hybrid_noise23_1_high_epoch_2.pt",
+    "epoch": 2,
+    "recorded_accuracy": 50.78125,
+    "recorded_loss": 0.7041281890124083,
+    "evaluated_test_accuracy": 31.25
+  },
+  {
+    "config": "configs/noise_2.3.1/mnist_hybrid_noise_high.yaml",
+    "checkpoint": "checkpoints_noise23_1/mnist_hybrid/noise_high/mnist_hybrid_noise23_1_high_epoch_3.pt",
+    "epoch": 3,
+    "recorded_accuracy": 60.15625,
+    "recorded_loss": 0.6672257147729397,
+    "evaluated_test_accuracy": 50.0
+  },
+  {
+    "config": "configs/noise_2.3.1/mnist_hybrid_noise_high.yaml",
+    "checkpoint": "checkpoints_noise23_1/mnist_hybrid/noise_high/mnist_hybrid_noise23_1_high_epoch_4.pt",
+    "epoch": 4,
+    "recorded_accuracy": 61.328125,
+    "recorded_loss": 0.656936502084136,
+    "evaluated_test_accuracy": 31.25
+  },
+  {
+    "config": "configs/noise_2.3.1/mnist_hybrid_noise_high.yaml",
+    "checkpoint": "checkpoints_noise23_1/mnist_hybrid/noise_high/mnist_hybrid_noise23_1_high_epoch_5.pt",
+    "epoch": 5,
+    "recorded_accuracy": 57.8125,
+    "recorded_loss": 0.653262977488339,
+    "evaluated_test_accuracy": 62.5
+  },
+  {
+    "config": "configs/noise_2.3.1/mnist_hybrid_noise_high.yaml",
+    "checkpoint": "checkpoints_noise23_1/mnist_hybrid/noise_high/mnist_hybrid_noise23_1_high_epoch_6.pt",
+    "epoch": 6,
+    "recorded_accuracy": 58.984375,
+    "recorded_loss": 0.6523066526278853,
+    "evaluated_test_accuracy": 62.5
+  },
+  {
+    "config": "configs/noise_2.3.1/mnist_hybrid_noise_high.yaml",
+    "checkpoint": "checkpoints_noise23_1/mnist_hybrid/noise_high/mnist_hybrid_noise23_1_high_epoch_7.pt",
+    "epoch": 7,
+    "recorded_accuracy": 58.984375,
+    "recorded_loss": 0.6489656530320644,
+    "evaluated_test_accuracy": 50.0
+  },
+  {
+    "config": "configs/noise_2.3.1/mnist_hybrid_noise_high.yaml",
+    "checkpoint": "checkpoints_noise23_1/mnist_hybrid/noise_high/mnist_hybrid_noise23_1_high_epoch_8.pt",
+    "epoch": 8,
+    "recorded_accuracy": 57.8125,
+    "recorded_loss": 0.6489090900868177,
+    "evaluated_test_accuracy": 43.75
+  },
+  {
+    "config": "configs/noise_2.3.1/mnist_hybrid_noise_high.yaml",
+    "checkpoint": "checkpoints_noise23_1/mnist_hybrid/noise_high/mnist_hybrid_noise23_1_high_epoch_9.pt",
+    "epoch": 9,
+    "recorded_accuracy": 58.203125,
+    "recorded_loss": 0.6489214468747377,
+    "evaluated_test_accuracy": 31.25
+  },
+  {
+    "config": "configs/noise_2.3.1/fashion_amplitude_noise_high.yaml",
+    "checkpoint": "checkpoints_noise23_1/fashion_amplitude/noise_high/best.pt",
+    "epoch": 6,
+    "recorded_accuracy": 95.3125,
+    "recorded_loss": 0.4398519042879343,
+    "evaluated_test_accuracy": 93.75
+  },
+  {
+    "config": "configs/noise_2.3.1/fashion_amplitude_noise_high.yaml",
+    "checkpoint": "checkpoints_noise23_1/fashion_amplitude/noise_high/fashion_amplitude_noise23_1_high_epoch_1.pt",
+    "epoch": 1,
+    "recorded_accuracy": 50.78125,
+    "recorded_loss": 0.8939236961305141,
+    "evaluated_test_accuracy": 62.5
+  },
+  {
+    "config": "configs/noise_2.3.1/fashion_amplitude_noise_high.yaml",
+    "checkpoint": "checkpoints_noise23_1/fashion_amplitude/noise_high/fashion_amplitude_noise23_1_high_epoch_10.pt",
+    "epoch": 10,
+    "recorded_accuracy": 93.359375,
+    "recorded_loss": 0.35390288569033146,
+    "evaluated_test_accuracy": 87.5
+  },
+  {
+    "config": "configs/noise_2.3.1/fashion_amplitude_noise_high.yaml",
+    "checkpoint": "checkpoints_noise23_1/fashion_amplitude/noise_high/fashion_amplitude_noise23_1_high_epoch_2.pt",
+    "epoch": 2,
+    "recorded_accuracy": 50.78125,
+    "recorded_loss": 0.754676628857851,
+    "evaluated_test_accuracy": 56.25
+  },
+  {
+    "config": "configs/noise_2.3.1/fashion_amplitude_noise_high.yaml",
+    "checkpoint": "checkpoints_noise23_1/fashion_amplitude/noise_high/fashion_amplitude_noise23_1_high_epoch_3.pt",
+    "epoch": 3,
+    "recorded_accuracy": 50.78125,
+    "recorded_loss": 0.6284614652395248,
+    "evaluated_test_accuracy": 56.25
+  },
+  {
+    "config": "configs/noise_2.3.1/fashion_amplitude_noise_high.yaml",
+    "checkpoint": "checkpoints_noise23_1/fashion_amplitude/noise_high/fashion_amplitude_noise23_1_high_epoch_4.pt",
+    "epoch": 4,
+    "recorded_accuracy": 73.4375,
+    "recorded_loss": 0.537982702255249,
+    "evaluated_test_accuracy": 93.75
+  },
+  {
+    "config": "configs/noise_2.3.1/fashion_amplitude_noise_high.yaml",
+    "checkpoint": "checkpoints_noise23_1/fashion_amplitude/noise_high/fashion_amplitude_noise23_1_high_epoch_5.pt",
+    "epoch": 5,
+    "recorded_accuracy": 94.53125,
+    "recorded_loss": 0.476553600281477,
+    "evaluated_test_accuracy": 93.75
+  },
+  {
+    "config": "configs/noise_2.3.1/fashion_amplitude_noise_high.yaml",
+    "checkpoint": "checkpoints_noise23_1/fashion_amplitude/noise_high/fashion_amplitude_noise23_1_high_epoch_6.pt",
+    "epoch": 6,
+    "recorded_accuracy": 95.3125,
+    "recorded_loss": 0.4398519042879343,
+    "evaluated_test_accuracy": 81.25
+  },
+  {
+    "config": "configs/noise_2.3.1/fashion_amplitude_noise_high.yaml",
+    "checkpoint": "checkpoints_noise23_1/fashion_amplitude/noise_high/fashion_amplitude_noise23_1_high_epoch_7.pt",
+    "epoch": 7,
+    "recorded_accuracy": 95.3125,
+    "recorded_loss": 0.4069396685808897,
+    "evaluated_test_accuracy": 93.75
+  },
+  {
+    "config": "configs/noise_2.3.1/fashion_amplitude_noise_high.yaml",
+    "checkpoint": "checkpoints_noise23_1/fashion_amplitude/noise_high/fashion_amplitude_noise23_1_high_epoch_8.pt",
+    "epoch": 8,
+    "recorded_accuracy": 94.921875,
+    "recorded_loss": 0.38611190766096115,
+    "evaluated_test_accuracy": 100.0
+  },
+  {
+    "config": "configs/noise_2.3.1/fashion_amplitude_noise_high.yaml",
+    "checkpoint": "checkpoints_noise23_1/fashion_amplitude/noise_high/fashion_amplitude_noise23_1_high_epoch_9.pt",
+    "epoch": 9,
+    "recorded_accuracy": 93.75,
+    "recorded_loss": 0.3653668351471424,
+    "evaluated_test_accuracy": 87.5
+  },
+  {
+    "config": "configs/noise_2.3.1/fashion_amplitude_noise_high.yaml",
+    "checkpoint": "checkpoints_noise23_1/fashion_amplitude/noise_high/last.pt",
+    "epoch": 10,
+    "recorded_accuracy": 93.359375,
+    "recorded_loss": 0.35390288569033146,
+    "evaluated_test_accuracy": 93.75
+  },
+  {
+    "config": "configs/noise_2.3.1/fashion_amplitude_noise_low.yaml",
+    "checkpoint": "checkpoints_noise23_1/fashion_amplitude/noise_low/best.pt",
+    "epoch": 10,
+    "recorded_accuracy": 86.328125,
+    "recorded_loss": 0.3843606738373637,
+    "evaluated_test_accuracy": 87.5
+  },
+  {
+    "config": "configs/noise_2.3.1/fashion_amplitude_noise_low.yaml",
+    "checkpoint": "checkpoints_noise23_1/fashion_amplitude/noise_low/fashion_amplitude_noise23_1_low_epoch_1.pt",
+    "epoch": 1,
+    "recorded_accuracy": 53.515625,
+    "recorded_loss": 0.7929260395467281,
+    "evaluated_test_accuracy": 43.75
+  },
+  {
+    "config": "configs/noise_2.3.1/fashion_amplitude_noise_low.yaml",
+    "checkpoint": "checkpoints_noise23_1/fashion_amplitude/noise_low/fashion_amplitude_noise23_1_low_epoch_10.pt",
+    "epoch": 10,
+    "recorded_accuracy": 86.328125,
+    "recorded_loss": 0.3843606738373637,
+    "evaluated_test_accuracy": 93.75
+  },
+  {
+    "config": "configs/noise_2.3.1/fashion_amplitude_noise_low.yaml",
+    "checkpoint": "checkpoints_noise23_1/fashion_amplitude/noise_low/fashion_amplitude_noise23_1_low_epoch_2.pt",
+    "epoch": 2,
+    "recorded_accuracy": 53.515625,
+    "recorded_loss": 0.6950173750519753,
+    "evaluated_test_accuracy": 68.75
+  },
+  {
+    "config": "configs/noise_2.3.1/fashion_amplitude_noise_low.yaml",
+    "checkpoint": "checkpoints_noise23_1/fashion_amplitude/noise_low/fashion_amplitude_noise23_1_low_epoch_3.pt",
+    "epoch": 3,
+    "recorded_accuracy": 55.46875,
+    "recorded_loss": 0.6155781410634518,
+    "evaluated_test_accuracy": 87.5
+  },
+  {
+    "config": "configs/noise_2.3.1/fashion_amplitude_noise_low.yaml",
+    "checkpoint": "checkpoints_noise23_1/fashion_amplitude/noise_low/fashion_amplitude_noise23_1_low_epoch_4.pt",
+    "epoch": 4,
+    "recorded_accuracy": 65.625,
+    "recorded_loss": 0.5622542928904295,
+    "evaluated_test_accuracy": 56.25
+  },
+  {
+    "config": "configs/noise_2.3.1/fashion_amplitude_noise_low.yaml",
+    "checkpoint": "checkpoints_noise23_1/fashion_amplitude/noise_low/fashion_amplitude_noise23_1_low_epoch_5.pt",
+    "epoch": 5,
+    "recorded_accuracy": 75.78125,
+    "recorded_loss": 0.5168216172605753,
+    "evaluated_test_accuracy": 81.25
+  },
+  {
+    "config": "configs/noise_2.3.1/fashion_amplitude_noise_low.yaml",
+    "checkpoint": "checkpoints_noise23_1/fashion_amplitude/noise_low/fashion_amplitude_noise23_1_low_epoch_6.pt",
+    "epoch": 6,
+    "recorded_accuracy": 80.078125,
+    "recorded_loss": 0.48027375526726246,
+    "evaluated_test_accuracy": 75.0
+  },
+  {
+    "config": "configs/noise_2.3.1/fashion_amplitude_noise_low.yaml",
+    "checkpoint": "checkpoints_noise23_1/fashion_amplitude/noise_low/fashion_amplitude_noise23_1_low_epoch_7.pt",
+    "epoch": 7,
+    "recorded_accuracy": 82.8125,
+    "recorded_loss": 0.4512384161353111,
+    "evaluated_test_accuracy": 87.5
+  },
+  {
+    "config": "configs/noise_2.3.1/fashion_amplitude_noise_low.yaml",
+    "checkpoint": "checkpoints_noise23_1/fashion_amplitude/noise_low/fashion_amplitude_noise23_1_low_epoch_8.pt",
+    "epoch": 8,
+    "recorded_accuracy": 85.15625,
+    "recorded_loss": 0.4264770857989788,
+    "evaluated_test_accuracy": 87.5
+  },
+  {
+    "config": "configs/noise_2.3.1/fashion_amplitude_noise_low.yaml",
+    "checkpoint": "checkpoints_noise23_1/fashion_amplitude/noise_low/fashion_amplitude_noise23_1_low_epoch_9.pt",
+    "epoch": 9,
+    "recorded_accuracy": 85.546875,
+    "recorded_loss": 0.4022156335413456,
+    "evaluated_test_accuracy": 93.75
+  },
+  {
+    "config": "configs/noise_2.3.1/fashion_amplitude_noise_low.yaml",
+    "checkpoint": "checkpoints_noise23_1/fashion_amplitude/noise_low/last.pt",
+    "epoch": 10,
+    "recorded_accuracy": 86.328125,
+    "recorded_loss": 0.3843606738373637,
+    "evaluated_test_accuracy": 93.75
+  },
+  {
+    "config": "configs/noise_2.3.1/fashion_amplitude_noise_mid.yaml",
+    "checkpoint": "checkpoints_noise23_1/fashion_amplitude/noise_mid/best.pt",
+    "epoch": 10,
+    "recorded_accuracy": 88.28125,
+    "recorded_loss": 0.38034212589263916,
+    "evaluated_test_accuracy": 93.75
+  },
+  {
+    "config": "configs/noise_2.3.1/fashion_amplitude_noise_mid.yaml",
+    "checkpoint": "checkpoints_noise23_1/fashion_amplitude/noise_mid/fashion_amplitude_noise23_1_mid_epoch_1.pt",
+    "epoch": 1,
+    "recorded_accuracy": 47.65625,
+    "recorded_loss": 0.8404589407145977,
+    "evaluated_test_accuracy": 43.75
+  },
+  {
+    "config": "configs/noise_2.3.1/fashion_amplitude_noise_mid.yaml",
+    "checkpoint": "checkpoints_noise23_1/fashion_amplitude/noise_mid/fashion_amplitude_noise23_1_mid_epoch_10.pt",
+    "epoch": 10,
+    "recorded_accuracy": 88.28125,
+    "recorded_loss": 0.38034212589263916,
+    "evaluated_test_accuracy": 93.75
+  },
+  {
+    "config": "configs/noise_2.3.1/fashion_amplitude_noise_mid.yaml",
+    "checkpoint": "checkpoints_noise23_1/fashion_amplitude/noise_mid/fashion_amplitude_noise23_1_mid_epoch_2.pt",
+    "epoch": 2,
+    "recorded_accuracy": 47.65625,
+    "recorded_loss": 0.7391673177480698,
+    "evaluated_test_accuracy": 75.0
+  },
+  {
+    "config": "configs/noise_2.3.1/fashion_amplitude_noise_mid.yaml",
+    "checkpoint": "checkpoints_noise23_1/fashion_amplitude/noise_mid/fashion_amplitude_noise23_1_mid_epoch_3.pt",
+    "epoch": 3,
+    "recorded_accuracy": 49.609375,
+    "recorded_loss": 0.6572277694940567,
+    "evaluated_test_accuracy": 56.25
+  },
+  {
+    "config": "configs/noise_2.3.1/fashion_amplitude_noise_mid.yaml",
+    "checkpoint": "checkpoints_noise23_1/fashion_amplitude/noise_mid/fashion_amplitude_noise23_1_mid_epoch_4.pt",
+    "epoch": 4,
+    "recorded_accuracy": 62.5,
+    "recorded_loss": 0.5871603842824697,
+    "evaluated_test_accuracy": 62.5
+  },
+  {
+    "config": "configs/noise_2.3.1/fashion_amplitude_noise_mid.yaml",
+    "checkpoint": "checkpoints_noise23_1/fashion_amplitude/noise_mid/fashion_amplitude_noise23_1_mid_epoch_5.pt",
+    "epoch": 5,
+    "recorded_accuracy": 74.609375,
+    "recorded_loss": 0.5354029946029186,
+    "evaluated_test_accuracy": 87.5
+  },
+  {
+    "config": "configs/noise_2.3.1/fashion_amplitude_noise_mid.yaml",
+    "checkpoint": "checkpoints_noise23_1/fashion_amplitude/noise_mid/fashion_amplitude_noise23_1_mid_epoch_6.pt",
+    "epoch": 6,
+    "recorded_accuracy": 82.03125,
+    "recorded_loss": 0.49323578365147114,
+    "evaluated_test_accuracy": 81.25
+  },
+  {
+    "config": "configs/noise_2.3.1/fashion_amplitude_noise_mid.yaml",
+    "checkpoint": "checkpoints_noise23_1/fashion_amplitude/noise_mid/fashion_amplitude_noise23_1_mid_epoch_7.pt",
+    "epoch": 7,
+    "recorded_accuracy": 83.984375,
+    "recorded_loss": 0.4571485389024019,
+    "evaluated_test_accuracy": 81.25
+  },
+  {
+    "config": "configs/noise_2.3.1/fashion_amplitude_noise_mid.yaml",
+    "checkpoint": "checkpoints_noise23_1/fashion_amplitude/noise_mid/fashion_amplitude_noise23_1_mid_epoch_8.pt",
+    "epoch": 8,
+    "recorded_accuracy": 87.5,
+    "recorded_loss": 0.4253970142453909,
+    "evaluated_test_accuracy": 87.5
+  },
+  {
+    "config": "configs/noise_2.3.1/fashion_amplitude_noise_mid.yaml",
+    "checkpoint": "checkpoints_noise23_1/fashion_amplitude/noise_mid/fashion_amplitude_noise23_1_mid_epoch_9.pt",
+    "epoch": 9,
+    "recorded_accuracy": 87.890625,
+    "recorded_loss": 0.40045016072690487,
+    "evaluated_test_accuracy": 93.75
+  },
+  {
+    "config": "configs/noise_2.3.1/fashion_amplitude_noise_mid.yaml",
+    "checkpoint": "checkpoints_noise23_1/fashion_amplitude/noise_mid/last.pt",
+    "epoch": 10,
+    "recorded_accuracy": 88.28125,
+    "recorded_loss": 0.38034212589263916,
+    "evaluated_test_accuracy": 93.75
+  },
+  {
+    "config": "configs/noise_2.3.1/fashion_hybrid_noise_high.yaml",
+    "checkpoint": "checkpoints_noise23_1/fashion_hybrid/noise_high/best.pt",
+    "epoch": 7,
+    "recorded_accuracy": 60.15625,
+    "recorded_loss": 0.6854931432753801,
+    "evaluated_test_accuracy": 43.75
+  },
+  {
+    "config": "configs/noise_2.3.1/fashion_hybrid_noise_high.yaml",
+    "checkpoint": "checkpoints_noise23_1/fashion_hybrid/noise_high/fashion_hybrid_noise23_1_high_epoch_1.pt",
+    "epoch": 1,
+    "recorded_accuracy": 48.828125,
+    "recorded_loss": 0.8121429309248924,
+    "evaluated_test_accuracy": 50.0
+  },
+  {
+    "config": "configs/noise_2.3.1/fashion_hybrid_noise_high.yaml",
+    "checkpoint": "checkpoints_noise23_1/fashion_hybrid/noise_high/fashion_hybrid_noise23_1_high_epoch_10.pt",
+    "epoch": 10,
+    "recorded_accuracy": 57.421875,
+    "recorded_loss": 0.6812057141214609,
+    "evaluated_test_accuracy": 62.5
+  },
+  {
+    "config": "configs/noise_2.3.1/fashion_hybrid_noise_high.yaml",
+    "checkpoint": "checkpoints_noise23_1/fashion_hybrid/noise_high/fashion_hybrid_noise23_1_high_epoch_2.pt",
+    "epoch": 2,
+    "recorded_accuracy": 48.828125,
+    "recorded_loss": 0.7479659672826529,
+    "evaluated_test_accuracy": 31.25
+  },
+  {
+    "config": "configs/noise_2.3.1/fashion_hybrid_noise_high.yaml",
+    "checkpoint": "checkpoints_noise23_1/fashion_hybrid/noise_high/fashion_hybrid_noise23_1_high_epoch_3.pt",
+    "epoch": 3,
+    "recorded_accuracy": 48.828125,
+    "recorded_loss": 0.7130716517567635,
+    "evaluated_test_accuracy": 43.75
+  },
+  {
+    "config": "configs/noise_2.3.1/fashion_hybrid_noise_high.yaml",
+    "checkpoint": "checkpoints_noise23_1/fashion_hybrid/noise_high/fashion_hybrid_noise23_1_high_epoch_4.pt",
+    "epoch": 4,
+    "recorded_accuracy": 48.828125,
+    "recorded_loss": 0.6990499403327703,
+    "evaluated_test_accuracy": 56.25
+  },
+  {
+    "config": "configs/noise_2.3.1/fashion_hybrid_noise_high.yaml",
+    "checkpoint": "checkpoints_noise23_1/fashion_hybrid/noise_high/fashion_hybrid_noise23_1_high_epoch_5.pt",
+    "epoch": 5,
+    "recorded_accuracy": 50.0,
+    "recorded_loss": 0.6944799311459064,
+    "evaluated_test_accuracy": 75.0
+  },
+  {
+    "config": "configs/noise_2.3.1/fashion_hybrid_noise_high.yaml",
+    "checkpoint": "checkpoints_noise23_1/fashion_hybrid/noise_high/fashion_hybrid_noise23_1_high_epoch_6.pt",
+    "epoch": 6,
+    "recorded_accuracy": 58.203125,
+    "recorded_loss": 0.6885566730052233,
+    "evaluated_test_accuracy": 56.25
+  },
+  {
+    "config": "configs/noise_2.3.1/fashion_hybrid_noise_high.yaml",
+    "checkpoint": "checkpoints_noise23_1/fashion_hybrid/noise_high/fashion_hybrid_noise23_1_high_epoch_7.pt",
+    "epoch": 7,
+    "recorded_accuracy": 60.15625,
+    "recorded_loss": 0.6854931432753801,
+    "evaluated_test_accuracy": 68.75
+  },
+  {
+    "config": "configs/noise_2.3.1/fashion_hybrid_noise_high.yaml",
+    "checkpoint": "checkpoints_noise23_1/fashion_hybrid/noise_high/fashion_hybrid_noise23_1_high_epoch_8.pt",
+    "epoch": 8,
+    "recorded_accuracy": 55.859375,
+    "recorded_loss": 0.6835092809051275,
+    "evaluated_test_accuracy": 68.75
+  },
+  {
+    "config": "configs/noise_2.3.1/fashion_hybrid_noise_high.yaml",
+    "checkpoint": "checkpoints_noise23_1/fashion_hybrid/noise_high/fashion_hybrid_noise23_1_high_epoch_9.pt",
+    "epoch": 9,
+    "recorded_accuracy": 56.640625,
+    "recorded_loss": 0.6820959039032459,
+    "evaluated_test_accuracy": 68.75
+  },
+  {
+    "config": "configs/noise_2.3.1/fashion_hybrid_noise_high.yaml",
+    "checkpoint": "checkpoints_noise23_1/fashion_hybrid/noise_high/last.pt",
+    "epoch": 10,
+    "recorded_accuracy": 57.421875,
+    "recorded_loss": 0.6812057141214609,
+    "evaluated_test_accuracy": 68.75
+  },
+  {
+    "config": "configs/noise_2.3.1/fashion_hybrid_noise_low.yaml",
+    "checkpoint": "checkpoints_noise23_1/fashion_hybrid/noise_low/best.pt",
+    "epoch": 4,
+    "recorded_accuracy": 66.015625,
+    "recorded_loss": 0.6715840697288513,
+    "evaluated_test_accuracy": 68.75
+  },
+  {
+    "config": "configs/noise_2.3.1/fashion_hybrid_noise_low.yaml",
+    "checkpoint": "checkpoints_noise23_1/fashion_hybrid/noise_low/fashion_hybrid_noise23_1_low_epoch_1.pt",
+    "epoch": 1,
+    "recorded_accuracy": 47.65625,
+    "recorded_loss": 0.6923317220062017,
+    "evaluated_test_accuracy": 37.5
+  },
+  {
+    "config": "configs/noise_2.3.1/fashion_hybrid_noise_low.yaml",
+    "checkpoint": "checkpoints_noise23_1/fashion_hybrid/noise_low/fashion_hybrid_noise23_1_low_epoch_10.pt",
+    "epoch": 10,
+    "recorded_accuracy": 62.109375,
+    "recorded_loss": 0.6617900654673576,
+    "evaluated_test_accuracy": 62.5
+  },
+  {
+    "config": "configs/noise_2.3.1/fashion_hybrid_noise_low.yaml",
+    "checkpoint": "checkpoints_noise23_1/fashion_hybrid/noise_low/fashion_hybrid_noise23_1_low_epoch_2.pt",
+    "epoch": 2,
+    "recorded_accuracy": 57.421875,
+    "recorded_loss": 0.6782163064926863,
+    "evaluated_test_accuracy": 62.5
+  },
+  {
+    "config": "configs/noise_2.3.1/fashion_hybrid_noise_low.yaml",
+    "checkpoint": "checkpoints_noise23_1/fashion_hybrid/noise_low/fashion_hybrid_noise23_1_low_epoch_3.pt",
+    "epoch": 3,
+    "recorded_accuracy": 64.0625,
+    "recorded_loss": 0.6720988117158413,
+    "evaluated_test_accuracy": 56.25
+  },
+  {
+    "config": "configs/noise_2.3.1/fashion_hybrid_noise_low.yaml",
+    "checkpoint": "checkpoints_noise23_1/fashion_hybrid/noise_low/fashion_hybrid_noise23_1_low_epoch_4.pt",
+    "epoch": 4,
+    "recorded_accuracy": 66.015625,
+    "recorded_loss": 0.6715840697288513,
+    "evaluated_test_accuracy": 50.0
+  },
+  {
+    "config": "configs/noise_2.3.1/fashion_hybrid_noise_low.yaml",
+    "checkpoint": "checkpoints_noise23_1/fashion_hybrid/noise_low/fashion_hybrid_noise23_1_low_epoch_5.pt",
+    "epoch": 5,
+    "recorded_accuracy": 57.8125,
+    "recorded_loss": 0.6704034637659788,
+    "evaluated_test_accuracy": 62.5
+  },
+  {
+    "config": "configs/noise_2.3.1/fashion_hybrid_noise_low.yaml",
+    "checkpoint": "checkpoints_noise23_1/fashion_hybrid/noise_low/fashion_hybrid_noise23_1_low_epoch_6.pt",
+    "epoch": 6,
+    "recorded_accuracy": 63.671875,
+    "recorded_loss": 0.6639315746724606,
+    "evaluated_test_accuracy": 81.25
+  },
+  {
+    "config": "configs/noise_2.3.1/fashion_hybrid_noise_low.yaml",
+    "checkpoint": "checkpoints_noise23_1/fashion_hybrid/noise_low/fashion_hybrid_noise23_1_low_epoch_7.pt",
+    "epoch": 7,
+    "recorded_accuracy": 62.5,
+    "recorded_loss": 0.663962759077549,
+    "evaluated_test_accuracy": 93.75
+  },
+  {
+    "config": "configs/noise_2.3.1/fashion_hybrid_noise_low.yaml",
+    "checkpoint": "checkpoints_noise23_1/fashion_hybrid/noise_low/fashion_hybrid_noise23_1_low_epoch_8.pt",
+    "epoch": 8,
+    "recorded_accuracy": 65.234375,
+    "recorded_loss": 0.6625588200986385,
+    "evaluated_test_accuracy": 68.75
+  },
+  {
+    "config": "configs/noise_2.3.1/fashion_hybrid_noise_low.yaml",
+    "checkpoint": "checkpoints_noise23_1/fashion_hybrid/noise_low/fashion_hybrid_noise23_1_low_epoch_9.pt",
+    "epoch": 9,
+    "recorded_accuracy": 64.84375,
+    "recorded_loss": 0.6613023392856121,
+    "evaluated_test_accuracy": 50.0
+  },
+  {
+    "config": "configs/noise_2.3.1/fashion_hybrid_noise_low.yaml",
+    "checkpoint": "checkpoints_noise23_1/fashion_hybrid/noise_low/last.pt",
+    "epoch": 10,
+    "recorded_accuracy": 62.109375,
+    "recorded_loss": 0.6617900654673576,
+    "evaluated_test_accuracy": 75.0
+  },
+  {
+    "config": "configs/noise_2.3.1/fashion_hybrid_noise_mid.yaml",
+    "checkpoint": "checkpoints_noise23_1/fashion_hybrid/noise_mid/best.pt",
+    "epoch": 5,
+    "recorded_accuracy": 58.203125,
+    "recorded_loss": 0.6861301809549332,
+    "evaluated_test_accuracy": 37.5
+  },
+  {
+    "config": "configs/noise_2.3.1/fashion_hybrid_noise_mid.yaml",
+    "checkpoint": "checkpoints_noise23_1/fashion_hybrid/noise_mid/fashion_hybrid_noise23_1_mid_epoch_1.pt",
+    "epoch": 1,
+    "recorded_accuracy": 47.265625,
+    "recorded_loss": 0.9262780603021383,
+    "evaluated_test_accuracy": 50.0
+  },
+  {
+    "config": "configs/noise_2.3.1/fashion_hybrid_noise_mid.yaml",
+    "checkpoint": "checkpoints_noise23_1/fashion_hybrid/noise_mid/fashion_hybrid_noise23_1_mid_epoch_10.pt",
+    "epoch": 10,
+    "recorded_accuracy": 51.5625,
+    "recorded_loss": 0.6750442180782557,
+    "evaluated_test_accuracy": 62.5
+  },
+  {
+    "config": "configs/noise_2.3.1/fashion_hybrid_noise_mid.yaml",
+    "checkpoint": "checkpoints_noise23_1/fashion_hybrid/noise_mid/fashion_hybrid_noise23_1_mid_epoch_2.pt",
+    "epoch": 2,
+    "recorded_accuracy": 47.265625,
+    "recorded_loss": 0.8075946476310492,
+    "evaluated_test_accuracy": 50.0
+  },
+  {
+    "config": "configs/noise_2.3.1/fashion_hybrid_noise_mid.yaml",
+    "checkpoint": "checkpoints_noise23_1/fashion_hybrid/noise_mid/fashion_hybrid_noise23_1_mid_epoch_3.pt",
+    "epoch": 3,
+    "recorded_accuracy": 48.828125,
+    "recorded_loss": 0.7354925125837326,
+    "evaluated_test_accuracy": 75.0
+  },
+  {
+    "config": "configs/noise_2.3.1/fashion_hybrid_noise_mid.yaml",
+    "checkpoint": "checkpoints_noise23_1/fashion_hybrid/noise_mid/fashion_hybrid_noise23_1_mid_epoch_4.pt",
+    "epoch": 4,
+    "recorded_accuracy": 53.125,
+    "recorded_loss": 0.7012666687369347,
+    "evaluated_test_accuracy": 75.0
+  },
+  {
+    "config": "configs/noise_2.3.1/fashion_hybrid_noise_mid.yaml",
+    "checkpoint": "checkpoints_noise23_1/fashion_hybrid/noise_mid/fashion_hybrid_noise23_1_mid_epoch_5.pt",
+    "epoch": 5,
+    "recorded_accuracy": 58.203125,
+    "recorded_loss": 0.6861301809549332,
+    "evaluated_test_accuracy": 43.75
+  },
+  {
+    "config": "configs/noise_2.3.1/fashion_hybrid_noise_mid.yaml",
+    "checkpoint": "checkpoints_noise23_1/fashion_hybrid/noise_mid/fashion_hybrid_noise23_1_mid_epoch_6.pt",
+    "epoch": 6,
+    "recorded_accuracy": 54.6875,
+    "recorded_loss": 0.6790957506746054,
+    "evaluated_test_accuracy": 31.25
+  },
+  {
+    "config": "configs/noise_2.3.1/fashion_hybrid_noise_mid.yaml",
+    "checkpoint": "checkpoints_noise23_1/fashion_hybrid/noise_mid/fashion_hybrid_noise23_1_mid_epoch_7.pt",
+    "epoch": 7,
+    "recorded_accuracy": 48.828125,
+    "recorded_loss": 0.6762279737740755,
+    "evaluated_test_accuracy": 56.25
+  },
+  {
+    "config": "configs/noise_2.3.1/fashion_hybrid_noise_mid.yaml",
+    "checkpoint": "checkpoints_noise23_1/fashion_hybrid/noise_mid/fashion_hybrid_noise23_1_mid_epoch_8.pt",
+    "epoch": 8,
+    "recorded_accuracy": 51.5625,
+    "recorded_loss": 0.6749884709715843,
+    "evaluated_test_accuracy": 43.75
+  },
+  {
+    "config": "configs/noise_2.3.1/fashion_hybrid_noise_mid.yaml",
+    "checkpoint": "checkpoints_noise23_1/fashion_hybrid/noise_mid/fashion_hybrid_noise23_1_mid_epoch_9.pt",
+    "epoch": 9,
+    "recorded_accuracy": 51.5625,
+    "recorded_loss": 0.6715785842388868,
+    "evaluated_test_accuracy": 68.75
+  },
+  {
+    "config": "configs/noise_2.3.1/fashion_hybrid_noise_mid.yaml",
+    "checkpoint": "checkpoints_noise23_1/fashion_hybrid/noise_mid/last.pt",
+    "epoch": 10,
+    "recorded_accuracy": 51.5625,
+    "recorded_loss": 0.6750442180782557,
+    "evaluated_test_accuracy": 56.25
+  },
+  {
+    "config": "configs/noise_2.4.1/mnist_amplitude_noise_high.yaml",
+    "checkpoint": "checkpoints_noise23_4_1/mnist_amplitude/noise_high/best.pt",
+    "epoch": 4,
+    "recorded_accuracy": 83.59375,
+    "recorded_loss": 0.522349763661623,
+    "evaluated_test_accuracy": 81.25
+  },
+  {
+    "config": "configs/noise_2.4.1/mnist_amplitude_noise_high.yaml",
+    "checkpoint": "checkpoints_noise23_4_1/mnist_amplitude/noise_high/last.pt",
+    "epoch": 4,
+    "recorded_accuracy": 83.59375,
+    "recorded_loss": 0.522349763661623,
+    "evaluated_test_accuracy": 87.5
+  },
+  {
+    "config": "configs/noise_2.4.1/mnist_amplitude_noise_high.yaml",
+    "checkpoint": "checkpoints_noise23_4_1/mnist_amplitude/noise_high/mnist_amplitude_noise23_4_1_high_epoch_1.pt",
+    "epoch": 1,
+    "recorded_accuracy": 78.90625,
+    "recorded_loss": 0.5793727338314056,
+    "evaluated_test_accuracy": 81.25
+  },
+  {
+    "config": "configs/noise_2.4.1/mnist_amplitude_noise_high.yaml",
+    "checkpoint": "checkpoints_noise23_4_1/mnist_amplitude/noise_high/mnist_amplitude_noise23_4_1_high_epoch_2.pt",
+    "epoch": 2,
+    "recorded_accuracy": 82.421875,
+    "recorded_loss": 0.5517028216272593,
+    "evaluated_test_accuracy": 87.5
+  },
+  {
+    "config": "configs/noise_2.4.1/mnist_amplitude_noise_high.yaml",
+    "checkpoint": "checkpoints_noise23_4_1/mnist_amplitude/noise_high/mnist_amplitude_noise23_4_1_high_epoch_3.pt",
+    "epoch": 3,
+    "recorded_accuracy": 80.859375,
+    "recorded_loss": 0.5378162022680044,
+    "evaluated_test_accuracy": 68.75
+  },
+  {
+    "config": "configs/noise_2.4.1/mnist_amplitude_noise_high.yaml",
+    "checkpoint": "checkpoints_noise23_4_1/mnist_amplitude/noise_high/mnist_amplitude_noise23_4_1_high_epoch_4.pt",
+    "epoch": 4,
+    "recorded_accuracy": 83.59375,
+    "recorded_loss": 0.522349763661623,
+    "evaluated_test_accuracy": 93.75
+  },
+  {
+    "config": "configs/noise_2.4.1/mnist_amplitude_noise_low.yaml",
+    "checkpoint": "checkpoints_noise23_4_1/mnist_amplitude/noise_low/best.pt",
+    "epoch": 4,
+    "recorded_accuracy": 69.140625,
+    "recorded_loss": 0.6580150052905083,
+    "evaluated_test_accuracy": 81.25
+  },
+  {
+    "config": "configs/noise_2.4.1/mnist_amplitude_noise_low.yaml",
+    "checkpoint": "checkpoints_noise23_4_1/mnist_amplitude/noise_low/last.pt",
+    "epoch": 4,
+    "recorded_accuracy": 69.140625,
+    "recorded_loss": 0.6580150052905083,
+    "evaluated_test_accuracy": 81.25
+  },
+  {
+    "config": "configs/noise_2.4.1/mnist_amplitude_noise_low.yaml",
+    "checkpoint": "checkpoints_noise23_4_1/mnist_amplitude/noise_low/mnist_amplitude_noise23_4_1_low_epoch_1.pt",
+    "epoch": 1,
+    "recorded_accuracy": 49.609375,
+    "recorded_loss": 0.7626648545265198,
+    "evaluated_test_accuracy": 50.0
+  },
+  {
+    "config": "configs/noise_2.4.1/mnist_amplitude_noise_low.yaml",
+    "checkpoint": "checkpoints_noise23_4_1/mnist_amplitude/noise_low/mnist_amplitude_noise23_4_1_low_epoch_2.pt",
+    "epoch": 2,
+    "recorded_accuracy": 49.609375,
+    "recorded_loss": 0.7168635949492455,
+    "evaluated_test_accuracy": 31.25
+  },
+  {
+    "config": "configs/noise_2.4.1/mnist_amplitude_noise_low.yaml",
+    "checkpoint": "checkpoints_noise23_4_1/mnist_amplitude/noise_low/mnist_amplitude_noise23_4_1_low_epoch_3.pt",
+    "epoch": 3,
+    "recorded_accuracy": 50.390625,
+    "recorded_loss": 0.6820721663534641,
+    "evaluated_test_accuracy": 62.5
+  },
+  {
+    "config": "configs/noise_2.4.1/mnist_amplitude_noise_low.yaml",
+    "checkpoint": "checkpoints_noise23_4_1/mnist_amplitude/noise_low/mnist_amplitude_noise23_4_1_low_epoch_4.pt",
+    "epoch": 4,
+    "recorded_accuracy": 69.140625,
+    "recorded_loss": 0.6580150052905083,
+    "evaluated_test_accuracy": 68.75
+  },
+  {
+    "config": "configs/noise_2.4.1/mnist_amplitude_noise_mid.yaml",
+    "checkpoint": "checkpoints_noise23_4_1/mnist_amplitude/noise_mid/best.pt",
+    "epoch": 4,
+    "recorded_accuracy": 85.15625,
+    "recorded_loss": 0.5476247258484364,
+    "evaluated_test_accuracy": 93.75
+  },
+  {
+    "config": "configs/noise_2.4.1/mnist_amplitude_noise_mid.yaml",
+    "checkpoint": "checkpoints_noise23_4_1/mnist_amplitude/noise_mid/last.pt",
+    "epoch": 4,
+    "recorded_accuracy": 85.15625,
+    "recorded_loss": 0.5476247258484364,
+    "evaluated_test_accuracy": 87.5
+  },
+  {
+    "config": "configs/noise_2.4.1/mnist_amplitude_noise_mid.yaml",
+    "checkpoint": "checkpoints_noise23_4_1/mnist_amplitude/noise_mid/mnist_amplitude_noise23_4_1_mid_epoch_1.pt",
+    "epoch": 1,
+    "recorded_accuracy": 81.640625,
+    "recorded_loss": 0.606512114405632,
+    "evaluated_test_accuracy": 81.25
+  },
+  {
+    "config": "configs/noise_2.4.1/mnist_amplitude_noise_mid.yaml",
+    "checkpoint": "checkpoints_noise23_4_1/mnist_amplitude/noise_mid/mnist_amplitude_noise23_4_1_mid_epoch_2.pt",
+    "epoch": 2,
+    "recorded_accuracy": 83.984375,
+    "recorded_loss": 0.5835468396544456,
+    "evaluated_test_accuracy": 100.0
+  },
+  {
+    "config": "configs/noise_2.4.1/mnist_amplitude_noise_mid.yaml",
+    "checkpoint": "checkpoints_noise23_4_1/mnist_amplitude/noise_mid/mnist_amplitude_noise23_4_1_mid_epoch_3.pt",
+    "epoch": 3,
+    "recorded_accuracy": 83.59375,
+    "recorded_loss": 0.5663717687129974,
+    "evaluated_test_accuracy": 100.0
+  },
+  {
+    "config": "configs/noise_2.4.1/mnist_amplitude_noise_mid.yaml",
+    "checkpoint": "checkpoints_noise23_4_1/mnist_amplitude/noise_mid/mnist_amplitude_noise23_4_1_mid_epoch_4.pt",
+    "epoch": 4,
+    "recorded_accuracy": 85.15625,
+    "recorded_loss": 0.5476247258484364,
+    "evaluated_test_accuracy": 93.75
+  },
+  {
+    "config": "configs/noise_2.4.1/mnist_angle_noise_low.yaml",
+    "checkpoint": "checkpoints_noise23_4_1/mnist_angle/noise_low/best.pt",
+    "epoch": 1,
+    "recorded_accuracy": 50.0,
+    "recorded_loss": 0.6932748164981604,
+    "evaluated_test_accuracy": 43.75
+  },
+  {
+    "config": "configs/noise_2.4.1/mnist_angle_noise_low.yaml",
+    "checkpoint": "checkpoints_noise23_4_1/mnist_angle/noise_low/last.pt",
+    "epoch": 1,
+    "recorded_accuracy": 50.0,
+    "recorded_loss": 0.6932748164981604,
+    "evaluated_test_accuracy": 50.0
+  },
+  {
+    "config": "configs/noise_2.4.1/mnist_angle_noise_low.yaml",
+    "checkpoint": "checkpoints_noise23_4_1/mnist_angle/noise_low/mnist_angle_noise23_4_1_low_epoch_1.pt",
+    "epoch": 1,
+    "recorded_accuracy": 50.0,
+    "recorded_loss": 0.6932748164981604,
+    "evaluated_test_accuracy": 56.25
+  },
+  {
+    "config": "configs/noise_2.4.1/mnist_hybrid_noise_high.yaml",
+    "checkpoint": "checkpoints_noise23_4_1/mnist_hybrid/noise_high/best.pt",
+    "epoch": 3,
+    "recorded_accuracy": 58.203125,
+    "recorded_loss": 0.6729134125635028,
+    "evaluated_test_accuracy": 68.75
+  },
+  {
+    "config": "configs/noise_2.4.1/mnist_hybrid_noise_high.yaml",
+    "checkpoint": "checkpoints_noise23_4_1/mnist_hybrid/noise_high/last.pt",
+    "epoch": 10,
+    "recorded_accuracy": 57.421875,
+    "recorded_loss": 0.6673849299550056,
+    "evaluated_test_accuracy": 75.0
+  },
+  {
+    "config": "configs/noise_2.4.1/mnist_hybrid_noise_high.yaml",
+    "checkpoint": "checkpoints_noise23_4_1/mnist_hybrid/noise_high/mnist_hybrid_noise23_4_1_high_epoch_1.pt",
+    "epoch": 1,
+    "recorded_accuracy": 50.0,
+    "recorded_loss": 0.745311064645648,
+    "evaluated_test_accuracy": 50.0
+  },
+  {
+    "config": "configs/noise_2.4.1/mnist_hybrid_noise_high.yaml",
+    "checkpoint": "checkpoints_noise23_4_1/mnist_hybrid/noise_high/mnist_hybrid_noise23_4_1_high_epoch_10.pt",
+    "epoch": 10,
+    "recorded_accuracy": 57.421875,
+    "recorded_loss": 0.6673849299550056,
+    "evaluated_test_accuracy": 68.75
+  },
+  {
+    "config": "configs/noise_2.4.1/mnist_hybrid_noise_high.yaml",
+    "checkpoint": "checkpoints_noise23_4_1/mnist_hybrid/noise_high/mnist_hybrid_noise23_4_1_high_epoch_2.pt",
+    "epoch": 2,
+    "recorded_accuracy": 53.515625,
+    "recorded_loss": 0.6932854726910591,
+    "evaluated_test_accuracy": 62.5
+  },
+  {
+    "config": "configs/noise_2.4.1/mnist_hybrid_noise_high.yaml",
+    "checkpoint": "checkpoints_noise23_4_1/mnist_hybrid/noise_high/mnist_hybrid_noise23_4_1_high_epoch_3.pt",
+    "epoch": 3,
+    "recorded_accuracy": 58.203125,
+    "recorded_loss": 0.6729134125635028,
+    "evaluated_test_accuracy": 56.25
+  },
+  {
+    "config": "configs/noise_2.4.1/mnist_hybrid_noise_high.yaml",
+    "checkpoint": "checkpoints_noise23_4_1/mnist_hybrid/noise_high/mnist_hybrid_noise23_4_1_high_epoch_4.pt",
+    "epoch": 4,
+    "recorded_accuracy": 57.421875,
+    "recorded_loss": 0.6672459337860346,
+    "evaluated_test_accuracy": 75.0
+  },
+  {
+    "config": "configs/noise_2.4.1/mnist_hybrid_noise_high.yaml",
+    "checkpoint": "checkpoints_noise23_4_1/mnist_hybrid/noise_high/mnist_hybrid_noise23_4_1_high_epoch_5.pt",
+    "epoch": 5,
+    "recorded_accuracy": 57.03125,
+    "recorded_loss": 0.6687089577317238,
+    "evaluated_test_accuracy": 62.5
+  },
+  {
+    "config": "configs/noise_2.4.1/mnist_hybrid_noise_high.yaml",
+    "checkpoint": "checkpoints_noise23_4_1/mnist_hybrid/noise_high/mnist_hybrid_noise23_4_1_high_epoch_6.pt",
+    "epoch": 6,
+    "recorded_accuracy": 57.03125,
+    "recorded_loss": 0.6651548389345407,
+    "evaluated_test_accuracy": 81.25
+  },
+  {
+    "config": "configs/noise_2.4.1/mnist_hybrid_noise_high.yaml",
+    "checkpoint": "checkpoints_noise23_4_1/mnist_hybrid/noise_high/mnist_hybrid_noise23_4_1_high_epoch_7.pt",
+    "epoch": 7,
+    "recorded_accuracy": 54.296875,
+    "recorded_loss": 0.6692603658884764,
+    "evaluated_test_accuracy": 81.25
+  },
+  {
+    "config": "configs/noise_2.4.1/mnist_hybrid_noise_high.yaml",
+    "checkpoint": "checkpoints_noise23_4_1/mnist_hybrid/noise_high/mnist_hybrid_noise23_4_1_high_epoch_8.pt",
+    "epoch": 8,
+    "recorded_accuracy": 55.859375,
+    "recorded_loss": 0.666610412299633,
+    "evaluated_test_accuracy": 81.25
+  },
+  {
+    "config": "configs/noise_2.4.1/mnist_hybrid_noise_high.yaml",
+    "checkpoint": "checkpoints_noise23_4_1/mnist_hybrid/noise_high/mnist_hybrid_noise23_4_1_high_epoch_9.pt",
+    "epoch": 9,
+    "recorded_accuracy": 54.6875,
+    "recorded_loss": 0.6688884496688843,
+    "evaluated_test_accuracy": 75.0
+  },
+  {
+    "config": "configs/noise_2.4.1/mnist_hybrid_noise_low.yaml",
+    "checkpoint": "checkpoints_noise23_4_1/mnist_hybrid/noise_low/best.pt",
+    "epoch": 3,
+    "recorded_accuracy": 58.59375,
+    "recorded_loss": 0.7024476435035467,
+    "evaluated_test_accuracy": 68.75
+  },
+  {
+    "config": "configs/noise_2.4.1/mnist_hybrid_noise_low.yaml",
+    "checkpoint": "checkpoints_noise23_4_1/mnist_hybrid/noise_low/last.pt",
+    "epoch": 10,
+    "recorded_accuracy": 55.078125,
+    "recorded_loss": 0.6843096558004618,
+    "evaluated_test_accuracy": 43.75
+  },
+  {
+    "config": "configs/noise_2.4.1/mnist_hybrid_noise_low.yaml",
+    "checkpoint": "checkpoints_noise23_4_1/mnist_hybrid/noise_low/mnist_hybrid_noise23_4_1_low_epoch_1.pt",
+    "epoch": 1,
+    "recorded_accuracy": 54.296875,
+    "recorded_loss": 0.8050735294818878,
+    "evaluated_test_accuracy": 31.25
+  },
+  {
+    "config": "configs/noise_2.4.1/mnist_hybrid_noise_low.yaml",
+    "checkpoint": "checkpoints_noise23_4_1/mnist_hybrid/noise_low/mnist_hybrid_noise23_4_1_low_epoch_10.pt",
+    "epoch": 10,
+    "recorded_accuracy": 55.078125,
+    "recorded_loss": 0.6843096558004618,
+    "evaluated_test_accuracy": 50.0
+  },
+  {
+    "config": "configs/noise_2.4.1/mnist_hybrid_noise_low.yaml",
+    "checkpoint": "checkpoints_noise23_4_1/mnist_hybrid/noise_low/mnist_hybrid_noise23_4_1_low_epoch_2.pt",
+    "epoch": 2,
+    "recorded_accuracy": 55.078125,
+    "recorded_loss": 0.7372797084972262,
+    "evaluated_test_accuracy": 56.25
+  },
+  {
+    "config": "configs/noise_2.4.1/mnist_hybrid_noise_low.yaml",
+    "checkpoint": "checkpoints_noise23_4_1/mnist_hybrid/noise_low/mnist_hybrid_noise23_4_1_low_epoch_3.pt",
+    "epoch": 3,
+    "recorded_accuracy": 58.59375,
+    "recorded_loss": 0.7024476435035467,
+    "evaluated_test_accuracy": 56.25
+  },
+  {
+    "config": "configs/noise_2.4.1/mnist_hybrid_noise_low.yaml",
+    "checkpoint": "checkpoints_noise23_4_1/mnist_hybrid/noise_low/mnist_hybrid_noise23_4_1_low_epoch_4.pt",
+    "epoch": 4,
+    "recorded_accuracy": 58.203125,
+    "recorded_loss": 0.690968556329608,
+    "evaluated_test_accuracy": 56.25
+  },
+  {
+    "config": "configs/noise_2.4.1/mnist_hybrid_noise_low.yaml",
+    "checkpoint": "checkpoints_noise23_4_1/mnist_hybrid/noise_low/mnist_hybrid_noise23_4_1_low_epoch_5.pt",
+    "epoch": 5,
+    "recorded_accuracy": 57.421875,
+    "recorded_loss": 0.6864818446338177,
+    "evaluated_test_accuracy": 75.0
+  },
+  {
+    "config": "configs/noise_2.4.1/mnist_hybrid_noise_low.yaml",
+    "checkpoint": "checkpoints_noise23_4_1/mnist_hybrid/noise_low/mnist_hybrid_noise23_4_1_low_epoch_6.pt",
+    "epoch": 6,
+    "recorded_accuracy": 57.8125,
+    "recorded_loss": 0.6846709325909615,
+    "evaluated_test_accuracy": 62.5
+  },
+  {
+    "config": "configs/noise_2.4.1/mnist_hybrid_noise_low.yaml",
+    "checkpoint": "checkpoints_noise23_4_1/mnist_hybrid/noise_low/mnist_hybrid_noise23_4_1_low_epoch_7.pt",
+    "epoch": 7,
+    "recorded_accuracy": 57.03125,
+    "recorded_loss": 0.6831391490995884,
+    "evaluated_test_accuracy": 68.75
+  },
+  {
+    "config": "configs/noise_2.4.1/mnist_hybrid_noise_low.yaml",
+    "checkpoint": "checkpoints_noise23_4_1/mnist_hybrid/noise_low/mnist_hybrid_noise23_4_1_low_epoch_8.pt",
+    "epoch": 8,
+    "recorded_accuracy": 56.640625,
+    "recorded_loss": 0.6828669160604477,
+    "evaluated_test_accuracy": 25.0
+  },
+  {
+    "config": "configs/noise_2.4.1/mnist_hybrid_noise_low.yaml",
+    "checkpoint": "checkpoints_noise23_4_1/mnist_hybrid/noise_low/mnist_hybrid_noise23_4_1_low_epoch_9.pt",
+    "epoch": 9,
+    "recorded_accuracy": 55.859375,
+    "recorded_loss": 0.6835738513618708,
+    "evaluated_test_accuracy": 43.75
+  },
+  {
+    "config": "configs/noise_2.4.1/mnist_hybrid_noise_mid.yaml",
+    "checkpoint": "checkpoints_noise23_4_1/mnist_hybrid/noise_mid/best.pt",
+    "epoch": 3,
+    "recorded_accuracy": 57.03125,
+    "recorded_loss": 0.677647341042757,
+    "evaluated_test_accuracy": 56.25
+  },
+  {
+    "config": "configs/noise_2.4.1/mnist_hybrid_noise_mid.yaml",
+    "checkpoint": "checkpoints_noise23_4_1/mnist_hybrid/noise_mid/last.pt",
+    "epoch": 10,
+    "recorded_accuracy": 51.953125,
+    "recorded_loss": 0.6673429775983095,
+    "evaluated_test_accuracy": 43.75
+  },
+  {
+    "config": "configs/noise_2.4.1/mnist_hybrid_noise_mid.yaml",
+    "checkpoint": "checkpoints_noise23_4_1/mnist_hybrid/noise_mid/mnist_hybrid_noise23_4_1_mid_epoch_1.pt",
+    "epoch": 1,
+    "recorded_accuracy": 53.125,
+    "recorded_loss": 0.7366173705086112,
+    "evaluated_test_accuracy": 37.5
+  },
+  {
+    "config": "configs/noise_2.4.1/mnist_hybrid_noise_mid.yaml",
+    "checkpoint": "checkpoints_noise23_4_1/mnist_hybrid/noise_mid/mnist_hybrid_noise23_4_1_mid_epoch_10.pt",
+    "epoch": 10,
+    "recorded_accuracy": 51.953125,
+    "recorded_loss": 0.6673429775983095,
+    "evaluated_test_accuracy": 43.75
+  },
+  {
+    "config": "configs/noise_2.4.1/mnist_hybrid_noise_mid.yaml",
+    "checkpoint": "checkpoints_noise23_4_1/mnist_hybrid/noise_mid/mnist_hybrid_noise23_4_1_mid_epoch_2.pt",
+    "epoch": 2,
+    "recorded_accuracy": 53.515625,
+    "recorded_loss": 0.6931742252781987,
+    "evaluated_test_accuracy": 50.0
+  },
+  {
+    "config": "configs/noise_2.4.1/mnist_hybrid_noise_mid.yaml",
+    "checkpoint": "checkpoints_noise23_4_1/mnist_hybrid/noise_mid/mnist_hybrid_noise23_4_1_mid_epoch_3.pt",
+    "epoch": 3,
+    "recorded_accuracy": 57.03125,
+    "recorded_loss": 0.677647341042757,
+    "evaluated_test_accuracy": 43.75
+  },
+  {
+    "config": "configs/noise_2.4.1/mnist_hybrid_noise_mid.yaml",
+    "checkpoint": "checkpoints_noise23_4_1/mnist_hybrid/noise_mid/mnist_hybrid_noise23_4_1_mid_epoch_4.pt",
+    "epoch": 4,
+    "recorded_accuracy": 52.34375,
+    "recorded_loss": 0.6698455046862364,
+    "evaluated_test_accuracy": 56.25
+  },
+  {
+    "config": "configs/noise_2.4.1/mnist_hybrid_noise_mid.yaml",
+    "checkpoint": "checkpoints_noise23_4_1/mnist_hybrid/noise_mid/mnist_hybrid_noise23_4_1_mid_epoch_5.pt",
+    "epoch": 5,
+    "recorded_accuracy": 51.171875,
+    "recorded_loss": 0.66700005158782,
+    "evaluated_test_accuracy": 50.0
+  },
+  {
+    "config": "configs/noise_2.4.1/mnist_hybrid_noise_mid.yaml",
+    "checkpoint": "checkpoints_noise23_4_1/mnist_hybrid/noise_mid/mnist_hybrid_noise23_4_1_mid_epoch_6.pt",
+    "epoch": 6,
+    "recorded_accuracy": 50.78125,
+    "recorded_loss": 0.6695685982704163,
+    "evaluated_test_accuracy": 50.0
+  },
+  {
+    "config": "configs/noise_2.4.1/mnist_hybrid_noise_mid.yaml",
+    "checkpoint": "checkpoints_noise23_4_1/mnist_hybrid/noise_mid/mnist_hybrid_noise23_4_1_mid_epoch_7.pt",
+    "epoch": 7,
+    "recorded_accuracy": 51.171875,
+    "recorded_loss": 0.6674862429499626,
+    "evaluated_test_accuracy": 68.75
+  },
+  {
+    "config": "configs/noise_2.4.1/mnist_hybrid_noise_mid.yaml",
+    "checkpoint": "checkpoints_noise23_4_1/mnist_hybrid/noise_mid/mnist_hybrid_noise23_4_1_mid_epoch_8.pt",
+    "epoch": 8,
+    "recorded_accuracy": 51.171875,
+    "recorded_loss": 0.6670098789036274,
+    "evaluated_test_accuracy": 56.25
+  },
+  {
+    "config": "configs/noise_2.4.1/mnist_hybrid_noise_mid.yaml",
+    "checkpoint": "checkpoints_noise23_4_1/mnist_hybrid/noise_mid/mnist_hybrid_noise23_4_1_mid_epoch_9.pt",
+    "epoch": 9,
+    "recorded_accuracy": 51.5625,
+    "recorded_loss": 0.6669526379555464,
+    "evaluated_test_accuracy": 62.5
+  },
+  {
+    "config": "configs/noise_2.5.1/mnist_amplitude_noise_high.yaml",
+    "checkpoint": "checkpoints_noise25_1/mnist_amplitude/noise_high/best.pt",
+    "epoch": 9,
+    "recorded_accuracy": 62.109375,
+    "recorded_loss": 0.6500496119260788,
+    "evaluated_test_accuracy": 56.25
+  },
+  {
+    "config": "configs/noise_2.5.1/mnist_amplitude_noise_high.yaml",
+    "checkpoint": "checkpoints_noise25_1/mnist_amplitude/noise_high/last.pt",
+    "epoch": 10,
+    "recorded_accuracy": 60.9375,
+    "recorded_loss": 0.6398001313209534,
+    "evaluated_test_accuracy": 50.0
+  },
+  {
+    "config": "configs/noise_2.5.1/mnist_amplitude_noise_high.yaml",
+    "checkpoint": "checkpoints_noise25_1/mnist_amplitude/noise_high/mnist_amplitude_noise25_1_high_epoch_1.pt",
+    "epoch": 1,
+    "recorded_accuracy": 43.359375,
+    "recorded_loss": 0.704379141330719,
+    "evaluated_test_accuracy": 62.5
+  },
+  {
+    "config": "configs/noise_2.5.1/mnist_amplitude_noise_high.yaml",
+    "checkpoint": "checkpoints_noise25_1/mnist_amplitude/noise_high/mnist_amplitude_noise25_1_high_epoch_10.pt",
+    "epoch": 10,
+    "recorded_accuracy": 60.9375,
+    "recorded_loss": 0.6398001313209534,
+    "evaluated_test_accuracy": 68.75
+  },
+  {
+    "config": "configs/noise_2.5.1/mnist_amplitude_noise_high.yaml",
+    "checkpoint": "checkpoints_noise25_1/mnist_amplitude/noise_high/mnist_amplitude_noise25_1_high_epoch_2.pt",
+    "epoch": 2,
+    "recorded_accuracy": 50.0,
+    "recorded_loss": 0.6938561201095581,
+    "evaluated_test_accuracy": 62.5
+  },
+  {
+    "config": "configs/noise_2.5.1/mnist_amplitude_noise_high.yaml",
+    "checkpoint": "checkpoints_noise25_1/mnist_amplitude/noise_high/mnist_amplitude_noise25_1_high_epoch_3.pt",
+    "epoch": 3,
+    "recorded_accuracy": 54.296875,
+    "recorded_loss": 0.6888585016131401,
+    "evaluated_test_accuracy": 68.75
+  },
+  {
+    "config": "configs/noise_2.5.1/mnist_amplitude_noise_high.yaml",
+    "checkpoint": "checkpoints_noise25_1/mnist_amplitude/noise_high/mnist_amplitude_noise25_1_high_epoch_4.pt",
+    "epoch": 4,
+    "recorded_accuracy": 53.515625,
+    "recorded_loss": 0.6847174651920795,
+    "evaluated_test_accuracy": 68.75
+  },
+  {
+    "config": "configs/noise_2.5.1/mnist_amplitude_noise_high.yaml",
+    "checkpoint": "checkpoints_noise25_1/mnist_amplitude/noise_high/mnist_amplitude_noise25_1_high_epoch_5.pt",
+    "epoch": 5,
+    "recorded_accuracy": 55.078125,
+    "recorded_loss": 0.6780746392905712,
+    "evaluated_test_accuracy": 68.75
+  },
+  {
+    "config": "configs/noise_2.5.1/mnist_amplitude_noise_high.yaml",
+    "checkpoint": "checkpoints_noise25_1/mnist_amplitude/noise_high/mnist_amplitude_noise25_1_high_epoch_6.pt",
+    "epoch": 6,
+    "recorded_accuracy": 55.859375,
+    "recorded_loss": 0.6737578734755516,
+    "evaluated_test_accuracy": 50.0
+  },
+  {
+    "config": "configs/noise_2.5.1/mnist_amplitude_noise_high.yaml",
+    "checkpoint": "checkpoints_noise25_1/mnist_amplitude/noise_high/mnist_amplitude_noise25_1_high_epoch_7.pt",
+    "epoch": 7,
+    "recorded_accuracy": 58.59375,
+    "recorded_loss": 0.6650599949061871,
+    "evaluated_test_accuracy": 43.75
+  },
+  {
+    "config": "configs/noise_2.5.1/mnist_amplitude_noise_high.yaml",
+    "checkpoint": "checkpoints_noise25_1/mnist_amplitude/noise_high/mnist_amplitude_noise25_1_high_epoch_8.pt",
+    "epoch": 8,
+    "recorded_accuracy": 61.71875,
+    "recorded_loss": 0.6589279472827911,
+    "evaluated_test_accuracy": 56.25
+  },
+  {
+    "config": "configs/noise_2.5.1/mnist_amplitude_noise_high.yaml",
+    "checkpoint": "checkpoints_noise25_1/mnist_amplitude/noise_high/mnist_amplitude_noise25_1_high_epoch_9.pt",
+    "epoch": 9,
+    "recorded_accuracy": 62.109375,
+    "recorded_loss": 0.6500496119260788,
+    "evaluated_test_accuracy": 68.75
+  },
+  {
+    "config": "configs/noise_2.5.1/mnist_amplitude_noise_low.yaml",
+    "checkpoint": "checkpoints_noise25_1/mnist_amplitude/noise_low/best.pt",
+    "epoch": 10,
+    "recorded_accuracy": 61.328125,
+    "recorded_loss": 0.6451417319476604,
+    "evaluated_test_accuracy": 81.25
+  },
+  {
+    "config": "configs/noise_2.5.1/mnist_amplitude_noise_low.yaml",
+    "checkpoint": "checkpoints_noise25_1/mnist_amplitude/noise_low/last.pt",
+    "epoch": 10,
+    "recorded_accuracy": 61.328125,
+    "recorded_loss": 0.6451417319476604,
+    "evaluated_test_accuracy": 56.25
+  },
+  {
+    "config": "configs/noise_2.5.1/mnist_amplitude_noise_low.yaml",
+    "checkpoint": "checkpoints_noise25_1/mnist_amplitude/noise_low/mnist_amplitude_noise25_1_low_epoch_1.pt",
+    "epoch": 1,
+    "recorded_accuracy": 46.875,
+    "recorded_loss": 0.8026163913309574,
+    "evaluated_test_accuracy": 68.75
+  },
+  {
+    "config": "configs/noise_2.5.1/mnist_amplitude_noise_low.yaml",
+    "checkpoint": "checkpoints_noise25_1/mnist_amplitude/noise_low/mnist_amplitude_noise25_1_low_epoch_10.pt",
+    "epoch": 10,
+    "recorded_accuracy": 61.328125,
+    "recorded_loss": 0.6451417319476604,
+    "evaluated_test_accuracy": 62.5
+  },
+  {
+    "config": "configs/noise_2.5.1/mnist_amplitude_noise_low.yaml",
+    "checkpoint": "checkpoints_noise25_1/mnist_amplitude/noise_low/mnist_amplitude_noise25_1_low_epoch_2.pt",
+    "epoch": 2,
+    "recorded_accuracy": 47.65625,
+    "recorded_loss": 0.7389714792370796,
+    "evaluated_test_accuracy": 75.0
+  },
+  {
+    "config": "configs/noise_2.5.1/mnist_amplitude_noise_low.yaml",
+    "checkpoint": "checkpoints_noise25_1/mnist_amplitude/noise_low/mnist_amplitude_noise25_1_low_epoch_3.pt",
+    "epoch": 3,
+    "recorded_accuracy": 54.296875,
+    "recorded_loss": 0.6937835700809956,
+    "evaluated_test_accuracy": 43.75
+  },
+  {
+    "config": "configs/noise_2.5.1/mnist_amplitude_noise_low.yaml",
+    "checkpoint": "checkpoints_noise25_1/mnist_amplitude/noise_low/mnist_amplitude_noise25_1_low_epoch_4.pt",
+    "epoch": 4,
+    "recorded_accuracy": 57.8125,
+    "recorded_loss": 0.6760861910879612,
+    "evaluated_test_accuracy": 56.25
+  },
+  {
+    "config": "configs/noise_2.5.1/mnist_amplitude_noise_low.yaml",
+    "checkpoint": "checkpoints_noise25_1/mnist_amplitude/noise_low/mnist_amplitude_noise25_1_low_epoch_5.pt",
+    "epoch": 5,
+    "recorded_accuracy": 56.640625,
+    "recorded_loss": 0.6663227416574955,
+    "evaluated_test_accuracy": 56.25
+  },
+  {
+    "config": "configs/noise_2.5.1/mnist_amplitude_noise_low.yaml",
+    "checkpoint": "checkpoints_noise25_1/mnist_amplitude/noise_low/mnist_amplitude_noise25_1_low_epoch_6.pt",
+    "epoch": 6,
+    "recorded_accuracy": 58.984375,
+    "recorded_loss": 0.6637494042515755,
+    "evaluated_test_accuracy": 50.0
+  },
+  {
+    "config": "configs/noise_2.5.1/mnist_amplitude_noise_low.yaml",
+    "checkpoint": "checkpoints_noise25_1/mnist_amplitude/noise_low/mnist_amplitude_noise25_1_low_epoch_7.pt",
+    "epoch": 7,
+    "recorded_accuracy": 59.765625,
+    "recorded_loss": 0.6576287373900414,
+    "evaluated_test_accuracy": 81.25
+  },
+  {
+    "config": "configs/noise_2.5.1/mnist_amplitude_noise_low.yaml",
+    "checkpoint": "checkpoints_noise25_1/mnist_amplitude/noise_low/mnist_amplitude_noise25_1_low_epoch_8.pt",
+    "epoch": 8,
+    "recorded_accuracy": 58.203125,
+    "recorded_loss": 0.6528757363557816,
+    "evaluated_test_accuracy": 50.0
+  },
+  {
+    "config": "configs/noise_2.5.1/mnist_amplitude_noise_low.yaml",
+    "checkpoint": "checkpoints_noise25_1/mnist_amplitude/noise_low/mnist_amplitude_noise25_1_low_epoch_9.pt",
+    "epoch": 9,
+    "recorded_accuracy": 60.9375,
+    "recorded_loss": 0.6486516520380974,
+    "evaluated_test_accuracy": 68.75
+  },
+  {
+    "config": "configs/noise_2.5.1/mnist_amplitude_noise_mid.yaml",
+    "checkpoint": "checkpoints_noise25_1/mnist_amplitude/noise_mid/best.pt",
+    "epoch": 10,
+    "recorded_accuracy": 68.75,
+    "recorded_loss": 0.639501228928566,
+    "evaluated_test_accuracy": 81.25
+  },
+  {
+    "config": "configs/noise_2.5.1/mnist_amplitude_noise_mid.yaml",
+    "checkpoint": "checkpoints_noise25_1/mnist_amplitude/noise_mid/last.pt",
+    "epoch": 10,
+    "recorded_accuracy": 68.75,
+    "recorded_loss": 0.639501228928566,
+    "evaluated_test_accuracy": 75.0
+  },
+  {
+    "config": "configs/noise_2.5.1/mnist_amplitude_noise_mid.yaml",
+    "checkpoint": "checkpoints_noise25_1/mnist_amplitude/noise_mid/mnist_amplitude_noise25_1_mid_epoch_1.pt",
+    "epoch": 1,
+    "recorded_accuracy": 51.171875,
+    "recorded_loss": 0.6711397767066956,
+    "evaluated_test_accuracy": 68.75
+  },
+  {
+    "config": "configs/noise_2.5.1/mnist_amplitude_noise_mid.yaml",
+    "checkpoint": "checkpoints_noise25_1/mnist_amplitude/noise_mid/mnist_amplitude_noise25_1_mid_epoch_10.pt",
+    "epoch": 10,
+    "recorded_accuracy": 68.75,
+    "recorded_loss": 0.639501228928566,
+    "evaluated_test_accuracy": 87.5
+  },
+  {
+    "config": "configs/noise_2.5.1/mnist_amplitude_noise_mid.yaml",
+    "checkpoint": "checkpoints_noise25_1/mnist_amplitude/noise_mid/mnist_amplitude_noise25_1_mid_epoch_2.pt",
+    "epoch": 2,
+    "recorded_accuracy": 58.984375,
+    "recorded_loss": 0.6579604968428612,
+    "evaluated_test_accuracy": 75.0
+  },
+  {
+    "config": "configs/noise_2.5.1/mnist_amplitude_noise_mid.yaml",
+    "checkpoint": "checkpoints_noise25_1/mnist_amplitude/noise_mid/mnist_amplitude_noise25_1_mid_epoch_3.pt",
+    "epoch": 3,
+    "recorded_accuracy": 67.1875,
+    "recorded_loss": 0.6527481265366077,
+    "evaluated_test_accuracy": 75.0
+  },
+  {
+    "config": "configs/noise_2.5.1/mnist_amplitude_noise_mid.yaml",
+    "checkpoint": "checkpoints_noise25_1/mnist_amplitude/noise_mid/mnist_amplitude_noise25_1_mid_epoch_4.pt",
+    "epoch": 4,
+    "recorded_accuracy": 66.796875,
+    "recorded_loss": 0.6488480903208256,
+    "evaluated_test_accuracy": 68.75
+  },
+  {
+    "config": "configs/noise_2.5.1/mnist_amplitude_noise_mid.yaml",
+    "checkpoint": "checkpoints_noise25_1/mnist_amplitude/noise_mid/mnist_amplitude_noise25_1_mid_epoch_5.pt",
+    "epoch": 5,
+    "recorded_accuracy": 64.0625,
+    "recorded_loss": 0.6511376313865185,
+    "evaluated_test_accuracy": 68.75
+  },
+  {
+    "config": "configs/noise_2.5.1/mnist_amplitude_noise_mid.yaml",
+    "checkpoint": "checkpoints_noise25_1/mnist_amplitude/noise_mid/mnist_amplitude_noise25_1_mid_epoch_6.pt",
+    "epoch": 6,
+    "recorded_accuracy": 66.796875,
+    "recorded_loss": 0.6434129811823368,
+    "evaluated_test_accuracy": 81.25
+  },
+  {
+    "config": "configs/noise_2.5.1/mnist_amplitude_noise_mid.yaml",
+    "checkpoint": "checkpoints_noise25_1/mnist_amplitude/noise_mid/mnist_amplitude_noise25_1_mid_epoch_7.pt",
+    "epoch": 7,
+    "recorded_accuracy": 68.359375,
+    "recorded_loss": 0.6411771737039089,
+    "evaluated_test_accuracy": 56.25
+  },
+  {
+    "config": "configs/noise_2.5.1/mnist_amplitude_noise_mid.yaml",
+    "checkpoint": "checkpoints_noise25_1/mnist_amplitude/noise_mid/mnist_amplitude_noise25_1_mid_epoch_8.pt",
+    "epoch": 8,
+    "recorded_accuracy": 67.1875,
+    "recorded_loss": 0.6449739597737789,
+    "evaluated_test_accuracy": 75.0
+  },
+  {
+    "config": "configs/noise_2.5.1/mnist_amplitude_noise_mid.yaml",
+    "checkpoint": "checkpoints_noise25_1/mnist_amplitude/noise_mid/mnist_amplitude_noise25_1_mid_epoch_9.pt",
+    "epoch": 9,
+    "recorded_accuracy": 67.1875,
+    "recorded_loss": 0.6398716643452644,
+    "evaluated_test_accuracy": 75.0
+  },
+  {
+    "config": "configs/noise_2.5.1/mnist_hybrid_noise_high.yaml",
+    "checkpoint": "checkpoints_noise25_1/mnist_hybrid/noise_high/best.pt",
+    "epoch": 10,
+    "recorded_accuracy": 48.828125,
+    "recorded_loss": 0.6879421640187502,
+    "evaluated_test_accuracy": 50.0
+  },
+  {
+    "config": "configs/noise_2.5.1/mnist_hybrid_noise_high.yaml",
+    "checkpoint": "checkpoints_noise25_1/mnist_hybrid/noise_high/last.pt",
+    "epoch": 10,
+    "recorded_accuracy": 48.828125,
+    "recorded_loss": 0.6879421640187502,
+    "evaluated_test_accuracy": 37.5
+  },
+  {
+    "config": "configs/noise_2.5.1/mnist_hybrid_noise_high.yaml",
+    "checkpoint": "checkpoints_noise25_1/mnist_hybrid/noise_high/mnist_hybrid_noise25_1_high_epoch_1.pt",
+    "epoch": 1,
+    "recorded_accuracy": 48.4375,
+    "recorded_loss": 0.6890509389340878,
+    "evaluated_test_accuracy": 62.5
+  },
+  {
+    "config": "configs/noise_2.5.1/mnist_hybrid_noise_high.yaml",
+    "checkpoint": "checkpoints_noise25_1/mnist_hybrid/noise_high/mnist_hybrid_noise25_1_high_epoch_10.pt",
+    "epoch": 10,
+    "recorded_accuracy": 48.828125,
+    "recorded_loss": 0.6879421640187502,
+    "evaluated_test_accuracy": 43.75
+  },
+  {
+    "config": "configs/noise_2.5.1/mnist_hybrid_noise_high.yaml",
+    "checkpoint": "checkpoints_noise25_1/mnist_hybrid/noise_high/mnist_hybrid_noise25_1_high_epoch_2.pt",
+    "epoch": 2,
+    "recorded_accuracy": 46.09375,
+    "recorded_loss": 0.6895406059920788,
+    "evaluated_test_accuracy": 56.25
+  },
+  {
+    "config": "configs/noise_2.5.1/mnist_hybrid_noise_high.yaml",
+    "checkpoint": "checkpoints_noise25_1/mnist_hybrid/noise_high/mnist_hybrid_noise25_1_high_epoch_3.pt",
+    "epoch": 3,
+    "recorded_accuracy": 48.046875,
+    "recorded_loss": 0.6885071638971567,
+    "evaluated_test_accuracy": 25.0
+  },
+  {
+    "config": "configs/noise_2.5.1/mnist_hybrid_noise_high.yaml",
+    "checkpoint": "checkpoints_noise25_1/mnist_hybrid/noise_high/mnist_hybrid_noise25_1_high_epoch_4.pt",
+    "epoch": 4,
+    "recorded_accuracy": 41.40625,
+    "recorded_loss": 0.6892268843948841,
+    "evaluated_test_accuracy": 37.5
+  },
+  {
+    "config": "configs/noise_2.5.1/mnist_hybrid_noise_high.yaml",
+    "checkpoint": "checkpoints_noise25_1/mnist_hybrid/noise_high/mnist_hybrid_noise25_1_high_epoch_5.pt",
+    "epoch": 5,
+    "recorded_accuracy": 39.0625,
+    "recorded_loss": 0.6906912177801132,
+    "evaluated_test_accuracy": 37.5
+  },
+  {
+    "config": "configs/noise_2.5.1/mnist_hybrid_noise_high.yaml",
+    "checkpoint": "checkpoints_noise25_1/mnist_hybrid/noise_high/mnist_hybrid_noise25_1_high_epoch_6.pt",
+    "epoch": 6,
+    "recorded_accuracy": 47.65625,
+    "recorded_loss": 0.6889605298638344,
+    "evaluated_test_accuracy": 25.0
+  },
+  {
+    "config": "configs/noise_2.5.1/mnist_hybrid_noise_high.yaml",
+    "checkpoint": "checkpoints_noise25_1/mnist_hybrid/noise_high/mnist_hybrid_noise25_1_high_epoch_7.pt",
+    "epoch": 7,
+    "recorded_accuracy": 40.234375,
+    "recorded_loss": 0.6901739798486233,
+    "evaluated_test_accuracy": 31.25
+  },
+  {
+    "config": "configs/noise_2.5.1/mnist_hybrid_noise_high.yaml",
+    "checkpoint": "checkpoints_noise25_1/mnist_hybrid/noise_high/mnist_hybrid_noise25_1_high_epoch_8.pt",
+    "epoch": 8,
+    "recorded_accuracy": 41.40625,
+    "recorded_loss": 0.6875612810254097,
+    "evaluated_test_accuracy": 31.25
+  },
+  {
+    "config": "configs/noise_2.5.1/mnist_hybrid_noise_high.yaml",
+    "checkpoint": "checkpoints_noise25_1/mnist_hybrid/noise_high/mnist_hybrid_noise25_1_high_epoch_9.pt",
+    "epoch": 9,
+    "recorded_accuracy": 42.96875,
+    "recorded_loss": 0.6894638054072857,
+    "evaluated_test_accuracy": 43.75
+  },
+  {
+    "config": "configs/noise_2.5.1/mnist_hybrid_noise_low.yaml",
+    "checkpoint": "checkpoints_noise25_1/mnist_hybrid/noise_low/best.pt",
+    "epoch": 3,
+    "recorded_accuracy": 57.03125,
+    "recorded_loss": 0.6914044246077538,
+    "evaluated_test_accuracy": 56.25
+  },
+  {
+    "config": "configs/noise_2.5.1/mnist_hybrid_noise_low.yaml",
+    "checkpoint": "checkpoints_noise25_1/mnist_hybrid/noise_low/last.pt",
+    "epoch": 10,
+    "recorded_accuracy": 42.578125,
+    "recorded_loss": 0.6878165919333696,
+    "evaluated_test_accuracy": 43.75
+  },
+  {
+    "config": "configs/noise_2.5.1/mnist_hybrid_noise_low.yaml",
+    "checkpoint": "checkpoints_noise25_1/mnist_hybrid/noise_low/mnist_hybrid_noise25_1_low_epoch_1.pt",
+    "epoch": 1,
+    "recorded_accuracy": 48.046875,
+    "recorded_loss": 0.7146128602325916,
+    "evaluated_test_accuracy": 50.0
+  },
+  {
+    "config": "configs/noise_2.5.1/mnist_hybrid_noise_low.yaml",
+    "checkpoint": "checkpoints_noise25_1/mnist_hybrid/noise_low/mnist_hybrid_noise25_1_low_epoch_10.pt",
+    "epoch": 10,
+    "recorded_accuracy": 42.578125,
+    "recorded_loss": 0.6878165919333696,
+    "evaluated_test_accuracy": 31.25
+  },
+  {
+    "config": "configs/noise_2.5.1/mnist_hybrid_noise_low.yaml",
+    "checkpoint": "checkpoints_noise25_1/mnist_hybrid/noise_low/mnist_hybrid_noise25_1_low_epoch_2.pt",
+    "epoch": 2,
+    "recorded_accuracy": 48.4375,
+    "recorded_loss": 0.697021521627903,
+    "evaluated_test_accuracy": 43.75
+  },
+  {
+    "config": "configs/noise_2.5.1/mnist_hybrid_noise_low.yaml",
+    "checkpoint": "checkpoints_noise25_1/mnist_hybrid/noise_low/mnist_hybrid_noise25_1_low_epoch_3.pt",
+    "epoch": 3,
+    "recorded_accuracy": 57.03125,
+    "recorded_loss": 0.6914044246077538,
+    "evaluated_test_accuracy": 43.75
+  },
+  {
+    "config": "configs/noise_2.5.1/mnist_hybrid_noise_low.yaml",
+    "checkpoint": "checkpoints_noise25_1/mnist_hybrid/noise_low/mnist_hybrid_noise25_1_low_epoch_4.pt",
+    "epoch": 4,
+    "recorded_accuracy": 39.84375,
+    "recorded_loss": 0.6883078068494797,
+    "evaluated_test_accuracy": 25.0
+  },
+  {
+    "config": "configs/noise_2.5.1/mnist_hybrid_noise_low.yaml",
+    "checkpoint": "checkpoints_noise25_1/mnist_hybrid/noise_low/mnist_hybrid_noise25_1_low_epoch_5.pt",
+    "epoch": 5,
+    "recorded_accuracy": 44.921875,
+    "recorded_loss": 0.6867400668561459,
+    "evaluated_test_accuracy": 31.25
+  },
+  {
+    "config": "configs/noise_2.5.1/mnist_hybrid_noise_low.yaml",
+    "checkpoint": "checkpoints_noise25_1/mnist_hybrid/noise_low/mnist_hybrid_noise25_1_low_epoch_6.pt",
+    "epoch": 6,
+    "recorded_accuracy": 40.625,
+    "recorded_loss": 0.6862167604267597,
+    "evaluated_test_accuracy": 43.75
+  },
+  {
+    "config": "configs/noise_2.5.1/mnist_hybrid_noise_low.yaml",
+    "checkpoint": "checkpoints_noise25_1/mnist_hybrid/noise_low/mnist_hybrid_noise25_1_low_epoch_7.pt",
+    "epoch": 7,
+    "recorded_accuracy": 43.359375,
+    "recorded_loss": 0.6866269428282976,
+    "evaluated_test_accuracy": 43.75
+  },
+  {
+    "config": "configs/noise_2.5.1/mnist_hybrid_noise_low.yaml",
+    "checkpoint": "checkpoints_noise25_1/mnist_hybrid/noise_low/mnist_hybrid_noise25_1_low_epoch_8.pt",
+    "epoch": 8,
+    "recorded_accuracy": 40.234375,
+    "recorded_loss": 0.6851110439747572,
+    "evaluated_test_accuracy": 43.75
+  },
+  {
+    "config": "configs/noise_2.5.1/mnist_hybrid_noise_low.yaml",
+    "checkpoint": "checkpoints_noise25_1/mnist_hybrid/noise_low/mnist_hybrid_noise25_1_low_epoch_9.pt",
+    "epoch": 9,
+    "recorded_accuracy": 44.140625,
+    "recorded_loss": 0.6859737168997526,
+    "evaluated_test_accuracy": 18.75
+  },
+  {
+    "config": "configs/noise_2.5.1/mnist_hybrid_noise_mid.yaml",
+    "checkpoint": "checkpoints_noise25_1/mnist_hybrid/noise_mid/best.pt",
+    "epoch": 6,
+    "recorded_accuracy": 52.734375,
+    "recorded_loss": 0.6944664549082518,
+    "evaluated_test_accuracy": 68.75
+  },
+  {
+    "config": "configs/noise_2.5.1/mnist_hybrid_noise_mid.yaml",
+    "checkpoint": "checkpoints_noise25_1/mnist_hybrid/noise_mid/last.pt",
+    "epoch": 10,
+    "recorded_accuracy": 52.734375,
+    "recorded_loss": 0.692270427942276,
+    "evaluated_test_accuracy": 50.0
+  },
+  {
+    "config": "configs/noise_2.5.1/mnist_hybrid_noise_mid.yaml",
+    "checkpoint": "checkpoints_noise25_1/mnist_hybrid/noise_mid/mnist_hybrid_noise25_1_mid_epoch_1.pt",
+    "epoch": 1,
+    "recorded_accuracy": 47.65625,
+    "recorded_loss": 0.7610879465937614,
+    "evaluated_test_accuracy": 25.0
+  },
+  {
+    "config": "configs/noise_2.5.1/mnist_hybrid_noise_mid.yaml",
+    "checkpoint": "checkpoints_noise25_1/mnist_hybrid/noise_mid/mnist_hybrid_noise25_1_mid_epoch_10.pt",
+    "epoch": 10,
+    "recorded_accuracy": 52.734375,
+    "recorded_loss": 0.692270427942276,
+    "evaluated_test_accuracy": 50.0
+  },
+  {
+    "config": "configs/noise_2.5.1/mnist_hybrid_noise_mid.yaml",
+    "checkpoint": "checkpoints_noise25_1/mnist_hybrid/noise_mid/mnist_hybrid_noise25_1_mid_epoch_2.pt",
+    "epoch": 2,
+    "recorded_accuracy": 40.625,
+    "recorded_loss": 0.717814739793539,
+    "evaluated_test_accuracy": 43.75
+  },
+  {
+    "config": "configs/noise_2.5.1/mnist_hybrid_noise_mid.yaml",
+    "checkpoint": "checkpoints_noise25_1/mnist_hybrid/noise_mid/mnist_hybrid_noise25_1_mid_epoch_3.pt",
+    "epoch": 3,
+    "recorded_accuracy": 36.328125,
+    "recorded_loss": 0.7019333187490702,
+    "evaluated_test_accuracy": 37.5
+  },
+  {
+    "config": "configs/noise_2.5.1/mnist_hybrid_noise_mid.yaml",
+    "checkpoint": "checkpoints_noise25_1/mnist_hybrid/noise_mid/mnist_hybrid_noise25_1_mid_epoch_4.pt",
+    "epoch": 4,
+    "recorded_accuracy": 37.109375,
+    "recorded_loss": 0.6944851260632277,
+    "evaluated_test_accuracy": 43.75
+  },
+  {
+    "config": "configs/noise_2.5.1/mnist_hybrid_noise_mid.yaml",
+    "checkpoint": "checkpoints_noise25_1/mnist_hybrid/noise_mid/mnist_hybrid_noise25_1_mid_epoch_5.pt",
+    "epoch": 5,
+    "recorded_accuracy": 51.171875,
+    "recorded_loss": 0.6958852596580982,
+    "evaluated_test_accuracy": 43.75
+  },
+  {
+    "config": "configs/noise_2.5.1/mnist_hybrid_noise_mid.yaml",
+    "checkpoint": "checkpoints_noise25_1/mnist_hybrid/noise_mid/mnist_hybrid_noise25_1_mid_epoch_6.pt",
+    "epoch": 6,
+    "recorded_accuracy": 52.734375,
+    "recorded_loss": 0.6944664549082518,
+    "evaluated_test_accuracy": 43.75
+  },
+  {
+    "config": "configs/noise_2.5.1/mnist_hybrid_noise_mid.yaml",
+    "checkpoint": "checkpoints_noise25_1/mnist_hybrid/noise_mid/mnist_hybrid_noise25_1_mid_epoch_7.pt",
+    "epoch": 7,
+    "recorded_accuracy": 52.734375,
+    "recorded_loss": 0.6921745762228966,
+    "evaluated_test_accuracy": 68.75
+  },
+  {
+    "config": "configs/noise_2.5.1/mnist_hybrid_noise_mid.yaml",
+    "checkpoint": "checkpoints_noise25_1/mnist_hybrid/noise_mid/mnist_hybrid_noise25_1_mid_epoch_8.pt",
+    "epoch": 8,
+    "recorded_accuracy": 50.390625,
+    "recorded_loss": 0.692574230954051,
+    "evaluated_test_accuracy": 75.0
+  },
+  {
+    "config": "configs/noise_2.5.1/mnist_hybrid_noise_mid.yaml",
+    "checkpoint": "checkpoints_noise25_1/mnist_hybrid/noise_mid/mnist_hybrid_noise25_1_mid_epoch_9.pt",
+    "epoch": 9,
+    "recorded_accuracy": 51.5625,
+    "recorded_loss": 0.6939548645168543,
+    "evaluated_test_accuracy": 62.5
+  },
+  {
+    "config": "configs/noise_2.5.1/fashion_amplitude_noise_high.yaml",
+    "checkpoint": "checkpoints_noise25_1/fashion_amplitude/noise_high/best.pt",
+    "epoch": 8,
+    "recorded_accuracy": 70.703125,
+    "recorded_loss": 0.6182157881557941,
+    "evaluated_test_accuracy": 62.5
+  },
+  {
+    "config": "configs/noise_2.5.1/fashion_amplitude_noise_high.yaml",
+    "checkpoint": "checkpoints_noise25_1/fashion_amplitude/noise_high/fashion_amplitude_noise25_1_high_epoch_1.pt",
+    "epoch": 1,
+    "recorded_accuracy": 51.171875,
+    "recorded_loss": 0.7276489548385143,
+    "evaluated_test_accuracy": 56.25
+  },
+  {
+    "config": "configs/noise_2.5.1/fashion_amplitude_noise_high.yaml",
+    "checkpoint": "checkpoints_noise25_1/fashion_amplitude/noise_high/fashion_amplitude_noise25_1_high_epoch_2.pt",
+    "epoch": 2,
+    "recorded_accuracy": 51.171875,
+    "recorded_loss": 0.6999867670238018,
+    "evaluated_test_accuracy": 75.0
+  },
+  {
+    "config": "configs/noise_2.5.1/fashion_amplitude_noise_high.yaml",
+    "checkpoint": "checkpoints_noise25_1/fashion_amplitude/noise_high/fashion_amplitude_noise25_1_high_epoch_3.pt",
+    "epoch": 3,
+    "recorded_accuracy": 51.171875,
+    "recorded_loss": 0.6844050846993923,
+    "evaluated_test_accuracy": 62.5
+  },
+  {
+    "config": "configs/noise_2.5.1/fashion_amplitude_noise_high.yaml",
+    "checkpoint": "checkpoints_noise25_1/fashion_amplitude/noise_high/fashion_amplitude_noise25_1_high_epoch_4.pt",
+    "epoch": 4,
+    "recorded_accuracy": 53.125,
+    "recorded_loss": 0.6691938377916813,
+    "evaluated_test_accuracy": 43.75
+  },
+  {
+    "config": "configs/noise_2.5.1/fashion_amplitude_noise_high.yaml",
+    "checkpoint": "checkpoints_noise25_1/fashion_amplitude/noise_high/fashion_amplitude_noise25_1_high_epoch_5.pt",
+    "epoch": 5,
+    "recorded_accuracy": 57.8125,
+    "recorded_loss": 0.6569693572819233,
+    "evaluated_test_accuracy": 62.5
+  },
+  {
+    "config": "configs/noise_2.5.1/fashion_amplitude_noise_high.yaml",
+    "checkpoint": "checkpoints_noise25_1/fashion_amplitude/noise_high/fashion_amplitude_noise25_1_high_epoch_6.pt",
+    "epoch": 6,
+    "recorded_accuracy": 64.84375,
+    "recorded_loss": 0.6413323171436787,
+    "evaluated_test_accuracy": 50.0
+  },
+  {
+    "config": "configs/noise_2.5.1/fashion_amplitude_noise_high.yaml",
+    "checkpoint": "checkpoints_noise25_1/fashion_amplitude/noise_high/fashion_amplitude_noise25_1_high_epoch_7.pt",
+    "epoch": 7,
+    "recorded_accuracy": 67.1875,
+    "recorded_loss": 0.630075678229332,
+    "evaluated_test_accuracy": 75.0
+  },
+  {
+    "config": "configs/noise_2.5.1/fashion_amplitude_noise_high.yaml",
+    "checkpoint": "checkpoints_noise25_1/fashion_amplitude/noise_high/fashion_amplitude_noise25_1_high_epoch_8.pt",
+    "epoch": 8,
+    "recorded_accuracy": 70.703125,
+    "recorded_loss": 0.6182157881557941,
+    "evaluated_test_accuracy": 93.75
+  },
+  {
+    "config": "configs/noise_2.5.1/fashion_amplitude_noise_high.yaml",
+    "checkpoint": "checkpoints_noise25_1/fashion_amplitude/noise_high/last.pt",
+    "epoch": 8,
+    "recorded_accuracy": 70.703125,
+    "recorded_loss": 0.6182157881557941,
+    "evaluated_test_accuracy": 81.25
+  },
+  {
+    "config": "configs/noise_2.5.1/fashion_amplitude_noise_low.yaml",
+    "checkpoint": "checkpoints_noise25_1/fashion_amplitude/noise_low/best.pt",
+    "epoch": 7,
+    "recorded_accuracy": 73.828125,
+    "recorded_loss": 0.6325048990547657,
+    "evaluated_test_accuracy": 87.5
+  },
+  {
+    "config": "configs/noise_2.5.1/fashion_amplitude_noise_low.yaml",
+    "checkpoint": "checkpoints_noise25_1/fashion_amplitude/noise_low/fashion_amplitude_noise25_1_low_epoch_1.pt",
+    "epoch": 1,
+    "recorded_accuracy": 45.703125,
+    "recorded_loss": 0.7145210653543472,
+    "evaluated_test_accuracy": 62.5
+  },
+  {
+    "config": "configs/noise_2.5.1/fashion_amplitude_noise_low.yaml",
+    "checkpoint": "checkpoints_noise25_1/fashion_amplitude/noise_low/fashion_amplitude_noise25_1_low_epoch_2.pt",
+    "epoch": 2,
+    "recorded_accuracy": 61.328125,
+    "recorded_loss": 0.6894051283597946,
+    "evaluated_test_accuracy": 62.5
+  },
+  {
+    "config": "configs/noise_2.5.1/fashion_amplitude_noise_low.yaml",
+    "checkpoint": "checkpoints_noise25_1/fashion_amplitude/noise_low/fashion_amplitude_noise25_1_low_epoch_3.pt",
+    "epoch": 3,
+    "recorded_accuracy": 64.84375,
+    "recorded_loss": 0.6840539574623108,
+    "evaluated_test_accuracy": 56.25
+  },
+  {
+    "config": "configs/noise_2.5.1/fashion_amplitude_noise_low.yaml",
+    "checkpoint": "checkpoints_noise25_1/fashion_amplitude/noise_low/fashion_amplitude_noise25_1_low_epoch_4.pt",
+    "epoch": 4,
+    "recorded_accuracy": 68.75,
+    "recorded_loss": 0.6700744740664959,
+    "evaluated_test_accuracy": 68.75
+  },
+  {
+    "config": "configs/noise_2.5.1/fashion_amplitude_noise_low.yaml",
+    "checkpoint": "checkpoints_noise25_1/fashion_amplitude/noise_low/fashion_amplitude_noise25_1_low_epoch_5.pt",
+    "epoch": 5,
+    "recorded_accuracy": 70.703125,
+    "recorded_loss": 0.6559824533760548,
+    "evaluated_test_accuracy": 68.75
+  },
+  {
+    "config": "configs/noise_2.5.1/fashion_amplitude_noise_low.yaml",
+    "checkpoint": "checkpoints_noise25_1/fashion_amplitude/noise_low/fashion_amplitude_noise25_1_low_epoch_6.pt",
+    "epoch": 6,
+    "recorded_accuracy": 71.484375,
+    "recorded_loss": 0.6477490998804569,
+    "evaluated_test_accuracy": 62.5
+  },
+  {
+    "config": "configs/noise_2.5.1/fashion_amplitude_noise_low.yaml",
+    "checkpoint": "checkpoints_noise25_1/fashion_amplitude/noise_low/fashion_amplitude_noise25_1_low_epoch_7.pt",
+    "epoch": 7,
+    "recorded_accuracy": 73.828125,
+    "recorded_loss": 0.6325048990547657,
+    "evaluated_test_accuracy": 68.75
+  },
+  {
+    "config": "configs/noise_2.5.1/fashion_amplitude_noise_low.yaml",
+    "checkpoint": "checkpoints_noise25_1/fashion_amplitude/noise_low/fashion_amplitude_noise25_1_low_epoch_8.pt",
+    "epoch": 8,
+    "recorded_accuracy": 73.046875,
+    "recorded_loss": 0.6255896426737309,
+    "evaluated_test_accuracy": 68.75
+  },
+  {
+    "config": "configs/noise_2.5.1/fashion_amplitude_noise_low.yaml",
+    "checkpoint": "checkpoints_noise25_1/fashion_amplitude/noise_low/last.pt",
+    "epoch": 8,
+    "recorded_accuracy": 73.046875,
+    "recorded_loss": 0.6255896426737309,
+    "evaluated_test_accuracy": 87.5
+  },
+  {
+    "config": "configs/noise_2.5.1/fashion_amplitude_noise_mid.yaml",
+    "checkpoint": "checkpoints_noise25_1/fashion_amplitude/noise_mid/best.pt",
+    "epoch": 8,
+    "recorded_accuracy": 73.828125,
+    "recorded_loss": 0.6113243252038956,
+    "evaluated_test_accuracy": 68.75
+  },
+  {
+    "config": "configs/noise_2.5.1/fashion_amplitude_noise_mid.yaml",
+    "checkpoint": "checkpoints_noise25_1/fashion_amplitude/noise_mid/fashion_amplitude_noise25_1_mid_epoch_1.pt",
+    "epoch": 1,
+    "recorded_accuracy": 58.59375,
+    "recorded_loss": 0.6730483956634998,
+    "evaluated_test_accuracy": 68.75
+  },
+  {
+    "config": "configs/noise_2.5.1/fashion_amplitude_noise_mid.yaml",
+    "checkpoint": "checkpoints_noise25_1/fashion_amplitude/noise_mid/fashion_amplitude_noise25_1_mid_epoch_2.pt",
+    "epoch": 2,
+    "recorded_accuracy": 66.015625,
+    "recorded_loss": 0.6621173359453678,
+    "evaluated_test_accuracy": 56.25
+  },
+  {
+    "config": "configs/noise_2.5.1/fashion_amplitude_noise_mid.yaml",
+    "checkpoint": "checkpoints_noise25_1/fashion_amplitude/noise_mid/fashion_amplitude_noise25_1_mid_epoch_3.pt",
+    "epoch": 3,
+    "recorded_accuracy": 67.1875,
+    "recorded_loss": 0.6520851254463196,
+    "evaluated_test_accuracy": 81.25
+  },
+  {
+    "config": "configs/noise_2.5.1/fashion_amplitude_noise_mid.yaml",
+    "checkpoint": "checkpoints_noise25_1/fashion_amplitude/noise_mid/fashion_amplitude_noise25_1_mid_epoch_4.pt",
+    "epoch": 4,
+    "recorded_accuracy": 69.921875,
+    "recorded_loss": 0.6418735161423683,
+    "evaluated_test_accuracy": 87.5
+  },
+  {
+    "config": "configs/noise_2.5.1/fashion_amplitude_noise_mid.yaml",
+    "checkpoint": "checkpoints_noise25_1/fashion_amplitude/noise_mid/fashion_amplitude_noise25_1_mid_epoch_5.pt",
+    "epoch": 5,
+    "recorded_accuracy": 73.4375,
+    "recorded_loss": 0.6356553174555302,
+    "evaluated_test_accuracy": 75.0
+  },
+  {
+    "config": "configs/noise_2.5.1/fashion_amplitude_noise_mid.yaml",
+    "checkpoint": "checkpoints_noise25_1/fashion_amplitude/noise_mid/fashion_amplitude_noise25_1_mid_epoch_6.pt",
+    "epoch": 6,
+    "recorded_accuracy": 72.265625,
+    "recorded_loss": 0.6251330673694611,
+    "evaluated_test_accuracy": 81.25
+  },
+  {
+    "config": "configs/noise_2.5.1/fashion_amplitude_noise_mid.yaml",
+    "checkpoint": "checkpoints_noise25_1/fashion_amplitude/noise_mid/fashion_amplitude_noise25_1_mid_epoch_7.pt",
+    "epoch": 7,
+    "recorded_accuracy": 72.265625,
+    "recorded_loss": 0.6168186292052269,
+    "evaluated_test_accuracy": 75.0
+  },
+  {
+    "config": "configs/noise_2.5.1/fashion_amplitude_noise_mid.yaml",
+    "checkpoint": "checkpoints_noise25_1/fashion_amplitude/noise_mid/fashion_amplitude_noise25_1_mid_epoch_8.pt",
+    "epoch": 8,
+    "recorded_accuracy": 73.828125,
+    "recorded_loss": 0.6113243252038956,
+    "evaluated_test_accuracy": 75.0
+  },
+  {
+    "config": "configs/noise_2.5.1/fashion_amplitude_noise_mid.yaml",
+    "checkpoint": "checkpoints_noise25_1/fashion_amplitude/noise_mid/last.pt",
+    "epoch": 8,
+    "recorded_accuracy": 73.828125,
+    "recorded_loss": 0.6113243252038956,
+    "evaluated_test_accuracy": 75.0
+  },
+  {
+    "config": "configs/noise_2.5.1/fashion_hybrid_noise_low.yaml",
+    "checkpoint": "checkpoints_noise25_1/fashion_hybrid/noise_low/best.pt",
+    "epoch": 9,
+    "recorded_accuracy": 55.859375,
+    "recorded_loss": 0.6710957959294319,
+    "evaluated_test_accuracy": 75.0
+  },
+  {
+    "config": "configs/noise_2.5.1/fashion_hybrid_noise_low.yaml",
+    "checkpoint": "checkpoints_noise25_1/fashion_hybrid/noise_low/fashion_hybrid_noise25_1_low_epoch_1.pt",
+    "epoch": 1,
+    "recorded_accuracy": 51.171875,
+    "recorded_loss": 0.7332390751689672,
+    "evaluated_test_accuracy": 56.25
+  },
+  {
+    "config": "configs/noise_2.5.1/fashion_hybrid_noise_low.yaml",
+    "checkpoint": "checkpoints_noise25_1/fashion_hybrid/noise_low/fashion_hybrid_noise25_1_low_epoch_10.pt",
+    "epoch": 10,
+    "recorded_accuracy": 53.90625,
+    "recorded_loss": 0.6716212704777718,
+    "evaluated_test_accuracy": 37.5
+  },
+  {
+    "config": "configs/noise_2.5.1/fashion_hybrid_noise_low.yaml",
+    "checkpoint": "checkpoints_noise25_1/fashion_hybrid/noise_low/fashion_hybrid_noise25_1_low_epoch_2.pt",
+    "epoch": 2,
+    "recorded_accuracy": 53.125,
+    "recorded_loss": 0.6916403006762266,
+    "evaluated_test_accuracy": 31.25
+  },
+  {
+    "config": "configs/noise_2.5.1/fashion_hybrid_noise_low.yaml",
+    "checkpoint": "checkpoints_noise25_1/fashion_hybrid/noise_low/fashion_hybrid_noise25_1_low_epoch_3.pt",
+    "epoch": 3,
+    "recorded_accuracy": 51.171875,
+    "recorded_loss": 0.6782998144626617,
+    "evaluated_test_accuracy": 75.0
+  },
+  {
+    "config": "configs/noise_2.5.1/fashion_hybrid_noise_low.yaml",
+    "checkpoint": "checkpoints_noise25_1/fashion_hybrid/noise_low/fashion_hybrid_noise25_1_low_epoch_4.pt",
+    "epoch": 4,
+    "recorded_accuracy": 55.078125,
+    "recorded_loss": 0.6738211587071419,
+    "evaluated_test_accuracy": 62.5
+  },
+  {
+    "config": "configs/noise_2.5.1/fashion_hybrid_noise_low.yaml",
+    "checkpoint": "checkpoints_noise25_1/fashion_hybrid/noise_low/fashion_hybrid_noise25_1_low_epoch_5.pt",
+    "epoch": 5,
+    "recorded_accuracy": 53.125,
+    "recorded_loss": 0.6754410974681377,
+    "evaluated_test_accuracy": 50.0
+  },
+  {
+    "config": "configs/noise_2.5.1/fashion_hybrid_noise_low.yaml",
+    "checkpoint": "checkpoints_noise25_1/fashion_hybrid/noise_low/fashion_hybrid_noise25_1_low_epoch_6.pt",
+    "epoch": 6,
+    "recorded_accuracy": 52.34375,
+    "recorded_loss": 0.6738000120967627,
+    "evaluated_test_accuracy": 43.75
+  },
+  {
+    "config": "configs/noise_2.5.1/fashion_hybrid_noise_low.yaml",
+    "checkpoint": "checkpoints_noise25_1/fashion_hybrid/noise_low/fashion_hybrid_noise25_1_low_epoch_7.pt",
+    "epoch": 7,
+    "recorded_accuracy": 53.515625,
+    "recorded_loss": 0.6742257010191679,
+    "evaluated_test_accuracy": 62.5
+  },
+  {
+    "config": "configs/noise_2.5.1/fashion_hybrid_noise_low.yaml",
+    "checkpoint": "checkpoints_noise25_1/fashion_hybrid/noise_low/fashion_hybrid_noise25_1_low_epoch_8.pt",
+    "epoch": 8,
+    "recorded_accuracy": 54.6875,
+    "recorded_loss": 0.67343420535326,
+    "evaluated_test_accuracy": 56.25
+  },
+  {
+    "config": "configs/noise_2.5.1/fashion_hybrid_noise_low.yaml",
+    "checkpoint": "checkpoints_noise25_1/fashion_hybrid/noise_low/fashion_hybrid_noise25_1_low_epoch_9.pt",
+    "epoch": 9,
+    "recorded_accuracy": 55.859375,
+    "recorded_loss": 0.6710957959294319,
+    "evaluated_test_accuracy": 37.5
+  },
+  {
+    "config": "configs/noise_2.5.1/fashion_hybrid_noise_low.yaml",
+    "checkpoint": "checkpoints_noise25_1/fashion_hybrid/noise_low/last.pt",
+    "epoch": 10,
+    "recorded_accuracy": 53.90625,
+    "recorded_loss": 0.6716212704777718,
+    "evaluated_test_accuracy": 50.0
+  },
+  {
+    "config": "configs/noise_2.5.1/fashion_hybrid_noise_mid.yaml",
+    "checkpoint": "checkpoints_noise25_1/fashion_hybrid/noise_mid/best.pt",
+    "epoch": 8,
+    "recorded_accuracy": 60.9375,
+    "recorded_loss": 0.6842688675969839,
+    "evaluated_test_accuracy": 25.0
+  },
+  {
+    "config": "configs/noise_2.5.1/fashion_hybrid_noise_mid.yaml",
+    "checkpoint": "checkpoints_noise25_1/fashion_hybrid/noise_mid/fashion_hybrid_noise25_1_mid_epoch_1.pt",
+    "epoch": 1,
+    "recorded_accuracy": 46.875,
+    "recorded_loss": 0.893645285628736,
+    "evaluated_test_accuracy": 62.5
+  },
+  {
+    "config": "configs/noise_2.5.1/fashion_hybrid_noise_mid.yaml",
+    "checkpoint": "checkpoints_noise25_1/fashion_hybrid/noise_mid/fashion_hybrid_noise25_1_mid_epoch_10.pt",
+    "epoch": 10,
+    "recorded_accuracy": 58.59375,
+    "recorded_loss": 0.681978065520525,
+    "evaluated_test_accuracy": 37.5
+  },
+  {
+    "config": "configs/noise_2.5.1/fashion_hybrid_noise_mid.yaml",
+    "checkpoint": "checkpoints_noise25_1/fashion_hybrid/noise_mid/fashion_hybrid_noise25_1_mid_epoch_2.pt",
+    "epoch": 2,
+    "recorded_accuracy": 49.21875,
+    "recorded_loss": 0.7917279712855816,
+    "evaluated_test_accuracy": 62.5
+  },
+  {
+    "config": "configs/noise_2.5.1/fashion_hybrid_noise_mid.yaml",
+    "checkpoint": "checkpoints_noise25_1/fashion_hybrid/noise_mid/fashion_hybrid_noise25_1_mid_epoch_3.pt",
+    "epoch": 3,
+    "recorded_accuracy": 49.609375,
+    "recorded_loss": 0.7286567129194736,
+    "evaluated_test_accuracy": 50.0
+  },
+  {
+    "config": "configs/noise_2.5.1/fashion_hybrid_noise_mid.yaml",
+    "checkpoint": "checkpoints_noise25_1/fashion_hybrid/noise_mid/fashion_hybrid_noise25_1_mid_epoch_4.pt",
+    "epoch": 4,
+    "recorded_accuracy": 52.34375,
+    "recorded_loss": 0.6985709723085165,
+    "evaluated_test_accuracy": 56.25
+  },
+  {
+    "config": "configs/noise_2.5.1/fashion_hybrid_noise_mid.yaml",
+    "checkpoint": "checkpoints_noise25_1/fashion_hybrid/noise_mid/fashion_hybrid_noise25_1_mid_epoch_5.pt",
+    "epoch": 5,
+    "recorded_accuracy": 54.296875,
+    "recorded_loss": 0.6907806042581797,
+    "evaluated_test_accuracy": 43.75
+  },
+  {
+    "config": "configs/noise_2.5.1/fashion_hybrid_noise_mid.yaml",
+    "checkpoint": "checkpoints_noise25_1/fashion_hybrid/noise_mid/fashion_hybrid_noise25_1_mid_epoch_6.pt",
+    "epoch": 6,
+    "recorded_accuracy": 58.59375,
+    "recorded_loss": 0.681982746347785,
+    "evaluated_test_accuracy": 62.5
+  },
+  {
+    "config": "configs/noise_2.5.1/fashion_hybrid_noise_mid.yaml",
+    "checkpoint": "checkpoints_noise25_1/fashion_hybrid/noise_mid/fashion_hybrid_noise25_1_mid_epoch_7.pt",
+    "epoch": 7,
+    "recorded_accuracy": 58.59375,
+    "recorded_loss": 0.682826729491353,
+    "evaluated_test_accuracy": 50.0
+  },
+  {
+    "config": "configs/noise_2.5.1/fashion_hybrid_noise_mid.yaml",
+    "checkpoint": "checkpoints_noise25_1/fashion_hybrid/noise_mid/fashion_hybrid_noise25_1_mid_epoch_8.pt",
+    "epoch": 8,
+    "recorded_accuracy": 60.9375,
+    "recorded_loss": 0.6842688675969839,
+    "evaluated_test_accuracy": 50.0
+  },
+  {
+    "config": "configs/noise_2.5.1/fashion_hybrid_noise_mid.yaml",
+    "checkpoint": "checkpoints_noise25_1/fashion_hybrid/noise_mid/fashion_hybrid_noise25_1_mid_epoch_9.pt",
+    "epoch": 9,
+    "recorded_accuracy": 58.203125,
+    "recorded_loss": 0.6858615037053823,
+    "evaluated_test_accuracy": 37.5
+  },
+  {
+    "config": "configs/noise_2.5.1/fashion_hybrid_noise_mid.yaml",
+    "checkpoint": "checkpoints_noise25_1/fashion_hybrid/noise_mid/last.pt",
+    "epoch": 10,
+    "recorded_accuracy": 58.59375,
+    "recorded_loss": 0.681978065520525,
+    "evaluated_test_accuracy": 62.5
+  },
+  {
+    "config": "configs/noise_2.5.1/mnist_angle_noise_high.yaml",
+    "checkpoint": "checkpoints_noise25_1/mnist_angle/noise_high/best.pt",
+    "epoch": 2,
+    "recorded_accuracy": 58.984375,
+    "recorded_loss": 0.6809628028422594,
+    "evaluated_test_accuracy": 50.0
+  },
+  {
+    "config": "configs/noise_2.5.1/mnist_angle_noise_high.yaml",
+    "checkpoint": "checkpoints_noise25_1/mnist_angle/noise_high/last.pt",
+    "epoch": 5,
+    "recorded_accuracy": 58.984375,
+    "recorded_loss": 0.6789970081299543,
+    "evaluated_test_accuracy": 56.25
+  },
+  {
+    "config": "configs/noise_2.5.1/mnist_angle_noise_high.yaml",
+    "checkpoint": "checkpoints_noise25_1/mnist_angle/noise_high/mnist_angle_noise25_1_high_epoch_1.pt",
+    "epoch": 1,
+    "recorded_accuracy": 42.96875,
+    "recorded_loss": 0.7393249478191137,
+    "evaluated_test_accuracy": 37.5
+  },
+  {
+    "config": "configs/noise_2.5.1/mnist_angle_noise_high.yaml",
+    "checkpoint": "checkpoints_noise25_1/mnist_angle/noise_high/mnist_angle_noise25_1_high_epoch_2.pt",
+    "epoch": 2,
+    "recorded_accuracy": 58.984375,
+    "recorded_loss": 0.6809628028422594,
+    "evaluated_test_accuracy": 68.75
+  },
+  {
+    "config": "configs/noise_2.5.1/mnist_angle_noise_high.yaml",
+    "checkpoint": "checkpoints_noise25_1/mnist_angle/noise_high/mnist_angle_noise25_1_high_epoch_3.pt",
+    "epoch": 3,
+    "recorded_accuracy": 58.984375,
+    "recorded_loss": 0.6793480571359396,
+    "evaluated_test_accuracy": 68.75
+  },
+  {
+    "config": "configs/noise_2.5.1/mnist_angle_noise_high.yaml",
+    "checkpoint": "checkpoints_noise25_1/mnist_angle/noise_high/mnist_angle_noise25_1_high_epoch_4.pt",
+    "epoch": 4,
+    "recorded_accuracy": 58.984375,
+    "recorded_loss": 0.6781336590647697,
+    "evaluated_test_accuracy": 62.5
+  },
+  {
+    "config": "configs/noise_2.5.1/mnist_angle_noise_high.yaml",
+    "checkpoint": "checkpoints_noise25_1/mnist_angle/noise_high/mnist_angle_noise25_1_high_epoch_5.pt",
+    "epoch": 5,
+    "recorded_accuracy": 58.984375,
+    "recorded_loss": 0.6789970081299543,
+    "evaluated_test_accuracy": 56.25
+  },
+  {
+    "config": "configs/noise_2.5.1/mnist_angle_noise_low.yaml",
+    "checkpoint": "checkpoints_noise25_1/mnist_angle/noise_low/best.pt",
+    "epoch": 1,
+    "recorded_accuracy": 53.90625,
+    "recorded_loss": 0.6914706826210022,
+    "evaluated_test_accuracy": 43.75
+  },
+  {
+    "config": "configs/noise_2.5.1/mnist_angle_noise_low.yaml",
+    "checkpoint": "checkpoints_noise25_1/mnist_angle/noise_low/last.pt",
+    "epoch": 5,
+    "recorded_accuracy": 53.90625,
+    "recorded_loss": 0.6900501176714897,
+    "evaluated_test_accuracy": 68.75
+  },
+  {
+    "config": "configs/noise_2.5.1/mnist_angle_noise_low.yaml",
+    "checkpoint": "checkpoints_noise25_1/mnist_angle/noise_low/mnist_angle_noise25_1_low_epoch_1.pt",
+    "epoch": 1,
+    "recorded_accuracy": 53.90625,
+    "recorded_loss": 0.6914706826210022,
+    "evaluated_test_accuracy": 68.75
+  },
+  {
+    "config": "configs/noise_2.5.1/mnist_angle_noise_low.yaml",
+    "checkpoint": "checkpoints_noise25_1/mnist_angle/noise_low/mnist_angle_noise25_1_low_epoch_2.pt",
+    "epoch": 2,
+    "recorded_accuracy": 53.90625,
+    "recorded_loss": 0.6915210802108049,
+    "evaluated_test_accuracy": 62.5
+  },
+  {
+    "config": "configs/noise_2.5.1/mnist_angle_noise_low.yaml",
+    "checkpoint": "checkpoints_noise25_1/mnist_angle/noise_low/mnist_angle_noise25_1_low_epoch_3.pt",
+    "epoch": 3,
+    "recorded_accuracy": 53.90625,
+    "recorded_loss": 0.6918194275349379,
+    "evaluated_test_accuracy": 75.0
+  },
+  {
+    "config": "configs/noise_2.5.1/mnist_angle_noise_low.yaml",
+    "checkpoint": "checkpoints_noise25_1/mnist_angle/noise_low/mnist_angle_noise25_1_low_epoch_4.pt",
+    "epoch": 4,
+    "recorded_accuracy": 53.90625,
+    "recorded_loss": 0.6924759186804295,
+    "evaluated_test_accuracy": 75.0
+  },
+  {
+    "config": "configs/noise_2.5.1/mnist_angle_noise_low.yaml",
+    "checkpoint": "checkpoints_noise25_1/mnist_angle/noise_low/mnist_angle_noise25_1_low_epoch_5.pt",
+    "epoch": 5,
+    "recorded_accuracy": 53.90625,
+    "recorded_loss": 0.6900501176714897,
+    "evaluated_test_accuracy": 62.5
+  },
+  {
+    "config": "configs/noise_2.5.1/mnist_angle_noise_mid.yaml",
+    "checkpoint": "checkpoints_noise25_1/mnist_angle/noise_mid/best.pt",
+    "epoch": 3,
+    "recorded_accuracy": 48.828125,
+    "recorded_loss": 0.693978950381279,
+    "evaluated_test_accuracy": 37.5
+  },
+  {
+    "config": "configs/noise_2.5.1/mnist_angle_noise_mid.yaml",
+    "checkpoint": "checkpoints_noise25_1/mnist_angle/noise_mid/last.pt",
+    "epoch": 5,
+    "recorded_accuracy": 45.703125,
+    "recorded_loss": 0.6963377296924591,
+    "evaluated_test_accuracy": 37.5
+  },
+  {
+    "config": "configs/noise_2.5.1/mnist_angle_noise_mid.yaml",
+    "checkpoint": "checkpoints_noise25_1/mnist_angle/noise_mid/mnist_angle_noise25_1_mid_epoch_1.pt",
+    "epoch": 1,
+    "recorded_accuracy": 48.046875,
+    "recorded_loss": 0.6960991565138102,
+    "evaluated_test_accuracy": 37.5
+  },
+  {
+    "config": "configs/noise_2.5.1/mnist_angle_noise_mid.yaml",
+    "checkpoint": "checkpoints_noise25_1/mnist_angle/noise_mid/mnist_angle_noise25_1_mid_epoch_2.pt",
+    "epoch": 2,
+    "recorded_accuracy": 47.65625,
+    "recorded_loss": 0.6945077478885651,
+    "evaluated_test_accuracy": 43.75
+  },
+  {
+    "config": "configs/noise_2.5.1/mnist_angle_noise_mid.yaml",
+    "checkpoint": "checkpoints_noise25_1/mnist_angle/noise_mid/mnist_angle_noise25_1_mid_epoch_3.pt",
+    "epoch": 3,
+    "recorded_accuracy": 48.828125,
+    "recorded_loss": 0.693978950381279,
+    "evaluated_test_accuracy": 56.25
+  },
+  {
+    "config": "configs/noise_2.5.1/mnist_angle_noise_mid.yaml",
+    "checkpoint": "checkpoints_noise25_1/mnist_angle/noise_mid/mnist_angle_noise25_1_mid_epoch_4.pt",
+    "epoch": 4,
+    "recorded_accuracy": 48.046875,
+    "recorded_loss": 0.6942992638796568,
+    "evaluated_test_accuracy": 56.25
+  },
+  {
+    "config": "configs/noise_2.5.1/mnist_angle_noise_mid.yaml",
+    "checkpoint": "checkpoints_noise25_1/mnist_angle/noise_mid/mnist_angle_noise25_1_mid_epoch_5.pt",
+    "epoch": 5,
+    "recorded_accuracy": 45.703125,
+    "recorded_loss": 0.6963377296924591,
+    "evaluated_test_accuracy": 43.75
+  },
+  {
+    "config": "configs/noise_2.3/mnist_hybrid_noise_high.yaml",
+    "checkpoint": "checkpoints_noise23/mnist_hybrid/noise_high/best.pt",
+    "epoch": 9,
+    "recorded_accuracy": 60.9375,
+    "recorded_loss": 0.6895186901092529,
+    "evaluated_test_accuracy": 75.0
+  },
+  {
+    "config": "configs/noise_2.3/mnist_hybrid_noise_high.yaml",
+    "checkpoint": "checkpoints_noise23/mnist_hybrid/noise_high/last.pt",
+    "epoch": 10,
+    "recorded_accuracy": 58.59375,
+    "recorded_loss": 0.6911229826509953,
+    "evaluated_test_accuracy": 75.0
+  },
+  {
+    "config": "configs/noise_2.3/mnist_hybrid_noise_high.yaml",
+    "checkpoint": "checkpoints_noise23/mnist_hybrid/noise_high/mnist_hybrid_noise23_high_epoch_1.pt",
+    "epoch": 1,
+    "recorded_accuracy": 51.953125,
+    "recorded_loss": 0.8775948034599423,
+    "evaluated_test_accuracy": 62.5
+  },
+  {
+    "config": "configs/noise_2.3/mnist_hybrid_noise_high.yaml",
+    "checkpoint": "checkpoints_noise23/mnist_hybrid/noise_high/mnist_hybrid_noise23_high_epoch_10.pt",
+    "epoch": 10,
+    "recorded_accuracy": 58.59375,
+    "recorded_loss": 0.6911229826509953,
+    "evaluated_test_accuracy": 100.0
+  },
+  {
+    "config": "configs/noise_2.3/mnist_hybrid_noise_high.yaml",
+    "checkpoint": "checkpoints_noise23/mnist_hybrid/noise_high/mnist_hybrid_noise23_high_epoch_2.pt",
+    "epoch": 2,
+    "recorded_accuracy": 51.953125,
+    "recorded_loss": 0.7836008556187153,
+    "evaluated_test_accuracy": 62.5
+  },
+  {
+    "config": "configs/noise_2.3/mnist_hybrid_noise_high.yaml",
+    "checkpoint": "checkpoints_noise23/mnist_hybrid/noise_high/mnist_hybrid_noise23_high_epoch_3.pt",
+    "epoch": 3,
+    "recorded_accuracy": 51.953125,
+    "recorded_loss": 0.7303056102246046,
+    "evaluated_test_accuracy": 56.25
+  },
+  {
+    "config": "configs/noise_2.3/mnist_hybrid_noise_high.yaml",
+    "checkpoint": "checkpoints_noise23/mnist_hybrid/noise_high/mnist_hybrid_noise23_high_epoch_4.pt",
+    "epoch": 4,
+    "recorded_accuracy": 52.734375,
+    "recorded_loss": 0.7042658142745495,
+    "evaluated_test_accuracy": 62.5
+  },
+  {
+    "config": "configs/noise_2.3/mnist_hybrid_noise_high.yaml",
+    "checkpoint": "checkpoints_noise23/mnist_hybrid/noise_high/mnist_hybrid_noise23_high_epoch_5.pt",
+    "epoch": 5,
+    "recorded_accuracy": 56.25,
+    "recorded_loss": 0.6943332813680172,
+    "evaluated_test_accuracy": 75.0
+  },
+  {
+    "config": "configs/noise_2.3/mnist_hybrid_noise_high.yaml",
+    "checkpoint": "checkpoints_noise23/mnist_hybrid/noise_high/mnist_hybrid_noise23_high_epoch_6.pt",
+    "epoch": 6,
+    "recorded_accuracy": 59.375,
+    "recorded_loss": 0.689736932516098,
+    "evaluated_test_accuracy": 68.75
+  },
+  {
+    "config": "configs/noise_2.3/mnist_hybrid_noise_high.yaml",
+    "checkpoint": "checkpoints_noise23/mnist_hybrid/noise_high/mnist_hybrid_noise23_high_epoch_7.pt",
+    "epoch": 7,
+    "recorded_accuracy": 60.15625,
+    "recorded_loss": 0.6891654897481203,
+    "evaluated_test_accuracy": 62.5
+  },
+  {
+    "config": "configs/noise_2.3/mnist_hybrid_noise_high.yaml",
+    "checkpoint": "checkpoints_noise23/mnist_hybrid/noise_high/mnist_hybrid_noise23_high_epoch_8.pt",
+    "epoch": 8,
+    "recorded_accuracy": 59.765625,
+    "recorded_loss": 0.6888453867286444,
+    "evaluated_test_accuracy": 81.25
+  },
+  {
+    "config": "configs/noise_2.3/mnist_hybrid_noise_high.yaml",
+    "checkpoint": "checkpoints_noise23/mnist_hybrid/noise_high/mnist_hybrid_noise23_high_epoch_9.pt",
+    "epoch": 9,
+    "recorded_accuracy": 60.9375,
+    "recorded_loss": 0.6895186901092529,
+    "evaluated_test_accuracy": 75.0
+  },
+  {
+    "config": "configs/noise_2.3/mnist_hybrid_noise_low.yaml",
+    "checkpoint": "checkpoints_noise23/mnist_hybrid/noise_low/best.pt",
+    "epoch": 8,
+    "recorded_accuracy": 52.734375,
+    "recorded_loss": 0.6867116075009108,
+    "evaluated_test_accuracy": 31.25
+  },
+  {
+    "config": "configs/noise_2.3/mnist_hybrid_noise_low.yaml",
+    "checkpoint": "checkpoints_noise23/mnist_hybrid/noise_low/last.pt",
+    "epoch": 10,
+    "recorded_accuracy": 49.609375,
+    "recorded_loss": 0.6851938590407372,
+    "evaluated_test_accuracy": 62.5
+  },
+  {
+    "config": "configs/noise_2.3/mnist_hybrid_noise_low.yaml",
+    "checkpoint": "checkpoints_noise23/mnist_hybrid/noise_low/mnist_hybrid_noise23_low_epoch_1.pt",
+    "epoch": 1,
+    "recorded_accuracy": 49.609375,
+    "recorded_loss": 0.6913550011813641,
+    "evaluated_test_accuracy": 50.0
+  },
+  {
+    "config": "configs/noise_2.3/mnist_hybrid_noise_low.yaml",
+    "checkpoint": "checkpoints_noise23/mnist_hybrid/noise_low/mnist_hybrid_noise23_low_epoch_10.pt",
+    "epoch": 10,
+    "recorded_accuracy": 49.609375,
+    "recorded_loss": 0.6851938590407372,
+    "evaluated_test_accuracy": 37.5
+  },
+  {
+    "config": "configs/noise_2.3/mnist_hybrid_noise_low.yaml",
+    "checkpoint": "checkpoints_noise23/mnist_hybrid/noise_low/mnist_hybrid_noise23_low_epoch_2.pt",
+    "epoch": 2,
+    "recorded_accuracy": 47.65625,
+    "recorded_loss": 0.6894064880907536,
+    "evaluated_test_accuracy": 43.75
+  },
+  {
+    "config": "configs/noise_2.3/mnist_hybrid_noise_low.yaml",
+    "checkpoint": "checkpoints_noise23/mnist_hybrid/noise_low/mnist_hybrid_noise23_low_epoch_3.pt",
+    "epoch": 3,
+    "recorded_accuracy": 48.4375,
+    "recorded_loss": 0.6900457330048084,
+    "evaluated_test_accuracy": 50.0
+  },
+  {
+    "config": "configs/noise_2.3/mnist_hybrid_noise_low.yaml",
+    "checkpoint": "checkpoints_noise23/mnist_hybrid/noise_low/mnist_hybrid_noise23_low_epoch_4.pt",
+    "epoch": 4,
+    "recorded_accuracy": 52.34375,
+    "recorded_loss": 0.6873955838382244,
+    "evaluated_test_accuracy": 37.5
+  },
+  {
+    "config": "configs/noise_2.3/mnist_hybrid_noise_low.yaml",
+    "checkpoint": "checkpoints_noise23/mnist_hybrid/noise_low/mnist_hybrid_noise23_low_epoch_5.pt",
+    "epoch": 5,
+    "recorded_accuracy": 47.65625,
+    "recorded_loss": 0.6878264639526606,
+    "evaluated_test_accuracy": 43.75
+  },
+  {
+    "config": "configs/noise_2.3/mnist_hybrid_noise_low.yaml",
+    "checkpoint": "checkpoints_noise23/mnist_hybrid/noise_low/mnist_hybrid_noise23_low_epoch_6.pt",
+    "epoch": 6,
+    "recorded_accuracy": 49.21875,
+    "recorded_loss": 0.6858481708914042,
+    "evaluated_test_accuracy": 50.0
+  },
+  {
+    "config": "configs/noise_2.3/mnist_hybrid_noise_low.yaml",
+    "checkpoint": "checkpoints_noise23/mnist_hybrid/noise_low/mnist_hybrid_noise23_low_epoch_7.pt",
+    "epoch": 7,
+    "recorded_accuracy": 52.34375,
+    "recorded_loss": 0.6878585871309042,
+    "evaluated_test_accuracy": 68.75
+  },
+  {
+    "config": "configs/noise_2.3/mnist_hybrid_noise_low.yaml",
+    "checkpoint": "checkpoints_noise23/mnist_hybrid/noise_low/mnist_hybrid_noise23_low_epoch_8.pt",
+    "epoch": 8,
+    "recorded_accuracy": 52.734375,
+    "recorded_loss": 0.6867116075009108,
+    "evaluated_test_accuracy": 56.25
+  },
+  {
+    "config": "configs/noise_2.3/mnist_hybrid_noise_low.yaml",
+    "checkpoint": "checkpoints_noise23/mnist_hybrid/noise_low/mnist_hybrid_noise23_low_epoch_9.pt",
+    "epoch": 9,
+    "recorded_accuracy": 50.78125,
+    "recorded_loss": 0.6867392398416996,
+    "evaluated_test_accuracy": 43.75
+  },
+  {
+    "config": "configs/noise_2.3/mnist_hybrid_noise_mid.yaml",
+    "checkpoint": "checkpoints_noise23/mnist_hybrid/noise_mid/best.pt",
+    "epoch": 10,
+    "recorded_accuracy": 58.984375,
+    "recorded_loss": 0.6895265206694603,
+    "evaluated_test_accuracy": 81.25
+  },
+  {
+    "config": "configs/noise_2.3/mnist_hybrid_noise_mid.yaml",
+    "checkpoint": "checkpoints_noise23/mnist_hybrid/noise_mid/last.pt",
+    "epoch": 10,
+    "recorded_accuracy": 58.984375,
+    "recorded_loss": 0.6895265206694603,
+    "evaluated_test_accuracy": 68.75
+  },
+  {
+    "config": "configs/noise_2.3/mnist_hybrid_noise_mid.yaml",
+    "checkpoint": "checkpoints_noise23/mnist_hybrid/noise_mid/mnist_hybrid_noise23_mid_epoch_1.pt",
+    "epoch": 1,
+    "recorded_accuracy": 52.34375,
+    "recorded_loss": 0.7240860536694527,
+    "evaluated_test_accuracy": 37.5
+  },
+  {
+    "config": "configs/noise_2.3/mnist_hybrid_noise_mid.yaml",
+    "checkpoint": "checkpoints_noise23/mnist_hybrid/noise_mid/mnist_hybrid_noise23_mid_epoch_10.pt",
+    "epoch": 10,
+    "recorded_accuracy": 58.984375,
+    "recorded_loss": 0.6895265206694603,
+    "evaluated_test_accuracy": 75.0
+  },
+  {
+    "config": "configs/noise_2.3/mnist_hybrid_noise_mid.yaml",
+    "checkpoint": "checkpoints_noise23/mnist_hybrid/noise_mid/mnist_hybrid_noise23_mid_epoch_2.pt",
+    "epoch": 2,
+    "recorded_accuracy": 52.34375,
+    "recorded_loss": 0.6990076974034309,
+    "evaluated_test_accuracy": 43.75
+  },
+  {
+    "config": "configs/noise_2.3/mnist_hybrid_noise_mid.yaml",
+    "checkpoint": "checkpoints_noise23/mnist_hybrid/noise_mid/mnist_hybrid_noise23_mid_epoch_3.pt",
+    "epoch": 3,
+    "recorded_accuracy": 52.34375,
+    "recorded_loss": 0.6943040546029806,
+    "evaluated_test_accuracy": 56.25
+  },
+  {
+    "config": "configs/noise_2.3/mnist_hybrid_noise_mid.yaml",
+    "checkpoint": "checkpoints_noise23/mnist_hybrid/noise_mid/mnist_hybrid_noise23_mid_epoch_4.pt",
+    "epoch": 4,
+    "recorded_accuracy": 52.34375,
+    "recorded_loss": 0.6926453206688166,
+    "evaluated_test_accuracy": 37.5
+  },
+  {
+    "config": "configs/noise_2.3/mnist_hybrid_noise_mid.yaml",
+    "checkpoint": "checkpoints_noise23/mnist_hybrid/noise_mid/mnist_hybrid_noise23_mid_epoch_5.pt",
+    "epoch": 5,
+    "recorded_accuracy": 53.125,
+    "recorded_loss": 0.6924614254385233,
+    "evaluated_test_accuracy": 56.25
+  },
+  {
+    "config": "configs/noise_2.3/mnist_hybrid_noise_mid.yaml",
+    "checkpoint": "checkpoints_noise23/mnist_hybrid/noise_mid/mnist_hybrid_noise23_mid_epoch_6.pt",
+    "epoch": 6,
+    "recorded_accuracy": 52.734375,
+    "recorded_loss": 0.6924374978989363,
+    "evaluated_test_accuracy": 62.5
+  },
+  {
+    "config": "configs/noise_2.3/mnist_hybrid_noise_mid.yaml",
+    "checkpoint": "checkpoints_noise23/mnist_hybrid/noise_mid/mnist_hybrid_noise23_mid_epoch_7.pt",
+    "epoch": 7,
+    "recorded_accuracy": 55.078125,
+    "recorded_loss": 0.6917531061917543,
+    "evaluated_test_accuracy": 68.75
+  },
+  {
+    "config": "configs/noise_2.3/mnist_hybrid_noise_mid.yaml",
+    "checkpoint": "checkpoints_noise23/mnist_hybrid/noise_mid/mnist_hybrid_noise23_mid_epoch_8.pt",
+    "epoch": 8,
+    "recorded_accuracy": 57.421875,
+    "recorded_loss": 0.6906864903867245,
+    "evaluated_test_accuracy": 81.25
+  },
+  {
+    "config": "configs/noise_2.3/mnist_hybrid_noise_mid.yaml",
+    "checkpoint": "checkpoints_noise23/mnist_hybrid/noise_mid/mnist_hybrid_noise23_mid_epoch_9.pt",
+    "epoch": 9,
+    "recorded_accuracy": 58.59375,
+    "recorded_loss": 0.689934553578496,
+    "evaluated_test_accuracy": 87.5
+  }
+]

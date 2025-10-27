@@ -1,0 +1,610 @@
+[
+  {
+    "config": "configs/full_scale/mnist_amplitude_full.yaml",
+    "checkpoint": "checkpoints/mnist_amplitude/best.pt",
+    "epoch": 3,
+    "recorded_accuracy": 17.993333333333332,
+    "recorded_loss": 2.210631584561964,
+    "evaluated_test_accuracy": 15.625
+  },
+  {
+    "config": "configs/full_scale/mnist_amplitude_full.yaml",
+    "checkpoint": "checkpoints/mnist_amplitude/last.pt",
+    "epoch": 4,
+    "recorded_accuracy": 17.626666666666665,
+    "recorded_loss": 2.203319743879314,
+    "evaluated_test_accuracy": 15.625
+  },
+  {
+    "config": "configs/full_scale/mnist_amplitude_full.yaml",
+    "checkpoint": "checkpoints/mnist_amplitude/mnist_amp_epoch_3.pt",
+    "epoch": 3,
+    "recorded_accuracy": 17.993333333333332,
+    "recorded_loss": 2.210631584561964,
+    "evaluated_test_accuracy": 23.4375
+  },
+  {
+    "config": "configs/full_scale/mnist_amplitude_full.yaml",
+    "checkpoint": "checkpoints/mnist_amplitude/mnist_amp_epoch_5.pt",
+    "epoch": 5,
+    "recorded_accuracy": 17.30666666666667,
+    "recorded_loss": 2.1920818086626177,
+    "evaluated_test_accuracy": 26.5625
+  },
+  {
+    "config": "configs/full_scale/mnist_amplitude_full.yaml",
+    "checkpoint": "checkpoints/mnist_amplitude/mnist_amp_epoch_7.pt",
+    "epoch": 7,
+    "recorded_accuracy": 17.183333333333334,
+    "recorded_loss": 2.192750800138852,
+    "evaluated_test_accuracy": 14.0625
+  },
+  {
+    "config": "configs/full_scale/mnist_amplitude_full.yaml",
+    "checkpoint": "checkpoints/mnist_amplitude/mnist_amp_epoch_9.pt",
+    "epoch": 9,
+    "recorded_accuracy": 17.503333333333334,
+    "recorded_loss": 2.1934967578601228,
+    "evaluated_test_accuracy": 21.875
+  },
+  {
+    "config": "configs/mnist_amplitude_fast.yaml",
+    "checkpoint": "checkpoints/mnist_amplitude_fast/best.pt",
+    "epoch": 5,
+    "recorded_accuracy": 87.0,
+    "recorded_loss": 0.39818894378840924,
+    "evaluated_test_accuracy": 68.75
+  },
+  {
+    "config": "configs/mnist_amplitude_fast.yaml",
+    "checkpoint": "checkpoints/mnist_amplitude_fast/last.pt",
+    "epoch": 5,
+    "recorded_accuracy": 87.0,
+    "recorded_loss": 0.39818894378840924,
+    "evaluated_test_accuracy": 75.0
+  },
+  {
+    "config": "configs/mnist_amplitude_fast.yaml",
+    "checkpoint": "checkpoints/mnist_amplitude_fast/mnist_amp_fast_epoch_1.pt",
+    "epoch": 1,
+    "recorded_accuracy": 73.0,
+    "recorded_loss": 0.6394047296047211,
+    "evaluated_test_accuracy": 81.25
+  },
+  {
+    "config": "configs/mnist_amplitude_fast.yaml",
+    "checkpoint": "checkpoints/mnist_amplitude_fast/mnist_amp_fast_epoch_3.pt",
+    "epoch": 3,
+    "recorded_accuracy": 86.5,
+    "recorded_loss": 0.4636270397901535,
+    "evaluated_test_accuracy": 84.375
+  },
+  {
+    "config": "configs/mnist_amplitude_fast.yaml",
+    "checkpoint": "checkpoints/mnist_amplitude_fast/mnist_amp_fast_epoch_5.pt",
+    "epoch": 5,
+    "recorded_accuracy": 87.0,
+    "recorded_loss": 0.39818894378840924,
+    "evaluated_test_accuracy": 71.875
+  },
+  {
+    "config": "configs/full_scale/mnist_angle_full.yaml",
+    "checkpoint": "checkpoints/mnist_angle/best.pt",
+    "epoch": 4,
+    "recorded_accuracy": 10.6,
+    "recorded_loss": 2.304731998920441,
+    "evaluated_test_accuracy": 6.25
+  },
+  {
+    "config": "configs/full_scale/mnist_angle_full.yaml",
+    "checkpoint": "checkpoints/mnist_angle/last.pt",
+    "epoch": 10,
+    "recorded_accuracy": 10.233333333333333,
+    "recorded_loss": 2.304541084925334,
+    "evaluated_test_accuracy": 9.375
+  },
+  {
+    "config": "configs/full_scale/mnist_angle_full.yaml",
+    "checkpoint": "checkpoints/mnist_angle/mnist_angle_epoch_3.pt",
+    "epoch": 3,
+    "recorded_accuracy": 10.066666666666666,
+    "recorded_loss": 2.305096259911855,
+    "evaluated_test_accuracy": 9.375
+  },
+  {
+    "config": "configs/full_scale/mnist_angle_full.yaml",
+    "checkpoint": "checkpoints/mnist_angle/mnist_angle_epoch_5.pt",
+    "epoch": 5,
+    "recorded_accuracy": 10.283333333333333,
+    "recorded_loss": 2.3049475617408755,
+    "evaluated_test_accuracy": 6.25
+  },
+  {
+    "config": "configs/full_scale/mnist_angle_full.yaml",
+    "checkpoint": "checkpoints/mnist_angle/mnist_angle_epoch_7.pt",
+    "epoch": 7,
+    "recorded_accuracy": 10.091666666666667,
+    "recorded_loss": 2.305498308022817,
+    "evaluated_test_accuracy": 14.0625
+  },
+  {
+    "config": "configs/full_scale/mnist_angle_full.yaml",
+    "checkpoint": "checkpoints/mnist_angle/mnist_angle_epoch_9.pt",
+    "epoch": 9,
+    "recorded_accuracy": 10.441666666666666,
+    "recorded_loss": 2.305382221539815,
+    "evaluated_test_accuracy": 6.25
+  },
+  {
+    "config": "configs/full_scale/mnist_hybrid_full.yaml",
+    "checkpoint": "checkpoints/mnist_hybrid/best.pt",
+    "epoch": 6,
+    "recorded_accuracy": 19.8,
+    "recorded_loss": 2.1506737515107908,
+    "evaluated_test_accuracy": 23.4375
+  },
+  {
+    "config": "configs/full_scale/mnist_hybrid_full.yaml",
+    "checkpoint": "checkpoints/mnist_hybrid/last.pt",
+    "epoch": 10,
+    "recorded_accuracy": 18.92,
+    "recorded_loss": 2.150633357099887,
+    "evaluated_test_accuracy": 15.625
+  },
+  {
+    "config": "configs/full_scale/mnist_hybrid_full.yaml",
+    "checkpoint": "checkpoints/mnist_hybrid/mnist_hybrid_epoch_3.pt",
+    "epoch": 3,
+    "recorded_accuracy": 19.073333333333334,
+    "recorded_loss": 2.160898541336629,
+    "evaluated_test_accuracy": 18.75
+  },
+  {
+    "config": "configs/full_scale/mnist_hybrid_full.yaml",
+    "checkpoint": "checkpoints/mnist_hybrid/mnist_hybrid_epoch_5.pt",
+    "epoch": 5,
+    "recorded_accuracy": 18.993333333333332,
+    "recorded_loss": 2.1512051517012787,
+    "evaluated_test_accuracy": 17.1875
+  },
+  {
+    "config": "configs/full_scale/mnist_hybrid_full.yaml",
+    "checkpoint": "checkpoints/mnist_hybrid/mnist_hybrid_epoch_7.pt",
+    "epoch": 7,
+    "recorded_accuracy": 19.086666666666666,
+    "recorded_loss": 2.1509390196312212,
+    "evaluated_test_accuracy": 23.4375
+  },
+  {
+    "config": "configs/full_scale/mnist_hybrid_full.yaml",
+    "checkpoint": "checkpoints/mnist_hybrid/mnist_hybrid_epoch_9.pt",
+    "epoch": 9,
+    "recorded_accuracy": 19.42,
+    "recorded_loss": 2.1503173942759095,
+    "evaluated_test_accuracy": 21.875
+  },
+  {
+    "config": "configs/full_scale/fashion_amplitude_full.yaml",
+    "checkpoint": "checkpoints/fashion_amplitude/best.pt",
+    "epoch": 10,
+    "recorded_accuracy": 29.063333333333333,
+    "recorded_loss": 1.852326330218488,
+    "evaluated_test_accuracy": 29.6875
+  },
+  {
+    "config": "configs/full_scale/fashion_amplitude_full.yaml",
+    "checkpoint": "checkpoints/fashion_amplitude/fashion_amp_epoch_3.pt",
+    "epoch": 3,
+    "recorded_accuracy": 27.016666666666666,
+    "recorded_loss": 1.8945864075536667,
+    "evaluated_test_accuracy": 26.5625
+  },
+  {
+    "config": "configs/full_scale/fashion_amplitude_full.yaml",
+    "checkpoint": "checkpoints/fashion_amplitude/fashion_amp_epoch_5.pt",
+    "epoch": 5,
+    "recorded_accuracy": 27.576666666666668,
+    "recorded_loss": 1.8663044332949592,
+    "evaluated_test_accuracy": 25.0
+  },
+  {
+    "config": "configs/full_scale/fashion_amplitude_full.yaml",
+    "checkpoint": "checkpoints/fashion_amplitude/fashion_amp_epoch_7.pt",
+    "epoch": 7,
+    "recorded_accuracy": 28.81,
+    "recorded_loss": 1.8565883726707653,
+    "evaluated_test_accuracy": 31.25
+  },
+  {
+    "config": "configs/full_scale/fashion_amplitude_full.yaml",
+    "checkpoint": "checkpoints/fashion_amplitude/fashion_amp_epoch_9.pt",
+    "epoch": 9,
+    "recorded_accuracy": 28.986666666666668,
+    "recorded_loss": 1.852557708078356,
+    "evaluated_test_accuracy": 29.6875
+  },
+  {
+    "config": "configs/full_scale/fashion_amplitude_full.yaml",
+    "checkpoint": "checkpoints/fashion_amplitude/last.pt",
+    "epoch": 10,
+    "recorded_accuracy": 29.063333333333333,
+    "recorded_loss": 1.852326330218488,
+    "evaluated_test_accuracy": 29.6875
+  },
+  {
+    "config": "configs/full_scale/fashion_angle_full.yaml",
+    "checkpoint": "checkpoints/fashion_angle/best.pt",
+    "epoch": 2,
+    "recorded_accuracy": 10.991666666666667,
+    "recorded_loss": 2.3019107778867087,
+    "evaluated_test_accuracy": 10.9375
+  },
+  {
+    "config": "configs/full_scale/fashion_angle_full.yaml",
+    "checkpoint": "checkpoints/fashion_angle/fashion_angle_epoch_3.pt",
+    "epoch": 3,
+    "recorded_accuracy": 10.608333333333333,
+    "recorded_loss": 2.301695676167806,
+    "evaluated_test_accuracy": 14.0625
+  },
+  {
+    "config": "configs/full_scale/fashion_angle_full.yaml",
+    "checkpoint": "checkpoints/fashion_angle/fashion_angle_epoch_5.pt",
+    "epoch": 5,
+    "recorded_accuracy": 10.25,
+    "recorded_loss": 2.3010636989275612,
+    "evaluated_test_accuracy": 10.9375
+  },
+  {
+    "config": "configs/full_scale/fashion_angle_full.yaml",
+    "checkpoint": "checkpoints/fashion_angle/fashion_angle_epoch_7.pt",
+    "epoch": 7,
+    "recorded_accuracy": 10.441666666666666,
+    "recorded_loss": 2.3006885302861533,
+    "evaluated_test_accuracy": 10.9375
+  },
+  {
+    "config": "configs/full_scale/fashion_angle_full.yaml",
+    "checkpoint": "checkpoints/fashion_angle/fashion_angle_epoch_9.pt",
+    "epoch": 9,
+    "recorded_accuracy": 10.208333333333334,
+    "recorded_loss": 2.3006174421310424,
+    "evaluated_test_accuracy": 6.25
+  },
+  {
+    "config": "configs/full_scale/fashion_angle_full.yaml",
+    "checkpoint": "checkpoints/fashion_angle/last.pt",
+    "epoch": 10,
+    "recorded_accuracy": 10.583333333333334,
+    "recorded_loss": 2.2992540663083396,
+    "evaluated_test_accuracy": 10.9375
+  },
+  {
+    "config": "configs/full_scale/fashion_hybrid_full.yaml",
+    "checkpoint": "checkpoints/fashion_hybrid/best.pt",
+    "epoch": 5,
+    "recorded_accuracy": 19.986666666666668,
+    "recorded_loss": 1.860219294455514,
+    "evaluated_test_accuracy": 23.4375
+  },
+  {
+    "config": "configs/full_scale/fashion_hybrid_full.yaml",
+    "checkpoint": "checkpoints/fashion_hybrid/fashion_hybrid_epoch_3.pt",
+    "epoch": 3,
+    "recorded_accuracy": 19.293333333333333,
+    "recorded_loss": 1.8608191559818,
+    "evaluated_test_accuracy": 12.5
+  },
+  {
+    "config": "configs/full_scale/fashion_hybrid_full.yaml",
+    "checkpoint": "checkpoints/fashion_hybrid/fashion_hybrid_epoch_5.pt",
+    "epoch": 5,
+    "recorded_accuracy": 19.986666666666668,
+    "recorded_loss": 1.860219294455514,
+    "evaluated_test_accuracy": 26.5625
+  },
+  {
+    "config": "configs/full_scale/fashion_hybrid_full.yaml",
+    "checkpoint": "checkpoints/fashion_hybrid/fashion_hybrid_epoch_7.pt",
+    "epoch": 7,
+    "recorded_accuracy": 19.68,
+    "recorded_loss": 1.8606869986316543,
+    "evaluated_test_accuracy": 15.625
+  },
+  {
+    "config": "configs/full_scale/fashion_hybrid_full.yaml",
+    "checkpoint": "checkpoints/fashion_hybrid/fashion_hybrid_epoch_9.pt",
+    "epoch": 9,
+    "recorded_accuracy": 19.153333333333332,
+    "recorded_loss": 1.860424144562882,
+    "evaluated_test_accuracy": 18.75
+  },
+  {
+    "config": "configs/full_scale/fashion_hybrid_full.yaml",
+    "checkpoint": "checkpoints/fashion_hybrid/last.pt",
+    "epoch": 10,
+    "recorded_accuracy": 19.68,
+    "recorded_loss": 1.8596387359379196,
+    "evaluated_test_accuracy": 23.4375
+  },
+  {
+    "config": "configs/lightweight/fashion_amplitude.yaml",
+    "checkpoint": "checkpoints/lightweight/fashion_amplitude/best.pt",
+    "epoch": 3,
+    "recorded_accuracy": 79.6875,
+    "recorded_loss": 0.5973519515246153,
+    "evaluated_test_accuracy": 87.5
+  },
+  {
+    "config": "configs/lightweight/fashion_amplitude.yaml",
+    "checkpoint": "checkpoints/lightweight/fashion_amplitude/fashion_amp_light_epoch_1.pt",
+    "epoch": 1,
+    "recorded_accuracy": 51.5625,
+    "recorded_loss": 0.7156666107475758,
+    "evaluated_test_accuracy": 34.375
+  },
+  {
+    "config": "configs/lightweight/fashion_amplitude.yaml",
+    "checkpoint": "checkpoints/lightweight/fashion_amplitude/fashion_amp_light_epoch_2.pt",
+    "epoch": 2,
+    "recorded_accuracy": 53.125,
+    "recorded_loss": 0.6603855155408382,
+    "evaluated_test_accuracy": 62.5
+  },
+  {
+    "config": "configs/lightweight/fashion_amplitude.yaml",
+    "checkpoint": "checkpoints/lightweight/fashion_amplitude/fashion_amp_light_epoch_3.pt",
+    "epoch": 3,
+    "recorded_accuracy": 79.6875,
+    "recorded_loss": 0.5973519515246153,
+    "evaluated_test_accuracy": 90.625
+  },
+  {
+    "config": "configs/lightweight/fashion_amplitude.yaml",
+    "checkpoint": "checkpoints/lightweight/fashion_amplitude/last.pt",
+    "epoch": 3,
+    "recorded_accuracy": 79.6875,
+    "recorded_loss": 0.5973519515246153,
+    "evaluated_test_accuracy": 87.5
+  },
+  {
+    "config": "configs/lightweight/fashion_angle.yaml",
+    "checkpoint": "checkpoints/lightweight/fashion_angle/best.pt",
+    "epoch": 2,
+    "recorded_accuracy": 54.6875,
+    "recorded_loss": 0.6964503973722458,
+    "evaluated_test_accuracy": 54.6875
+  },
+  {
+    "config": "configs/lightweight/fashion_angle.yaml",
+    "checkpoint": "checkpoints/lightweight/fashion_angle/fashion_angle_light_epoch_1.pt",
+    "epoch": 1,
+    "recorded_accuracy": 42.1875,
+    "recorded_loss": 0.7324124835431576,
+    "evaluated_test_accuracy": 54.6875
+  },
+  {
+    "config": "configs/lightweight/fashion_angle.yaml",
+    "checkpoint": "checkpoints/lightweight/fashion_angle/fashion_angle_light_epoch_2.pt",
+    "epoch": 2,
+    "recorded_accuracy": 54.6875,
+    "recorded_loss": 0.6964503973722458,
+    "evaluated_test_accuracy": 54.6875
+  },
+  {
+    "config": "configs/lightweight/fashion_angle.yaml",
+    "checkpoint": "checkpoints/lightweight/fashion_angle/fashion_angle_light_epoch_3.pt",
+    "epoch": 3,
+    "recorded_accuracy": 52.34375,
+    "recorded_loss": 0.6968288756906986,
+    "evaluated_test_accuracy": 45.3125
+  },
+  {
+    "config": "configs/lightweight/fashion_angle.yaml",
+    "checkpoint": "checkpoints/lightweight/fashion_angle/last.pt",
+    "epoch": 3,
+    "recorded_accuracy": 52.34375,
+    "recorded_loss": 0.6968288756906986,
+    "evaluated_test_accuracy": 45.3125
+  },
+  {
+    "config": "configs/lightweight/fashion_hybrid.yaml",
+    "checkpoint": "checkpoints/lightweight/fashion_hybrid/best.pt",
+    "epoch": 2,
+    "recorded_accuracy": 46.09375,
+    "recorded_loss": 0.6948553137481213,
+    "evaluated_test_accuracy": 51.5625
+  },
+  {
+    "config": "configs/lightweight/fashion_hybrid.yaml",
+    "checkpoint": "checkpoints/lightweight/fashion_hybrid/fashion_hybrid_light_epoch_1.pt",
+    "epoch": 1,
+    "recorded_accuracy": 41.40625,
+    "recorded_loss": 0.7396136298775673,
+    "evaluated_test_accuracy": 54.6875
+  },
+  {
+    "config": "configs/lightweight/fashion_hybrid.yaml",
+    "checkpoint": "checkpoints/lightweight/fashion_hybrid/fashion_hybrid_light_epoch_2.pt",
+    "epoch": 2,
+    "recorded_accuracy": 46.09375,
+    "recorded_loss": 0.6948553137481213,
+    "evaluated_test_accuracy": 51.5625
+  },
+  {
+    "config": "configs/lightweight/fashion_hybrid.yaml",
+    "checkpoint": "checkpoints/lightweight/fashion_hybrid/fashion_hybrid_light_epoch_3.pt",
+    "epoch": 3,
+    "recorded_accuracy": 45.3125,
+    "recorded_loss": 0.7032286562025547,
+    "evaluated_test_accuracy": 48.4375
+  },
+  {
+    "config": "configs/lightweight/fashion_hybrid.yaml",
+    "checkpoint": "checkpoints/lightweight/fashion_hybrid/last.pt",
+    "epoch": 3,
+    "recorded_accuracy": 45.3125,
+    "recorded_loss": 0.7032286562025547,
+    "evaluated_test_accuracy": 48.4375
+  },
+  {
+    "config": "configs/lightweight/mnist_amplitude.yaml",
+    "checkpoint": "checkpoints/lightweight/mnist_amplitude/best.pt",
+    "epoch": 3,
+    "recorded_accuracy": 67.1875,
+    "recorded_loss": 0.6095163337886333,
+    "evaluated_test_accuracy": 62.5
+  },
+  {
+    "config": "configs/lightweight/mnist_amplitude.yaml",
+    "checkpoint": "checkpoints/lightweight/mnist_amplitude/last.pt",
+    "epoch": 3,
+    "recorded_accuracy": 67.1875,
+    "recorded_loss": 0.6095163337886333,
+    "evaluated_test_accuracy": 62.5
+  },
+  {
+    "config": "configs/lightweight/mnist_amplitude.yaml",
+    "checkpoint": "checkpoints/lightweight/mnist_amplitude/mnist_amp_light_epoch_1.pt",
+    "epoch": 1,
+    "recorded_accuracy": 53.125,
+    "recorded_loss": 0.7017813585698605,
+    "evaluated_test_accuracy": 56.25
+  },
+  {
+    "config": "configs/lightweight/mnist_amplitude.yaml",
+    "checkpoint": "checkpoints/lightweight/mnist_amplitude/mnist_amp_light_epoch_2.pt",
+    "epoch": 2,
+    "recorded_accuracy": 64.0625,
+    "recorded_loss": 0.6638121567666531,
+    "evaluated_test_accuracy": 78.125
+  },
+  {
+    "config": "configs/lightweight/mnist_amplitude.yaml",
+    "checkpoint": "checkpoints/lightweight/mnist_amplitude/mnist_amp_light_epoch_3.pt",
+    "epoch": 3,
+    "recorded_accuracy": 67.1875,
+    "recorded_loss": 0.6095163337886333,
+    "evaluated_test_accuracy": 62.5
+  },
+  {
+    "config": "configs/lightweight/mnist_angle.yaml",
+    "checkpoint": "checkpoints/lightweight/mnist_angle/best.pt",
+    "epoch": 2,
+    "recorded_accuracy": 58.59375,
+    "recorded_loss": 0.6843241266906261,
+    "evaluated_test_accuracy": 59.375
+  },
+  {
+    "config": "configs/lightweight/mnist_angle.yaml",
+    "checkpoint": "checkpoints/lightweight/mnist_angle/last.pt",
+    "epoch": 3,
+    "recorded_accuracy": 58.59375,
+    "recorded_loss": 0.6829657983034849,
+    "evaluated_test_accuracy": 59.375
+  },
+  {
+    "config": "configs/lightweight/mnist_angle.yaml",
+    "checkpoint": "checkpoints/lightweight/mnist_angle/mnist_angle_light_epoch_1.pt",
+    "epoch": 1,
+    "recorded_accuracy": 50.78125,
+    "recorded_loss": 0.8008728846907616,
+    "evaluated_test_accuracy": 59.375
+  },
+  {
+    "config": "configs/lightweight/mnist_angle.yaml",
+    "checkpoint": "checkpoints/lightweight/mnist_angle/mnist_angle_light_epoch_2.pt",
+    "epoch": 2,
+    "recorded_accuracy": 58.59375,
+    "recorded_loss": 0.6843241266906261,
+    "evaluated_test_accuracy": 59.375
+  },
+  {
+    "config": "configs/lightweight/mnist_angle.yaml",
+    "checkpoint": "checkpoints/lightweight/mnist_angle/mnist_angle_light_epoch_3.pt",
+    "epoch": 3,
+    "recorded_accuracy": 58.59375,
+    "recorded_loss": 0.6829657983034849,
+    "evaluated_test_accuracy": 59.375
+  },
+  {
+    "config": "configs/lightweight/mnist_hybrid.yaml",
+    "checkpoint": "checkpoints/lightweight/mnist_hybrid/best.pt",
+    "epoch": 1,
+    "recorded_accuracy": 51.5625,
+    "recorded_loss": 0.7036876045167446,
+    "evaluated_test_accuracy": 37.5
+  },
+  {
+    "config": "configs/lightweight/mnist_hybrid.yaml",
+    "checkpoint": "checkpoints/lightweight/mnist_hybrid/last.pt",
+    "epoch": 3,
+    "recorded_accuracy": 50.0,
+    "recorded_loss": 0.697220467031002,
+    "evaluated_test_accuracy": 37.5
+  },
+  {
+    "config": "configs/lightweight/mnist_hybrid.yaml",
+    "checkpoint": "checkpoints/lightweight/mnist_hybrid/mnist_hybrid_light_epoch_1.pt",
+    "epoch": 1,
+    "recorded_accuracy": 51.5625,
+    "recorded_loss": 0.7036876045167446,
+    "evaluated_test_accuracy": 37.5
+  },
+  {
+    "config": "configs/lightweight/mnist_hybrid.yaml",
+    "checkpoint": "checkpoints/lightweight/mnist_hybrid/mnist_hybrid_light_epoch_2.pt",
+    "epoch": 2,
+    "recorded_accuracy": 50.0,
+    "recorded_loss": 0.6937311515212059,
+    "evaluated_test_accuracy": 37.5
+  },
+  {
+    "config": "configs/lightweight/mnist_hybrid.yaml",
+    "checkpoint": "checkpoints/lightweight/mnist_hybrid/mnist_hybrid_light_epoch_3.pt",
+    "epoch": 3,
+    "recorded_accuracy": 50.0,
+    "recorded_loss": 0.697220467031002,
+    "evaluated_test_accuracy": 37.5
+  },
+  {
+    "config": "configs/profiling/mnist_hybrid_noise_mid_batch1.yaml",
+    "checkpoint": "checkpoints/profiling/mnist_hybrid_noise_mid_batch1/best.pt",
+    "epoch": 1,
+    "recorded_accuracy": 6.25,
+    "recorded_loss": 2.54927921295166,
+    "evaluated_test_accuracy": 12.5
+  },
+  {
+    "config": "configs/profiling/mnist_hybrid_noise_mid_batch1.yaml",
+    "checkpoint": "checkpoints/profiling/mnist_hybrid_noise_mid_batch1/last.pt",
+    "epoch": 1,
+    "recorded_accuracy": 6.25,
+    "recorded_loss": 2.54927921295166,
+    "evaluated_test_accuracy": 12.5
+  },
+  {
+    "config": "configs/profiling/mnist_hybrid_noise_mid_batch1.yaml",
+    "checkpoint": "checkpoints/profiling/mnist_hybrid_noise_mid_batch1/mnist_hybrid_noise_mid_batch1_epoch_1.pt",
+    "epoch": 1,
+    "recorded_accuracy": 6.25,
+    "recorded_loss": 2.54927921295166,
+    "evaluated_test_accuracy": 12.5
+  },
+  {
+    "config": "inline",
+    "checkpoint": "checkpoints/best.pt",
+    "epoch": 2,
+    "recorded_accuracy": 89.0625,
+    "recorded_loss": 0.6018706373870373,
+    "evaluated_test_accuracy": 81.25
+  },
+  {
+    "config": "inline",
+    "checkpoint": "checkpoints/last.pt",
+    "epoch": 3,
+    "recorded_accuracy": 88.28125,
+    "recorded_loss": 0.5605528838932514,
+    "evaluated_test_accuracy": 92.1875
+  }
+]
