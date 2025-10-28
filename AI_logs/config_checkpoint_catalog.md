@@ -1319,6 +1319,164 @@
 | `checkpoints_noise21/mnist_angle/noise_mid/mnist_angle_noise21_mid_epoch_2.pt` | 2 | 46.875 | 52.08 | 0.912451 |
 | `checkpoints_noise21/mnist_angle/noise_mid/mnist_angle_noise21_mid_epoch_4.pt` | 4 | 46.875 | 52.08 | 0.761925 |
 
+### inline
+| Checkpoint | Epoch | Train Acc (%) | Eval Acc (%) | Loss |
+| --- | --- | --- | --- | --- |
+| `checkpoints_noise21_test/mnist_angle/noise_mid/best.pt` | 1 | 46.875 | 50.00 | 0.94929 |
+| `checkpoints_noise21_test/mnist_angle/noise_mid/last.pt` | 6 | 44.7917 | 43.75 | 0.713665 |
+| `checkpoints_noise21_test/mnist_angle/noise_mid/mnist_angle_noise21_mid_test_epoch_2.pt` | 2 | 46.875 | 47.92 | 0.869607 |
+| `checkpoints_noise21_test/mnist_angle/noise_mid/mnist_angle_noise21_mid_test_epoch_4.pt` | 4 | 44.7917 | 37.50 | 0.761951 |
+| `checkpoints_noise21_test/mnist_angle/noise_mid/mnist_angle_noise21_mid_test_epoch_6.pt` | 6 | 44.7917 | 58.33 | 0.713665 |
+| `checkpoints_noise21_test/mnist_angle/noise_mid_fullbatch/best.pt` | 1 | 45.3125 | 39.58 | 1.084824 |
+| `checkpoints_noise21_test/mnist_angle/noise_mid_fullbatch/last.pt` | 7 | 45.3125 | 41.67 | 0.922057 |
+| `checkpoints_noise21_test/mnist_angle/noise_mid_fullbatch/mnist_angle_noise21_mid_fullbatch_test_epoch_2.pt` | 2 | 45.3125 | 43.75 | 1.050207 |
+| `checkpoints_noise21_test/mnist_angle/noise_mid_fullbatch/mnist_angle_noise21_mid_fullbatch_test_epoch_4.pt` | 4 | 45.3125 | 43.75 | 1.022064 |
+| `checkpoints_noise21_test/mnist_angle/noise_mid_fullbatch/mnist_angle_noise21_mid_fullbatch_test_epoch_6.pt` | 6 | 45.3125 | 43.75 | 0.917592 |
+| `checkpoints_noise21_test/mnist_angle/noise_mid_subset07/best.pt` | 1 | 48.9583 | 41.67 | 0.708339 |
+| `checkpoints_noise21_test/mnist_angle/noise_mid_subset07/last.pt` | 6 | 47.9167 | 52.08 | 0.694716 |
+| `checkpoints_noise21_test/mnist_angle/noise_mid_subset07/mnist_angle_noise21_mid_subset07_epoch_2.pt` | 2 | 48.9583 | 47.92 | 0.697182 |
+| `checkpoints_noise21_test/mnist_angle/noise_mid_subset07/mnist_angle_noise21_mid_subset07_epoch_4.pt` | 4 | 48.9583 | 54.17 | 0.692611 |
+| `checkpoints_noise21_test/mnist_angle/noise_mid_subset07/mnist_angle_noise21_mid_subset07_epoch_6.pt` | 6 | 47.9167 | 35.42 | 0.694716 |
+
+## Evaluation Results (checkpoints)
+所有 checkpoint 均在配置指定的测试 split 上重新推理得到下表的 `Eval Acc`。
+
+### configs/full_scale/fashion_amplitude_full.yaml
+| Checkpoint | Epoch | Train Acc (%) | Eval Acc (%) | Loss |
+| --- | --- | --- | --- | --- |
+| `checkpoints/fashion_amplitude/best.pt` | 10 | 29.0633 | 29.69 | 1.852326 |
+| `checkpoints/fashion_amplitude/fashion_amp_epoch_3.pt` | 3 | 27.0167 | 26.56 | 1.894586 |
+| `checkpoints/fashion_amplitude/fashion_amp_epoch_5.pt` | 5 | 27.5767 | 25.00 | 1.866304 |
+| `checkpoints/fashion_amplitude/fashion_amp_epoch_7.pt` | 7 | 28.81 | 31.25 | 1.856588 |
+| `checkpoints/fashion_amplitude/fashion_amp_epoch_9.pt` | 9 | 28.9867 | 29.69 | 1.852558 |
+| `checkpoints/fashion_amplitude/last.pt` | 10 | 29.0633 | 29.69 | 1.852326 |
+
+### configs/full_scale/fashion_angle_full.yaml
+| Checkpoint | Epoch | Train Acc (%) | Eval Acc (%) | Loss |
+| --- | --- | --- | --- | --- |
+| `checkpoints/fashion_angle/best.pt` | 2 | 10.9917 | 10.94 | 2.301911 |
+| `checkpoints/fashion_angle/fashion_angle_epoch_3.pt` | 3 | 10.6083 | 14.06 | 2.301696 |
+| `checkpoints/fashion_angle/fashion_angle_epoch_5.pt` | 5 | 10.25 | 10.94 | 2.301064 |
+| `checkpoints/fashion_angle/fashion_angle_epoch_7.pt` | 7 | 10.4417 | 10.94 | 2.300689 |
+| `checkpoints/fashion_angle/fashion_angle_epoch_9.pt` | 9 | 10.2083 | 6.25 | 2.300617 |
+| `checkpoints/fashion_angle/last.pt` | 10 | 10.5833 | 10.94 | 2.299254 |
+
+### configs/full_scale/fashion_hybrid_full.yaml
+| Checkpoint | Epoch | Train Acc (%) | Eval Acc (%) | Loss |
+| --- | --- | --- | --- | --- |
+| `checkpoints/fashion_hybrid/best.pt` | 5 | 19.9867 | 23.44 | 1.860219 |
+| `checkpoints/fashion_hybrid/fashion_hybrid_epoch_3.pt` | 3 | 19.2933 | 12.50 | 1.860819 |
+| `checkpoints/fashion_hybrid/fashion_hybrid_epoch_5.pt` | 5 | 19.9867 | 26.56 | 1.860219 |
+| `checkpoints/fashion_hybrid/fashion_hybrid_epoch_7.pt` | 7 | 19.68 | 15.62 | 1.860687 |
+| `checkpoints/fashion_hybrid/fashion_hybrid_epoch_9.pt` | 9 | 19.1533 | 18.75 | 1.860424 |
+| `checkpoints/fashion_hybrid/last.pt` | 10 | 19.68 | 23.44 | 1.859639 |
+
+### configs/full_scale/mnist_amplitude_full.yaml
+| Checkpoint | Epoch | Train Acc (%) | Eval Acc (%) | Loss |
+| --- | --- | --- | --- | --- |
+| `checkpoints/mnist_amplitude/best.pt` | 3 | 17.9933 | 15.62 | 2.210632 |
+| `checkpoints/mnist_amplitude/last.pt` | 4 | 17.6267 | 15.62 | 2.20332 |
+| `checkpoints/mnist_amplitude/mnist_amp_epoch_3.pt` | 3 | 17.9933 | 23.44 | 2.210632 |
+| `checkpoints/mnist_amplitude/mnist_amp_epoch_5.pt` | 5 | 17.3067 | 26.56 | 2.192082 |
+| `checkpoints/mnist_amplitude/mnist_amp_epoch_7.pt` | 7 | 17.1833 | 14.06 | 2.192751 |
+| `checkpoints/mnist_amplitude/mnist_amp_epoch_9.pt` | 9 | 17.5033 | 21.88 | 2.193497 |
+
+### configs/full_scale/mnist_angle_full.yaml
+| Checkpoint | Epoch | Train Acc (%) | Eval Acc (%) | Loss |
+| --- | --- | --- | --- | --- |
+| `checkpoints/mnist_angle/best.pt` | 4 | 10.6 | 6.25 | 2.304732 |
+| `checkpoints/mnist_angle/last.pt` | 10 | 10.2333 | 9.38 | 2.304541 |
+| `checkpoints/mnist_angle/mnist_angle_epoch_3.pt` | 3 | 10.0667 | 9.38 | 2.305096 |
+| `checkpoints/mnist_angle/mnist_angle_epoch_5.pt` | 5 | 10.2833 | 6.25 | 2.304948 |
+| `checkpoints/mnist_angle/mnist_angle_epoch_7.pt` | 7 | 10.0917 | 14.06 | 2.305498 |
+| `checkpoints/mnist_angle/mnist_angle_epoch_9.pt` | 9 | 10.4417 | 6.25 | 2.305382 |
+
+### configs/full_scale/mnist_hybrid_full.yaml
+| Checkpoint | Epoch | Train Acc (%) | Eval Acc (%) | Loss |
+| --- | --- | --- | --- | --- |
+| `checkpoints/mnist_hybrid/best.pt` | 6 | 19.8 | 23.44 | 2.150674 |
+| `checkpoints/mnist_hybrid/last.pt` | 10 | 18.92 | 15.62 | 2.150633 |
+| `checkpoints/mnist_hybrid/mnist_hybrid_epoch_3.pt` | 3 | 19.0733 | 18.75 | 2.160899 |
+| `checkpoints/mnist_hybrid/mnist_hybrid_epoch_5.pt` | 5 | 18.9933 | 17.19 | 2.151205 |
+| `checkpoints/mnist_hybrid/mnist_hybrid_epoch_7.pt` | 7 | 19.0867 | 23.44 | 2.150939 |
+| `checkpoints/mnist_hybrid/mnist_hybrid_epoch_9.pt` | 9 | 19.42 | 21.88 | 2.150317 |
+
+### configs/lightweight/fashion_amplitude.yaml
+| Checkpoint | Epoch | Train Acc (%) | Eval Acc (%) | Loss |
+| --- | --- | --- | --- | --- |
+| `checkpoints/lightweight/fashion_amplitude/best.pt` | 3 | 79.6875 | 87.50 | 0.597352 |
+| `checkpoints/lightweight/fashion_amplitude/fashion_amp_light_epoch_1.pt` | 1 | 51.5625 | 34.38 | 0.715667 |
+| `checkpoints/lightweight/fashion_amplitude/fashion_amp_light_epoch_2.pt` | 2 | 53.125 | 62.50 | 0.660386 |
+| `checkpoints/lightweight/fashion_amplitude/fashion_amp_light_epoch_3.pt` | 3 | 79.6875 | 90.62 | 0.597352 |
+| `checkpoints/lightweight/fashion_amplitude/last.pt` | 3 | 79.6875 | 87.50 | 0.597352 |
+
+### configs/lightweight/fashion_angle.yaml
+| Checkpoint | Epoch | Train Acc (%) | Eval Acc (%) | Loss |
+| --- | --- | --- | --- | --- |
+| `checkpoints/lightweight/fashion_angle/best.pt` | 2 | 54.6875 | 54.69 | 0.69645 |
+| `checkpoints/lightweight/fashion_angle/fashion_angle_light_epoch_1.pt` | 1 | 42.1875 | 54.69 | 0.732412 |
+| `checkpoints/lightweight/fashion_angle/fashion_angle_light_epoch_2.pt` | 2 | 54.6875 | 54.69 | 0.69645 |
+| `checkpoints/lightweight/fashion_angle/fashion_angle_light_epoch_3.pt` | 3 | 52.3438 | 45.31 | 0.696829 |
+| `checkpoints/lightweight/fashion_angle/last.pt` | 3 | 52.3438 | 45.31 | 0.696829 |
+
+### configs/lightweight/fashion_hybrid.yaml
+| Checkpoint | Epoch | Train Acc (%) | Eval Acc (%) | Loss |
+| --- | --- | --- | --- | --- |
+| `checkpoints/lightweight/fashion_hybrid/best.pt` | 2 | 46.0938 | 51.56 | 0.694855 |
+| `checkpoints/lightweight/fashion_hybrid/fashion_hybrid_light_epoch_1.pt` | 1 | 41.4062 | 54.69 | 0.739614 |
+| `checkpoints/lightweight/fashion_hybrid/fashion_hybrid_light_epoch_2.pt` | 2 | 46.0938 | 51.56 | 0.694855 |
+| `checkpoints/lightweight/fashion_hybrid/fashion_hybrid_light_epoch_3.pt` | 3 | 45.3125 | 48.44 | 0.703229 |
+| `checkpoints/lightweight/fashion_hybrid/last.pt` | 3 | 45.3125 | 48.44 | 0.703229 |
+
+### configs/lightweight/mnist_amplitude.yaml
+| Checkpoint | Epoch | Train Acc (%) | Eval Acc (%) | Loss |
+| --- | --- | --- | --- | --- |
+| `checkpoints/lightweight/mnist_amplitude/best.pt` | 3 | 67.1875 | 62.50 | 0.609516 |
+| `checkpoints/lightweight/mnist_amplitude/last.pt` | 3 | 67.1875 | 62.50 | 0.609516 |
+| `checkpoints/lightweight/mnist_amplitude/mnist_amp_light_epoch_1.pt` | 1 | 53.125 | 56.25 | 0.701781 |
+| `checkpoints/lightweight/mnist_amplitude/mnist_amp_light_epoch_2.pt` | 2 | 64.0625 | 78.12 | 0.663812 |
+| `checkpoints/lightweight/mnist_amplitude/mnist_amp_light_epoch_3.pt` | 3 | 67.1875 | 62.50 | 0.609516 |
+
+### configs/lightweight/mnist_angle.yaml
+| Checkpoint | Epoch | Train Acc (%) | Eval Acc (%) | Loss |
+| --- | --- | --- | --- | --- |
+| `checkpoints/lightweight/mnist_angle/best.pt` | 2 | 58.5938 | 59.38 | 0.684324 |
+| `checkpoints/lightweight/mnist_angle/last.pt` | 3 | 58.5938 | 59.38 | 0.682966 |
+| `checkpoints/lightweight/mnist_angle/mnist_angle_light_epoch_1.pt` | 1 | 50.7812 | 59.38 | 0.800873 |
+| `checkpoints/lightweight/mnist_angle/mnist_angle_light_epoch_2.pt` | 2 | 58.5938 | 59.38 | 0.684324 |
+| `checkpoints/lightweight/mnist_angle/mnist_angle_light_epoch_3.pt` | 3 | 58.5938 | 59.38 | 0.682966 |
+
+### configs/lightweight/mnist_hybrid.yaml
+| Checkpoint | Epoch | Train Acc (%) | Eval Acc (%) | Loss |
+| --- | --- | --- | --- | --- |
+| `checkpoints/lightweight/mnist_hybrid/best.pt` | 1 | 51.5625 | 37.50 | 0.703688 |
+| `checkpoints/lightweight/mnist_hybrid/last.pt` | 3 | 50.0 | 37.50 | 0.69722 |
+| `checkpoints/lightweight/mnist_hybrid/mnist_hybrid_light_epoch_1.pt` | 1 | 51.5625 | 37.50 | 0.703688 |
+| `checkpoints/lightweight/mnist_hybrid/mnist_hybrid_light_epoch_2.pt` | 2 | 50.0 | 37.50 | 0.693731 |
+| `checkpoints/lightweight/mnist_hybrid/mnist_hybrid_light_epoch_3.pt` | 3 | 50.0 | 37.50 | 0.69722 |
+
+### configs/mnist_amplitude_fast.yaml
+| Checkpoint | Epoch | Train Acc (%) | Eval Acc (%) | Loss |
+| --- | --- | --- | --- | --- |
+| `checkpoints/mnist_amplitude_fast/best.pt` | 5 | 87.0 | 68.75 | 0.398189 |
+| `checkpoints/mnist_amplitude_fast/last.pt` | 5 | 87.0 | 75.00 | 0.398189 |
+| `checkpoints/mnist_amplitude_fast/mnist_amp_fast_epoch_1.pt` | 1 | 73.0 | 81.25 | 0.639405 |
+| `checkpoints/mnist_amplitude_fast/mnist_amp_fast_epoch_3.pt` | 3 | 86.5 | 84.38 | 0.463627 |
+| `checkpoints/mnist_amplitude_fast/mnist_amp_fast_epoch_5.pt` | 5 | 87.0 | 71.88 | 0.398189 |
+
+### configs/profiling/mnist_hybrid_noise_mid_batch1.yaml
+| Checkpoint | Epoch | Train Acc (%) | Eval Acc (%) | Loss |
+| --- | --- | --- | --- | --- |
+| `checkpoints/profiling/mnist_hybrid_noise_mid_batch1/best.pt` | 1 | 6.25 | 12.50 | 2.549279 |
+| `checkpoints/profiling/mnist_hybrid_noise_mid_batch1/last.pt` | 1 | 6.25 | 12.50 | 2.549279 |
+| `checkpoints/profiling/mnist_hybrid_noise_mid_batch1/mnist_hybrid_noise_mid_batch1_epoch_1.pt` | 1 | 6.25 | 12.50 | 2.549279 |
+
+### inline
+| Checkpoint | Epoch | Train Acc (%) | Eval Acc (%) | Loss |
+| --- | --- | --- | --- | --- |
+| `checkpoints/best.pt` | 2 | 89.0625 | 81.25 | 0.601871 |
+| `checkpoints/last.pt` | 3 | 88.2812 | 92.19 | 0.560553 |
+
 ## Evaluation Results (CNN Baselines)
 经典 CNN checkpoint 在对应测试集上的准确率如下：
 

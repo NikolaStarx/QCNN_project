@@ -30,5 +30,125 @@
     "recorded_accuracy": 46.875,
     "recorded_loss": 0.7619247908393542,
     "evaluated_test_accuracy": 52.083333333333336
+  },
+  {
+    "config": "inline",
+    "checkpoint": "checkpoints_noise21_test/mnist_angle/noise_mid/best.pt",
+    "epoch": 1,
+    "recorded_accuracy": 46.875,
+    "recorded_loss": 0.9492896124720573,
+    "evaluated_test_accuracy": 50.0
+  },
+  {
+    "config": "inline",
+    "checkpoint": "checkpoints_noise21_test/mnist_angle/noise_mid/last.pt",
+    "epoch": 6,
+    "recorded_accuracy": 44.791666666666664,
+    "recorded_loss": 0.7136647552251816,
+    "evaluated_test_accuracy": 43.75
+  },
+  {
+    "config": "inline",
+    "checkpoint": "checkpoints_noise21_test/mnist_angle/noise_mid/mnist_angle_noise21_mid_test_epoch_2.pt",
+    "epoch": 2,
+    "recorded_accuracy": 46.875,
+    "recorded_loss": 0.8696069270372391,
+    "evaluated_test_accuracy": 47.916666666666664
+  },
+  {
+    "config": "inline",
+    "checkpoint": "checkpoints_noise21_test/mnist_angle/noise_mid/mnist_angle_noise21_mid_test_epoch_4.pt",
+    "epoch": 4,
+    "recorded_accuracy": 44.791666666666664,
+    "recorded_loss": 0.7619512602686882,
+    "evaluated_test_accuracy": 37.5
+  },
+  {
+    "config": "inline",
+    "checkpoint": "checkpoints_noise21_test/mnist_angle/noise_mid/mnist_angle_noise21_mid_test_epoch_6.pt",
+    "epoch": 6,
+    "recorded_accuracy": 44.791666666666664,
+    "recorded_loss": 0.7136647552251816,
+    "evaluated_test_accuracy": 58.333333333333336
+  },
+  {
+    "config": "inline",
+    "checkpoint": "checkpoints_noise21_test/mnist_angle/noise_mid_fullbatch/best.pt",
+    "epoch": 1,
+    "recorded_accuracy": 45.3125,
+    "recorded_loss": 1.084823727607727,
+    "evaluated_test_accuracy": 39.583333333333336
+  },
+  {
+    "config": "inline",
+    "checkpoint": "checkpoints_noise21_test/mnist_angle/noise_mid_fullbatch/last.pt",
+    "epoch": 7,
+    "recorded_accuracy": 45.3125,
+    "recorded_loss": 0.9220571517944336,
+    "evaluated_test_accuracy": 41.666666666666664
+  },
+  {
+    "config": "inline",
+    "checkpoint": "checkpoints_noise21_test/mnist_angle/noise_mid_fullbatch/mnist_angle_noise21_mid_fullbatch_test_epoch_2.pt",
+    "epoch": 2,
+    "recorded_accuracy": 45.3125,
+    "recorded_loss": 1.0502070188522339,
+    "evaluated_test_accuracy": 43.75
+  },
+  {
+    "config": "inline",
+    "checkpoint": "checkpoints_noise21_test/mnist_angle/noise_mid_fullbatch/mnist_angle_noise21_mid_fullbatch_test_epoch_4.pt",
+    "epoch": 4,
+    "recorded_accuracy": 45.3125,
+    "recorded_loss": 1.022063970565796,
+    "evaluated_test_accuracy": 43.75
+  },
+  {
+    "config": "inline",
+    "checkpoint": "checkpoints_noise21_test/mnist_angle/noise_mid_fullbatch/mnist_angle_noise21_mid_fullbatch_test_epoch_6.pt",
+    "epoch": 6,
+    "recorded_accuracy": 45.3125,
+    "recorded_loss": 0.9175921082496643,
+    "evaluated_test_accuracy": 43.75
+  },
+  {
+    "config": "inline",
+    "checkpoint": "checkpoints_noise21_test/mnist_angle/noise_mid_subset07/best.pt",
+    "epoch": 1,
+    "recorded_accuracy": 48.958333333333336,
+    "recorded_loss": 0.708339273929596,
+    "evaluated_test_accuracy": 41.666666666666664
+  },
+  {
+    "config": "inline",
+    "checkpoint": "checkpoints_noise21_test/mnist_angle/noise_mid_subset07/last.pt",
+    "epoch": 6,
+    "recorded_accuracy": 47.916666666666664,
+    "recorded_loss": 0.6947160959243774,
+    "evaluated_test_accuracy": 52.083333333333336
+  },
+  {
+    "config": "inline",
+    "checkpoint": "checkpoints_noise21_test/mnist_angle/noise_mid_subset07/mnist_angle_noise21_mid_subset07_epoch_2.pt",
+    "epoch": 2,
+    "recorded_accuracy": 48.958333333333336,
+    "recorded_loss": 0.6971821188926697,
+    "evaluated_test_accuracy": 47.916666666666664
+  },
+  {
+    "config": "inline",
+    "checkpoint": "checkpoints_noise21_test/mnist_angle/noise_mid_subset07/mnist_angle_noise21_mid_subset07_epoch_4.pt",
+    "epoch": 4,
+    "recorded_accuracy": 48.958333333333336,
+    "recorded_loss": 0.6926112845540047,
+    "evaluated_test_accuracy": 54.166666666666664
+  },
+  {
+    "config": "inline",
+    "checkpoint": "checkpoints_noise21_test/mnist_angle/noise_mid_subset07/mnist_angle_noise21_mid_subset07_epoch_6.pt",
+    "epoch": 6,
+    "recorded_accuracy": 47.916666666666664,
+    "recorded_loss": 0.6947160959243774,
+    "evaluated_test_accuracy": 35.416666666666664
   }
 ]
